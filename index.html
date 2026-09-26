@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>DDV Gift/Item Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <header class="app-header">
+    <h1>DDV Gift/Item Tracker</h1>
+  </header>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <button data-panel="characters">Characters</button>
+    <button data-panel="items">Items</button>
+    <button data-panel="inventory">Inventory</button>
+    <button data-panel="settings">Settings</button>
+  </nav>
+
+  <main>
+
+    <!-- Characters Panel -->
+    <section id="panel-characters" class="panel hidden">
+      <h2>Characters</h2>
+      <p class="panel-desc">Track relationship levels and favourites.</p>
+      <div id="charactersList" class="grid"></div>
+    </section>
+
+    <!-- Items Panel -->
+    <section id="panel-items" class="panel hidden">
+      <h2>Items</h2>
+      <p class="panel-desc">Browse items by category or search globally.</p>
+
+      <select id="categorySelect"></select>
+
+      <input type="text" id="itemSearch" placeholder="Search all items & meals...">
+
+      <div id="itemsList" class="grid"></div>
+    </section>
+
+    <!-- Meals Panel (internal only) -->
+    <section id="panel-meals" class="panel hidden">
+      <h2>Meals</h2>
+      <div id="mealsList" class="grid"></div>
+    </section>
+
+    <!-- Inventory Panel -->
+    <section id="panel-inventory" class="panel hidden">
+      <h2>Inventory</h2>
+      <p class="panel-desc">Manage your owned items and storage locations.</p>
+      <div id="inventoryList" class="grid"></div>
+    </section>
+
+    <!-- Settings Panel -->
+    <section id="panel-settings" class="panel hidden">
+      <h2>Settings</h2>
+      <p class="panel-desc">Manage app data and contact the developer.</p>
+
+      <div class="settings-group">
+        <button id="exportState">Export App State</button>
+        <button id="importState">Import App State</button>
+        <input type="file" id="importFile" class="hidden" />
+      </div>
+
+      <div class="settings-group">
+        <button id="shareApp">Share This App</button>
+      </div>
+
+      <div class="settings-group">
+        <a href="mailto:nexusrebirthdev@gmail.com" class="contact-btn">
+          Contact Developer
+        </a>
+      </div>
+
+      <div class="settings-group">
+        <button id="resetApp" class="danger">Reset All Data</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="app-footer">
+    <p>All data stored locally on your device.</p>
+  </footer>
+
+  <!-- Ingredient Modal -->
+  <div id="ingredientModal" class="modal hidden">
+    <div class="modal-content">
+      <button id="modalClose" class="modal-close">✖</button>
+      <h3 id="modalName"></h3>
+      <p id="modalSource"></p>
+      <p id="modalCategory"></p>
+
+      <label>
+        <input type="checkbox" id="modalOwned">
+        Owned
+      </label>
+
+      <label>
+        Stored at:
+        <input type="text" id="modalStoredAt" placeholder="e.g. Chest in Plaza">
+      </label>
+
+      <button id="modalSave">Save</button>
+    </div>
+  </div>
+
+  <script src="app-v2.js?v=5"></script>
+</body>
+</html>
