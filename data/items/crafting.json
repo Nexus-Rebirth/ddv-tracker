@@ -1,0 +1,303 @@
+[
+  {
+    "id": "brass_ingot",
+    "name": "Brass Ingot",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "copper", "amount": 2 },
+      { "id": "zinc", "amount": 2 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "brick",
+    "name": "Brick",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "clay", "amount": 5 },
+      { "id": "coal_ore", "amount": 1 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "bronze_ingot",
+    "name": "Bronze Ingot",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "copper", "amount": 2 },
+      { "id": "tin", "amount": 2 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "fabric",
+    "name": "Fabric",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "cotton", "amount": 5 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "fibre",
+    "name": "Fibre",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "seaweed", "amount": 1 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "glass",
+    "name": "Glass",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "sand", "amount": 5 },
+      { "id": "coal_ore", "amount": 1 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "gold_ingot",
+    "name": "Gold Ingot",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "gold_ore", "amount": 5 },
+      { "id": "coal_ore", "amount": 1 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "iron_ingot",
+    "name": "Iron Ingot",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "iron_ore", "amount": 5 },
+      { "id": "coal_ore", "amount": 1 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "mechanical_parts",
+    "name": "Mechanical Parts",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "iron_ingot", "amount": 2 },
+      { "id": "tinkering_parts", "amount": 2 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "rope",
+    "name": "Rope",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "fibre", "amount": 4 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "tinkering_parts",
+    "name": "Tinkering Parts",
+    "categoryId": "crafting",
+    "subType": "refined",
+    "ingredients": [
+      { "id": "iron_ingot", "amount": 2 }
+    ],
+    "source": "Craft at a crafting station"
+  },
+  {
+    "id": "blue_bird_snippet",
+    "name": "Blue Bird Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Blue bird encounters"
+  },
+  {
+    "id": "coal_ore",
+    "name": "Coal Ore",
+    "categoryId": "crafting",
+    "subType": "material",
+    "location": "Mining nodes in all biomes"
+  },
+  {
+    "id": "delicious_gift",
+    "name": "Delicious Gift",
+    "categoryId": "crafting",
+    "subType": "gift",
+    "location": "Reward from Eternity Isle critters"
+  },
+  {
+    "id": "electric_power",
+    "name": "Electric Power",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Dropped from specific Eternity Isle puzzles"
+  },
+  {
+    "id": "empty_vial",
+    "name": "Empty Vial",
+    "categoryId": "crafting",
+    "subType": "material",
+    "ingredients": [
+     { "id": "glass", "amount": 3 }
+    ]
+  },
+  {
+    "id": "four_leaf_clover",
+    "name": "Four Leaf Clover",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Rare drop from Eternity Isle critters"
+  },
+  {
+    "id": "gold_nugget",
+    "name": "Gold Nugget",
+    "categoryId": "crafting",
+    "subType": "material",
+    "location": "Mining nodes in Frosted Heights and Sunlit Plateau"
+  },
+  {
+    "id": "green_bird_snippet",
+    "name": "Green Bird Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Green bird encounters"
+  },
+  {
+    "id": "green_demon_snippet",
+    "name": "Green Demon Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Demon encounters"
+  },
+  {
+    "id": "green_frog_snippet",
+    "name": "Green Frog Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Frog encounters"
+  },
+  {
+    "id": "handcrafted_gift",
+    "name": "Hand Crafted Gift",
+    "categoryId": "crafting",
+    "subType": "gift",
+    "location": "Reward from Eternity Isle critters"
+  },
+  {
+    "id": "honeyed_memory",
+    "name": "Honeyed Memory",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – special critter interactions"
+  },
+  {
+    "id": "naughty_gift",
+    "name": "Naughty Gift",
+    "categoryId": "crafting",
+    "subType": "gift",
+    "location": "Reward from Eternity Isle critters"
+  },
+  {
+    "id": "night_shard",
+    "name": "Night Shard",
+    "categoryId": "crafting",
+    "subType": "material",
+    "location": "Dig spots in all biomes"
+  },
+  {
+    "id": "pink_frog_snippet",
+    "name": "Pink Frog Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Frog encounters"
+  },
+  {
+    "id": "purple_frog_snippet",
+    "name": "Purple Frog Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Frog encounters"
+  },
+  {
+    "id": "red_bird_snippet",
+    "name": "Red Bird Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Bird encounters"
+  },
+  {
+    "id": "red_demon_snippet",
+    "name": "Red Demon Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Demon encounters"
+  },
+  {
+    "id": "seaweed",
+    "name": "Seaweed",
+    "categoryId": "crafting",
+    "subType": "material",
+    "location": "Fishing anywhere (no ripple)"
+  },
+  {
+    "id": "shadowy_bird_snippet",
+    "name": "Shadowy Bird Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Shadow encounters"
+  },
+  {
+    "id": "shadowy_demon_snippet",
+    "name": "Shadowy Demon Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Shadow encounters"
+  },
+  {
+    "id": "shadowy_frog_snippet",
+    "name": "Shadowy Frog Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Shadow encounters"
+  },
+  {
+    "id": "shiny_gift",
+    "name": "Shiny Gift",
+    "categoryId": "crafting",
+    "subType": "gift",
+    "location": "Reward from Eternity Isle critters"
+  },
+  {
+    "id": "soil",
+    "name": "Soil",
+    "categoryId": "crafting",
+    "subType": "material",
+    "location": "Digging anywhere"
+  },
+  {
+    "id": "yellow_bird_snippet",
+    "name": "Yellow Bird Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Bird encounters"
+  },
+  {
+    "id": "yellow_frog_snippet",
+    "name": "Yellow Frog Snippet",
+    "categoryId": "crafting",
+    "subType": "special",
+    "location": "Eternity Isle – Frog encounters"
+  }
+]
