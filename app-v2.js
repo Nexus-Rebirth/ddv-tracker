@@ -248,7 +248,7 @@ function renderCharactersPanel() {
   const container = document.getElementById("charactersList");
   container.innerHTML = "";
 
-  const order = [10, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+  const order = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0, 10];
 
   const sorted = [...charactersData].sort((a, b) => {
     const A = appState.characters[a.id];
