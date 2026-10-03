@@ -77,6 +77,13 @@
     "location": "Glade of Trust"
   },
   {
+    "id": "blue_marshmallow",
+    "name": "Blue Marshmallow",
+    "categoryId": "foraging",
+    "subType": "material",
+    "location": "Blue Marshmallow Bush: Plaza/Peaceful Meadow"
+  },  
+  {
     "id": "blue_passion_lily",
     "name": "Blue Passion Lily",
     "categoryId": "foraging",
@@ -124,6 +131,13 @@
     "categoryId": "foraging",
     "subType": "flower",
     "location": "Eternity Isle – Glittering Dunes"
+  },
+    {
+    "id": "golden_honey",
+    "name": "Golden Honey",
+    "categoryId": "foraging",
+    "subType": "material",
+    "location": "Harvested whilst Beekeeping"
   },
   {
     "id": "goldenrod_eternal_poppies",
@@ -231,7 +245,7 @@
     "location": "Forest of Valor"
   },
   {
-    "id": "pink_bromeliad",
+    "id": "bromeliad",
     "name": "Pink Bromeliad",
     "categoryId": "foraging",
     "subType": "flower",
@@ -278,6 +292,13 @@
     "categoryId": "foraging",
     "subType": "flower",
     "location": "Eternity Isle – Wild Tangle"
+  },
+  {
+    "id": "pink_marshmallow",
+    "name": "Pink Marshmallow",
+    "categoryId": "foraging",
+    "subType": "material",
+    "location": "Pink Marshmallow Bush: Plaza/Peaceful Meadow"
   },
   {
     "id": "pink_rose",
@@ -1202,5 +1223,12 @@
     "categoryId": "foraging",
     "subType": "magical",
     "location": "Eternity Isle – Shores of Eternity"
-  }
+  },
+  {
+    "id": "wild_spring_egg",
+    "name": "Wild Spring Egg",
+    "categoryId": "foraging",
+    "subType": "dairy",
+    "location": "All biomes"
+    }  
 ]
