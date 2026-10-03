@@ -152,13 +152,13 @@ let craftingData = [];
 
 async function loadData() {
   const files = [
-    ["characters", "data/characters.json"],
-    ["meals", "data/items/meals.json"],
-    ["ingredients", "data/items/ingredients.json"],
-    ["fishing", "data/items/fishing.json"],
-    ["gems", "data/items/gems.json"],
-    ["foraging", "data/items/foraging.json"],
-    ["crafting", "data/items/crafting.json"]
+    ["characters", "./data/characters.json"],
+    ["meals", "./data/items/meals.json"],
+    ["ingredients", "./data/items/ingredients.json"],
+    ["fishing", "./data/items/fishing.json"],
+    ["gems", "./data/items/gems.json"],
+    ["foraging", "./data/items/foraging.json"],
+    ["crafting", "./data/items/crafting.json"]
   ];
 
   const promises = files.map(([key, path]) =>
