@@ -23,7 +23,7 @@
       { "id": "plain_yogurt", "amount": 1 },
       { "id": "spiral_strawberry", "amount": 1 },
       { "id": "salt_crystal", "amount": 1 },
-      { "id": "sour_berry", "amount": 1 }
+      { "id": "sour_berries", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -847,7 +847,7 @@
     "ingredients": [
       { "id": "cape_gooseberry", "amount": 1 },
       { "id": "cheese", "amount": 1 },
-      { "id": "sour_berry", "amount": 1 }
+      { "id": "sour_berries", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -3787,7 +3787,7 @@
     "ingredients": [
       { "id": "persimmon", "amount": 1 },
       { "id": "cheese", "amount": 1 },
-      { "id": "sour_berry", "amount": 1 }
+      { "id": "sour_berries", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -5047,7 +5047,7 @@
     "type": "dessert",
     "stars": 3,
     "ingredients": [
-      { "id": "sour_berry", "amount": 1 },
+      { "id": "sour_berries", "amount": 1 },
       { "id": "sugarcane", "amount": 1 },
       { "id": "milk", "amount": 1 }
     ],
@@ -5060,7 +5060,7 @@
     "type": "dessert",
     "stars": 3,
     "ingredients": [
-      { "id": "sour_berry", "amount": 1 },
+      { "id": "sour_berries", "amount": 1 },
       { "id": "wheat", "amount": 1 },
       { "id": "butter", "amount": 1 }
     ],
@@ -5074,7 +5074,7 @@
     "stars": 2,
     "ingredients": [
       { "id": "slush_ice", "amount": 1 },
-      { "id": "sour_berry", "amount": 1 }
+      { "id": "sour_berries", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -5247,7 +5247,7 @@
     "ingredients": [
       { "id": "spiral_strawberry", "amount": 1 },
       { "id": "cheese", "amount": 1 },
-      { "id": "sour_berry", "amount": 1 }
+      { "id": "sour_berries", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
