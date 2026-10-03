@@ -329,3 +329,43 @@ input[type="checkbox"] {
   font-size: 20px;
   cursor: pointer;
 }
+
+/* ============================================================
+   JOB DROPDOWN (CHARACTERS PANEL)
+   ============================================================ */
+
+.job-select {
+  width: 100%;
+  margin-top: 0.75rem;
+  padding: 0.5rem;
+  background: #0b0c10;
+  border: 1px solid #45a29e;
+  border-radius: 4px;
+  color: #c5c6c7;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.job-select:hover {
+  border-color: #66fcf1;
+}
+
+/* ============================================================
+   RESTAURANT TIMER BAR
+   ============================================================ */
+
+#guestTimerBar {
+  width: 100%;
+  background: #1f2833;
+  border-bottom: 2px solid #45a29e;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  font-weight: 600;
+  color: #66fcf1;
+  font-size: 1rem;
+}
+
+#guestTimerText {
+  display: inline-block;
+  letter-spacing: 0.5px;
+}
