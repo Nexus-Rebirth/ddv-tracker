@@ -1,14 +1,29 @@
 [
   {
+    "id": "101_teeny_tiny_dalmatian_cupcakes",
+    "name": "101 Teeny Tiny Dalmatian Cupcakes",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "dark_chocolate_coffee_beans", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
     "id": "a_very_unusual_tea_time",
     "name": "A Very Unusual Tea Time",
     "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 3,
+    "type": "entrée",
+    "stars": 4,
     "ingredients": [
-      { "id": "any_tea_leaves", "amount": 1 },
-      { "id": "milk", "amount": 1 },
-      { "id": "vanilla", "amount": 1 }
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "salt_crystal", "amount": 1 },
+      { "id": "sour_berry", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -16,13 +31,13 @@
     "id": "afternoon_tea_set",
     "name": "Afternoon Tea Set",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 4,
     "ingredients": [
-      { "id": "any_tea_leaves", "amount": 1 },
-      { "id": "milk", "amount": 1 },
-      { "id": "wheat", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 }
+      { "id": "pin_cushion_peach", "amount": 1 },
+      { "id": "dark_chocolate_coffee_bean", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -31,11 +46,12 @@
     "name": "Ajiaco",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
+      { "id": "poultry", "amount": 1 },
       { "id": "potato", "amount": 1 },
       { "id": "corn", "amount": 1 },
-      { "id": "poultry", "amount": 1 }
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -56,25 +72,23 @@
     "id": "ambrosia_smoothie",
     "name": "Ambrosia Smoothie",
     "categoryId": "meals",
-    "type": "dessert",
-    "stars": 3,
+    "type": "appetizer",
+    "stars": 2,
     "ingredients": [
-      { "id": "ambrosia", "amount": 1 },
-      { "id": "milk", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 }
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "ambrosia", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "apple_cider_glazed_salmon",
-    "name": "Apple-Cider-Glazed Salmon",
+    "id": "aphrodites_delight",
+    "name": "Aphrodite's Delight",
     "categoryId": "meals",
-    "type": "entrée",
-    "stars": 4,
+    "type": "dessert",
+    "stars": 2,
     "ingredients": [
-      { "id": "apple", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 },
-      { "id": "salmon", "amount": 1 }
+      { "id": "golden_apple", "amount": 1 },
+      { "id": "ambrosia", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -95,12 +109,9 @@
     "id": "apple_sauce",
     "name": "Apple Sauce",
     "categoryId": "meals",
-    "type": "dessert",
-    "stars": 2,
-    "ingredients": [
-      { "id": "apple", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 }
-    ],
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "apple", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -108,10 +119,24 @@
     "name": "Apple Sorbet",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 2,
+    "stars": 3,
     "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
       { "id": "apple", "amount": 1 },
-      { "id": "slush_ice", "amount": 1 }
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "apple_cider_glazed_salmon",
+    "name": "Apple-Cider-Glazed Salmon",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "salmon", "amount": 1 },
+      { "id": "apple", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -120,11 +145,12 @@
     "name": "Aquatic Escargot",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "sea_snail", "amount": 1 },
       { "id": "garlic", "amount": 1 },
-      { "id": "butter", "amount": 1 }
+      { "id": "lemon", "amount": 1 },
+      { "id": "any_herb", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -133,24 +159,11 @@
     "name": "Arcane Garlic Crab",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 5,
+    "stars": 3,
     "ingredients": [
       { "id": "crab", "amount": 1 },
       { "id": "garlic", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "argossian_pizza",
-    "name": "Argossian Pizza",
-    "categoryId": "meals",
-    "type": "entrée",
-    "stars": 4,
-    "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "tomato", "amount": 1 },
-      { "id": "flyleaf_feta", "amount": 1 }
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -159,11 +172,13 @@
     "name": "Arendellian Pickled Herring",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 3,
+    "stars": 5,
     "ingredients": [
       { "id": "herring", "amount": 1 },
+      { "id": "lemon", "amount": 1 },
       { "id": "onion", "amount": 1 },
-      { "id": "lemon", "amount": 1 }
+      { "id": "garlic", "amount": 1 },
+      { "id": "any_herb", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -171,11 +186,28 @@
     "id": "arepas_con_queso",
     "name": "Arepas Con Queso",
     "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 2,
+    "type": "entrée",
+    "stars": 4,
     "ingredients": [
       { "id": "corn", "amount": 1 },
-      { "id": "cheese", "amount": 1 }
+      { "id": "cheese", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "argossian_pizza",
+    "name": "Argossian Pizza",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "elysian_grain", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "olives", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -186,10 +218,11 @@
     "type": "dessert",
     "stars": 5,
     "ingredients": [
+      { "id": "raspberry", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "milk", "amount": 1 },
       { "id": "sugarcane", "amount": 1 },
-      { "id": "vanilla", "amount": 1 }
+      { "id": "egg", "amount": 1 },
+      { "id": "milk", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -201,7 +234,7 @@
     "stars": 2,
     "ingredients": [
       { "id": "beans", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "pork", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -213,7 +246,7 @@
     "stars": 2,
     "ingredients": [
       { "id": "carp", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -222,7 +255,7 @@
     "name": "Baked Feta & Olives",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 3,
+    "stars": 2,
     "ingredients": [
       { "id": "flyleaf_feta", "amount": 1 },
       { "id": "olives", "amount": 1 }
@@ -236,8 +269,1818 @@
     "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "tilapia", "amount": 1 },
-      { "id": "beetroot", "amount": 1 }
+      { "id": "whitefish", "amount": 1 },
+      { "id": "beet", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "banana_ice_cream",
+    "name": "Banana Ice Cream",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "banana", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "banana_pie",
+    "name": "Banana Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "banana", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "banana_split",
+    "name": "Banana Split",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "banana", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "baozi",
+    "name": "Baozi",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "barbecued_brilliant_blue_starfish",
+    "name": "Barbecued Brilliant Blue Starfish",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "brilliant_blue_starfish", "amount": 1 },
+      { "id": "mint", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "barbecued_pretty_pink_starfish",
+    "name": "Barbecued Pretty Pink Starfish",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "pretty_pink_starfish", "amount": 1 },
+      { "id": "paprika", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "barley_salad",
+    "name": "Barley Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "basil_berry_salad",
+    "name": "Basil Berry Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "basil", "amount": 1 },
+      { "id": "blueberries", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "basil_omelet",
+    "name": "Basil Omelet",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "basil", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "beauty_and_the_beets_napoleon",
+    "name": "Beauty and the Beets Napoleon",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "beet", "amount": 1 },
+      { "id": "flyleaf_feta", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "beet_brownie_stack",
+    "name": "Beet Brownie Stack",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "beet", "amount": 1 },
+      { "id": "dark_chocolate_coffee_bean", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "beet_sugar_sculpture",
+    "name": "Beet Sugar Sculpture",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "beet", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "beet_iful_spaetzle",
+    "name": "Beet-iful Spaetzle",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "beet", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "beignets",
+    "name": "Beignets",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "canola", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "bell_pepper_puffs",
+    "name": "Bell Pepper Puffs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "bell_pepper", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "berry_salad",
+    "name": "Berry Salad",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "raspberry", "amount": 1 },
+      { "id": "blueberry", "amount": 1 },
+      { "id": "gooseberry", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "best_fish_forever",
+    "name": "Best Fish Forever",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "robot_fish", "amount": 1 },
+      { "id": "cumin", "amount": 1 },
+      { "id": "celery", "amount": 1 },
+      { "id": "sea_snail", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "birthday_cake",
+    "name": "Birthday Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "biryani",
+    "name": "Biryani",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "rice", "amount": 1 },
+      { "id": "poultry", "amount": 1 },
+      { "id": "cumin", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "biscuits",
+    "name": "Biscuits",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "blend_of_the_bayou",
+    "name": "Blend of the Bayou",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "rice", "amount": 1 },
+      { "id": "shrimp", "amount": 1 },
+      { "id": "celery", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "blueberry_pie",
+    "name": "Blueberry Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "blueberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "blustery_day_soup",
+    "name": "Blustery Day Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "pin_cushion_peach", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "boba_tea",
+    "name": "Boba Tea",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "bony_osso_buco",
+    "name": "Bony Osso Buco",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "venison", "amount": 1 },
+      { "id": "celery", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "bouillabaisse",
+    "name": "Bouillabaisse",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "any_seafood", "amount": 1 },
+      { "id": "any_seafood_2", "amount": 1 },
+      { "id": "shrimp", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "braised_abalone",
+    "name": "Braised Abalone",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "abalone", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "mushroom", "amount": 1 },
+      { "id": "oyster", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "braised_bamboo_shoots",
+    "name": "Braised Bamboo Shoots",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "bamboo", "amount": 1 },
+      { "id": "ginger", "amount": 1 },
+      { "id": "soya", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "brandade_de_morue",
+    "name": "Brandade de Morue",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cod", "amount": 1 },
+      { "id": "potato", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "bread_bowl_pumpkin_soup",
+    "name": "Bread Bowl Pumpkin Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 5,
+    "ingredients": [
+      { "id": "pumpkin", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "ginger", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "brunchfast",
+    "name": "Brunchfast",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "egg", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "pork", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "bulgur_salad",
+    "name": "Bulgur Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 5,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "cucumber", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "mint", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "bunuelos",
+    "name": "Buñuelos",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "burrito",
+    "name": "Burrito",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "beans", "amount": 1 },
+      { "id": "cumin", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "butter_chicken",
+    "name": "Butter Chicken",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "poultry", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "cumin", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "buttermilk_borscht",
+    "name": "Buttermilk Borscht",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "beet", "amount": 1 },
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "button_stew",
+    "name": "Button Stew",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "mushroom", "amount": 1 },
+      { "id": "flute_root", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cacio_e_pepe",
+    "name": "Cacio e Pepe",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "candy",
+    "name": "Candy",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 1,
+    "ingredients": [{ "id": "any_sweet", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cannoli",
+    "name": "Cannoli",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cape_gooseberry_chia_pancakes",
+    "name": "Cape Gooseberry Chia Pancakes",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cape_gooseberry", "amount": 1 },
+      { "id": "chia_seeds", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cape_gooseberry_smoothie",
+    "name": "Cape Gooseberry Smoothie",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "cape_gooseberry", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cape_gooseberry_sour_fondue",
+    "name": "Cape Gooseberry Sour Fondue",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "cape_gooseberry", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "sour_berry", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "caprese_salad",
+    "name": "Caprese Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "tomato", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "basil", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "caramel_apples",
+    "name": "Caramel Apples",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "apple", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "caramel_macarons",
+    "name": "Caramel Macarons",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "almond", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "carp_salad",
+    "name": "Carp Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "carp", "amount": 1 },
+      { "id": "lettuce", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "carrot_cake",
+    "name": "Carrot Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "carrot", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cauliflower_steak",
+    "name": "Cauliflower Steak",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "cauliflower", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "basil", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "charlotte_cake",
+    "name": "Charlotte Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "strawberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cheese_platter",
+    "name": "Cheese Platter",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "cheese", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cheeseburger",
+    "name": "Cheeseburger",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "lettuce", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cheesecake",
+    "name": "Cheesecake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cheese", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cheesy_crispy_baked_cod",
+    "name": "Cheesy Crispy Baked Cod",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "cod", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cherry_pie",
+    "name": "Cherry Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "cherry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cheshire_cat_tail",
+    "name": "Cheshire Cat Tail",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "dark_chocolate_coffee_bean", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chia_pudding",
+    "name": "Chia Pudding",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "chia_seeds", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chia_seed_bread",
+    "name": "Chia Seed Bread",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "chia_seeds", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_grain", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chicken_souvlaki",
+    "name": "Chicken Souvlaki",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "poultry", "amount": 1 },
+      { "id": "lemon", "amount": 1 },
+      { "id": "mint", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chili_pepper_puffs",
+    "name": "Chili Pepper Puffs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chimera_skewer",
+    "name": "Chimera Skewer",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "chimera_fish", "amount": 1 },
+      { "id": "paprika", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chocolate_chip_cookies",
+    "name": "Chocolate Chip Cookies",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cocoa_bean", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chocolate_ice_cream",
+    "name": "Chocolate Ice Cream",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chocolate_macarons",
+    "name": "Chocolate Macarons",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cocoa_bean", "amount": 1 },
+      { "id": "almond", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chocolate_waffles",
+    "name": "Chocolate Waffles",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cocoa_bean", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chowder",
+    "name": "Chowder",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "any_seafood", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "potato", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "chrysanthemum_tea",
+    "name": "Chrysanthemum Tea",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "chrysanthemum", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cinnamon_cake",
+    "name": "Cinnamon Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cinnamon", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cinnamon_cookies",
+    "name": "Cinnamon Cookies",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "cinnamon", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cinnamon_donut",
+    "name": "Cinnamon Donut",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cinnamon", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "clam_juice",
+    "name": "Clam Juice",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "clam", "amount": 1 },
+      { "id": "tomato", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "classic_frankfurter",
+    "name": "Classic Frankfurter",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "pork", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "mustard", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "classic_mac_and_cheese",
+    "name": "Classic Mac & Cheese",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "club_sandwich",
+    "name": "Club Sandwich",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "poultry", "amount": 1 },
+      { "id": "pork", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "lettuce", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "coconut_boba_tea",
+    "name": "Coconut Boba Tea",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "coconut", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "coconut_cake",
+    "name": "Coconut Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "coconut", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "coconut_ice_cream",
+    "name": "Coconut Ice Cream",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "coconut", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "coffee",
+    "name": "Coffee",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "coffee_bean", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "coleslaw",
+    "name": "Coleslaw",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "cabbage", "amount": 1 },
+      { "id": "carrot", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "conch_ceviche",
+    "name": "Conch Ceviche",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "sea_snail", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "coq_en_barbouillade",
+    "name": "Coq en Barbouillade",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "poultry", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "carrot", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "grapes", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cotton_candy",
+    "name": "Cotton Candy",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "crab_melts",
+    "name": "Crab Melts",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "crab", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "crackers",
+    "name": "Crackers",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "any_grain", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cream_cheese",
+    "name": "Cream Cheese",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "milk", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "creamy_garlic_scallops",
+    "name": "Creamy Garlic Scallops",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "scallop", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "lemon", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "creamy_soup",
+    "name": "Creamy Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "milk", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "potato", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "crepe",
+    "name": "Crepe",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "crimson_burger",
+    "name": "Crimson Burger",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "beet", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "crispy_baked_cod",
+    "name": "Crispy Baked Cod",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "cod", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "croissant",
+    "name": "Croissant",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "crudites",
+    "name": "Crudités",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "any_vegetable", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "cupcakes",
+    "name": "Cupcakes",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "danish",
+    "name": "Danish",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "dragon_roll",
+    "name": "Dragon Roll I",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "electric_eel", "amount": 1 },
+      { "id": "rice", "amount": 1 },
+      { "id": "seaweed", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_vegetable_2", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "dream_fizz",
+    "name": "Dream Fizz",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "dreamlight_fruit", "amount": 1 },
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "dream_ice_cream",
+    "name": "Dream Ice Cream",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "dreamlight_fruit", "amount": 1 },
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "dreamango_carpaccio",
+    "name": "Dreamango Carpaccio",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "dreamango", "amount": 1 },
+      { "id": "melon", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "dumplings",
+    "name": "Dumplings",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "eggplant_puffs",
+    "name": "Eggplant Puffs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "eggplant", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "electric_radish_soup",
+    "name": "Electric Radish Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "electric_eel", "amount": 1 },
+      { "id": "radish", "amount": 1 },
+      { "id": "yam", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "eton_mess",
+    "name": "Eton Mess",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "strawberry", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fabulous_falafel",
+    "name": "Fabulous Falafel",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 5,
+    "ingredients": [
+      { "id": "chickpeas", "amount": 1 },
+      { "id": "cumin", "amount": 1 },
+      { "id": "paprika", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "mint", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "faerie_rye_crackers",
+    "name": "Faerie Rye Crackers",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "faerie_rye", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fairy_boot_cookies",
+    "name": "Fairy Boot Cookies",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "faerie_rye", "amount": 1 },
+      { "id": "shovel_bird_eggs", "amount": 1 },
+      { "id": "ginger", "amount": 1 },
+      { "id": "nutmeg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fairy_bread",
+    "name": "Fairy Bread",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fairy_wands",
+    "name": "Fairy Wands",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "faerie_rye", "amount": 1 },
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "dark_chocolate_coffee_beans", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "falafel",
+    "name": "Falafel",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "chickpeas", "amount": 1 },
+      { "id": "cumin", "amount": 1 },
+      { "id": "garlic", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "felted_breakfast",
+    "name": "Felted Breakfast",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "shovel_bird_eggs", "amount": 1 },
+      { "id": "pork", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "festive_blueberries",
+    "name": "Festive Blueberries",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "blueberries", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "festive_cherries",
+    "name": "Festive Cherries",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "cherry", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "festive_mint",
+    "name": "Festive Mint",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "mint", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_creole",
+    "name": "Fish Creole",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "rice", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_and_chips",
+    "name": "Fish 'N' Chips",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "potato", "amount": 1 },
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_pasta",
+    "name": "Fish Pasta",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "garlic", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_pie",
+    "name": "Fish Pie",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_risotto",
+    "name": "Fish Risotto",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "rice", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_salad",
+    "name": "Fish Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "lettuce", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_sandwich",
+    "name": "Fish Sandwich",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_soup",
+    "name": "Fish Soup",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_steak",
+    "name": "Fish Steak",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "basil", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fish_tacos",
+    "name": "Fish Tacos",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "corn", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fishy_pineapple_skewers",
+    "name": "Fishy Pineapple Skewers",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "lancefish", "amount": 1 },
+      { "id": "pineapple", "amount": 1 },
+      { "id": "melon", "amount": 1 },
+      { "id": "mint", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fizzy_nectar",
+    "name": "Fizzy Nectar",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "pin_cushion_peach", "amount": 1 },
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "flying_fish_ceviche",
+    "name": "Flying Fish Ceviche",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "flying_fish", "amount": 1 },
+      { "id": "lime", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "foresty_quiche",
+    "name": "Foresty Quiche",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "flute_root", "amount": 1 },
+      { "id": "shovel_bird_eggs", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "french_fries",
+    "name": "French Fries",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "potato", "amount": 1 },
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "french_macarons",
+    "name": "French Macarons",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "almond", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "friendly_bento",
+    "name": "Friendly Bento",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "robot_fish", "amount": 1 },
+      { "id": "rice", "amount": 1 },
+      { "id": "bamboo", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_vegetable_2", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fruit_milkshake",
+    "name": "Fruit Milkshake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "milk", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fruit_pie",
+    "name": "Fruit Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fruit_salad",
+    "name": "Fruit Salad",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 1,
+    "ingredients": [{ "id": "any_fruit", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fruit_sorbet",
+    "name": "Fruit Sorbet",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fruitcake",
+    "name": "Fruitcake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "any_fruit_2", "amount": 1 },
+      { "id": "any_fruit_3", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "fugu_sushi",
+    "name": "Fugu Sushi",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "fugu", "amount": 1 },
+      { "id": "rice", "amount": 1 },
+      { "id": "seaweed", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "garlic_chocolate_truffles",
+    "name": "Garlic Chocolate Truffles",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "garlic", "amount": 1 },
+      { "id": "dark_chocolate_coffee_beans", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "garlic_steamed_prawns",
+    "name": "Garlic Steamed Prawns",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "prawn", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "ginger", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -246,24 +2089,157 @@
     "name": "Gazpacho",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
       { "id": "cucumber", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "onion", "amount": 1 }
+      { "id": "onion", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "golden_apple_smoothie",
-    "name": "Golden Apple Smoothie",
+    "id": "ghostly_fish_steak",
+    "name": "Ghostly Fish Steak",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "here_and_there_fish", "amount": 1 },
+      { "id": "bell_pepper", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "gingerbread_house",
+    "name": "Gingerbread House",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "ginger", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "vanilla", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "glazed_donuts",
+    "name": "Glazed Donuts",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "golden_apple_pastry",
+    "name": "Golden Apple Pastry",
     "categoryId": "meals",
     "type": "dessert",
     "stars": 3,
     "ingredients": [
       { "id": "golden_apple", "amount": 1 },
-      { "id": "milk", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "golden_applesauce",
+    "name": "Golden Applesauce",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "golden_apple", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "good_ol_fashioned_pancakes",
+    "name": "Good Ol' Fashioned Pancakes",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
       { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "gooseberry_pie",
+    "name": "Gooseberry Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "gooseberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "gourmet_grilled_fish",
+    "name": "Gourmet Grilled Fish",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "gray_stuff",
+    "name": "Gray Stuff",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_sweet", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "grecian_baked_fish",
+    "name": "Grecian Baked Fish",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "olives", "amount": 1 },
+      { "id": "flyleaf_feta", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "greek_pizza",
+    "name": "Greek Pizza",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -272,10 +2248,41 @@
     "name": "Greek Potatoes",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
       { "id": "potato", "amount": 1 },
-      { "id": "oregano", "amount": 1 }
+      { "id": "lemon", "amount": 1 },
+      { "id": "basil", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "greek_salad",
+    "name": "Greek Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 5,
+    "ingredients": [
+      { "id": "tomato", "amount": 1 },
+      { "id": "cucumber", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "olives", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "green_bean_casserole",
+    "name": "Green Bean Casserole",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "green_beans", "amount": 1 },
+      { "id": "mushroom", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "canola", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -284,7 +2291,7 @@
     "name": "Green Salad",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 1,
+    "stars": 2,
     "ingredients": [
       { "id": "lettuce", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 }
@@ -296,49 +2303,32 @@
     "name": "Grilled Fish",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 2,
-    "ingredients": [
-      { "id": "any_fish", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
-    ],
+    "stars": 1,
+    "ingredients": [{ "id": "any_fish", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
     "id": "grilled_fish_entree",
-    "name": "Grilled Fish Entree",
+    "name": "Grilled Fish Entrée",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "grilled_koi_gourmet",
+    "name": "Grilled Koi Gourmet",
     "categoryId": "meals",
     "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "any_fish", "amount": 1 },
-      { "id": "tomato", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "grilled_koi_gyro",
-    "name": "Grilled Koi Gyro",
-    "categoryId": "meals",
-    "type": "entrée",
-    "stars": 4,
-    "ingredients": [
       { "id": "koi", "amount": 1 },
-      { "id": "wheat", "amount": 1 },
-      { "id": "flyleaf_feta", "amount": 1 },
-      { "id": "lettuce", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "grilled_vegetables",
-    "name": "Grilled Vegetables",
-    "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 2,
-    "ingredients": [
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "lemon", "amount": 1 },
+      { "id": "mint", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -346,12 +2336,24 @@
     "id": "grilled_veggie_platter",
     "name": "Grilled Veggie Platter",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 3,
     "ingredients": [
       { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_vegetable_2", "amount": 1 },
+      { "id": "any_vegetable_3", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "grilled_veggies",
+    "name": "Grilled Veggies",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
       { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "any_vegetable_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -360,25 +2362,49 @@
     "name": "Gumbo",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 5,
     "ingredients": [
       { "id": "okra", "amount": 1 },
-      { "id": "any_meat", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "shrimp", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "hamburger_steak",
-    "name": "Hamburger Steak",
+    "id": "halloween_gingerbread_cookie",
+    "name": "Halloween Gingerbread Cookie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "ginger", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "hamburger",
+    "name": "Hamburger",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
-      { "id": "pork", "amount": 1 },
-      { "id": "onion", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "lettuce", "amount": 1 }
     ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "hard_boiled_eggs",
+    "name": "Hard-Boiled Eggs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "egg", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -386,12 +2412,13 @@
     "name": "Hawaiian Pizza",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 5,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
       { "id": "tomato", "amount": 1 },
       { "id": "cheese", "amount": 1 },
-      { "id": "pineapple", "amount": 1 }
+      { "id": "pineapple", "amount": 1 },
+      { "id": "pork", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -404,33 +2431,46 @@
     "ingredients": [
       { "id": "lettuce", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "any_vegetable_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "hermit_crab_pasta",
-    "name": "Hermit Crab Pasta",
+    "id": "hermit_crab_gratin",
+    "name": "Hermit Crab Gratin",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
-      { "id": "crab", "amount": 1 },
-      { "id": "wheat", "amount": 1 },
-      { "id": "garlic", "amount": 1 }
+      { "id": "hermit_crab", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "hippocampus_cepelinai_dumplings",
-    "name": "Hippocampus Cepelinai Dumplings",
+    "id": "hippocampus_shreds",
+    "name": "Hippocampus Shreds",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 5,
+    "stars": 3,
     "ingredients": [
-      { "id": "potato", "amount": 1 },
-      { "id": "pork", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
+      { "id": "hippocampus", "amount": 1 },
+      { "id": "turnip", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "honey_macarons",
+    "name": "Honey Macarons",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "almond", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "honey", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -439,60 +2479,166 @@
     "name": "Honey Pancakes",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
-      { "id": "milk", "amount": 1 },
-      { "id": "sweet_chestnut", "amount": 1 }
+      { "id": "egg", "amount": 1 },
+      { "id": "honey", "amount": 1 },
+      { "id": "milk", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "honey_glazed_carrots",
-    "name": "Honey-Glazed Carrots",
+    "id": "honey_triffle",
+    "name": "Honey Triffle",
     "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 2,
+    "type": "dessert",
+    "stars": 4,
     "ingredients": [
-      { "id": "carrot", "amount": 1 },
-      { "id": "sweet_chestnut", "amount": 1 }
+      { "id": "honey", "amount": 1 },
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "honey_glazed_plush_fish",
-    "name": "Honey-Glazed Plush Fish",
+    "id": "honeycrunch_spaetzle",
+    "name": "Honeycrunch Spaetzle",
     "categoryId": "meals",
     "type": "entrée",
     "stars": 4,
     "ingredients": [
-      { "id": "any_fish", "amount": 1 },
-      { "id": "sweet_chestnut", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "honey", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "milk", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "horaces_ham_sandwich",
-    "name": "Horace's Ham Sandwich",
+    "id": "honeydew_sorbet",
+    "name": "Honeydew Sorbet",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "dessert",
     "stars": 3,
     "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "pork", "amount": 1 },
-      { "id": "lettuce", "amount": 1 }
+      { "id": "melon", "amount": 1 },
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "agave", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "hors_d_oeuvres",
+    "id": "honey_glazed_bacon",
+    "name": "Honey-Glazed Bacon",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "pork", "amount": 1 },
+      { "id": "honey", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "honey_glazed_ham",
+    "name": "Honey-Glazed Ham",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "pork", "amount": 1 },
+      { "id": "honey", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "horaces_halberd_pie",
+    "name": "Horace's Halberd Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "faerie_rye", "amount": 1 },
+      { "id": "pin_cushion_peach", "amount": 1 },
+      { "id": "dark_chocolate_coffee_beans", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "hors_doeuvres",
     "name": "Hors d'Oeuvres",
     "categoryId": "meals",
     "type": "appetizer",
     "stars": 1,
+    "ingredients": [{ "id": "any_spice", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "hot_cocoa",
+    "name": "Hot Cocoa",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
     "ingredients": [
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "milk", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "ice_cream",
+    "name": "Ice Cream",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "jam_macarons",
+    "name": "Jam Macarons",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "almond", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "jam_waffles",
+    "name": "Jam Waffles",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "jasmine_tea",
+    "name": "Jasmine Tea",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "jasmine", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -504,8 +2650,8 @@
     "stars": 3,
     "ingredients": [
       { "id": "any_fish", "amount": 1 },
-      { "id": "gelatin", "amount": 1 },
-      { "id": "lemon", "amount": 1 }
+      { "id": "seaweed", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -514,10 +2660,11 @@
     "name": "Jellied Salad",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 2,
+    "stars": 3,
     "ingredients": [
-      { "id": "lettuce", "amount": 1 },
-      { "id": "gelatin", "amount": 1 }
+      { "id": "gelatin", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -529,8 +2676,37 @@
     "stars": 3,
     "ingredients": [
       { "id": "poultry", "amount": 1 },
-      { "id": "any_spice", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "onion", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "joyful_meal",
+    "name": "Joyful Meal",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 5,
+    "ingredients": [
+      { "id": "any_meat", "amount": 1 },
+      { "id": "potato", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "kanelbulle",
+    "name": "Kanelbulle",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "cinnamon", "amount": 1 },
+      { "id": "egg", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -539,10 +2715,12 @@
     "name": "Kanine Krunchies Cereal",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
+      { "id": "dark_chocolate_coffee_beans", "amount": 1 },
+      { "id": "milk", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "milk", "amount": 1 }
+      { "id": "any_sweet", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -555,7 +2733,7 @@
     "ingredients": [
       { "id": "cucumber", "amount": 1 },
       { "id": "rice", "amount": 1 },
-      { "id": "seaweed_salad", "amount": 1 }
+      { "id": "seaweed", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -563,10 +2741,22 @@
     "id": "koi_sashimi",
     "name": "Koi Sashimi",
     "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 2,
+    "type": "entrée",
+    "stars": 1,
+    "ingredients": [{ "id": "koi", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "kouign_amann",
+    "name": "Kouign-Amann",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
     "ingredients": [
-      { "id": "koi", "amount": 1 }
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -579,7 +2769,7 @@
     "ingredients": [
       { "id": "spinach", "amount": 1 },
       { "id": "cheese", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "canola", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -587,11 +2777,9 @@
     "id": "lamprey_sashimi",
     "name": "Lamprey Sashimi",
     "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 2,
-    "ingredients": [
-      { "id": "eel", "amount": 1 }
-    ],
+    "type": "entrée",
+    "stars": 1,
+    "ingredients": [{ "id": "lamprey", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -599,11 +2787,28 @@
     "name": "Lancetfish Paella",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 5,
     "ingredients": [
       { "id": "lancetfish", "amount": 1 },
-      { "id": "rice", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "shrimp", "amount": 1 },
+      { "id": "any_seafood", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "rice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "large_seafood_platter",
+    "name": "Large Seafood Platter",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 5,
+    "ingredients": [
+      { "id": "any_seafood", "amount": 1 },
+      { "id": "any_seafood_2", "amount": 1 },
+      { "id": "any_seafood_3", "amount": 1 },
+      { "id": "any_seafood_4", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -612,10 +2817,24 @@
     "name": "Latkes",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
       { "id": "potato", "amount": 1 },
-      { "id": "onion", "amount": 1 }
+      { "id": "onion", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "latte",
+    "name": "Latte",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "coffee_bean", "amount": 1 },
+      { "id": "milk", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -624,11 +2843,8 @@
     "name": "Leek Soup",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 2,
-    "ingredients": [
-      { "id": "leek", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
-    ],
+    "stars": 1,
+    "ingredients": [{ "id": "leek", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -636,11 +2852,62 @@
     "name": "Lemon Garlic Swordfish",
     "categoryId": "meals",
     "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "swordfish", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "lemon_sorbet",
+    "name": "Lemon Sorbet",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "lightning_bolt",
+    "name": "Lightning Bolt",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "electric_eel", "amount": 1 },
+      { "id": "turnip", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "lightning_cake",
+    "name": "Lightning Cake",
+    "categoryId": "meals",
+    "type": "dessert",
     "stars": 4,
     "ingredients": [
-      { "id": "sole", "amount": 1 },
-      { "id": "lemon", "amount": 1 },
-      { "id": "garlic", "amount": 1 }
+      { "id": "electric_eel", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "lightning_cookies",
+    "name": "Lightning Cookies",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "electric_eel", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -649,22 +2916,12 @@
     "name": "Lioness Feast",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 5,
+    "stars": 4,
     "ingredients": [
-      { "id": "venison", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "lo_fries",
-    "name": "Lo-Fries",
-    "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 1,
-    "ingredients": [
-      { "id": "potato", "amount": 1 }
+      { "id": "here_and_there_fish", "amount": 1 },
+      { "id": "mushroom", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "oregano", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -673,11 +2930,12 @@
     "name": "Loaded Breakfast Yogurt",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "plain_yogurt", "amount": 1 },
+      { "id": "honey", "amount": 1 },
       { "id": "any_fruit", "amount": 1 },
-      { "id": "honeydew_melon", "amount": 1 }
+      { "id": "any_fruit_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -689,8 +2947,9 @@
     "stars": 4,
     "ingredients": [
       { "id": "golden_apple", "amount": 1 },
-      { "id": "oats", "amount": 1 },
-      { "id": "milk", "amount": 1 }
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "honey", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -701,9 +2960,10 @@
     "type": "dessert",
     "stars": 4,
     "ingredients": [
-      { "id": "honeydew_melon", "amount": 1 },
-      { "id": "oats", "amount": 1 },
-      { "id": "milk", "amount": 1 }
+      { "id": "melon", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "honey", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -715,8 +2975,9 @@
     "stars": 4,
     "ingredients": [
       { "id": "persimmon", "amount": 1 },
-      { "id": "oats", "amount": 1 },
-      { "id": "milk", "amount": 1 }
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "honey", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -728,8 +2989,9 @@
     "stars": 4,
     "ingredients": [
       { "id": "rhubarb", "amount": 1 },
-      { "id": "oats", "amount": 1 },
-      { "id": "milk", "amount": 1 }
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "honey", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -741,8 +3003,9 @@
     "stars": 4,
     "ingredients": [
       { "id": "sea_grapes", "amount": 1 },
-      { "id": "oats", "amount": 1 },
-      { "id": "milk", "amount": 1 }
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "honey", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -753,10 +3016,24 @@
     "type": "entrée",
     "stars": 5,
     "ingredients": [
-      { "id": "crab", "amount": 1 },
+      { "id": "lobster", "amount": 1 },
       { "id": "wheat", "amount": 1 },
       { "id": "butter", "amount": 1 },
-      { "id": "lemon", "amount": 1 }
+      { "id": "lemon", "amount": 1 },
+      { "id": "garlic", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "lo_fries",
+    "name": "Lo-Fries",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "yam", "amount": 1 },
+      { "id": "canola", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -765,11 +3042,25 @@
     "name": "Lupine Cullen Skink",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 5,
+    "stars": 4,
     "ingredients": [
-      { "id": "tilapia", "amount": 1 },
+      { "id": "lupine_fish", "amount": 1 },
       { "id": "potato", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
+      { "id": "milk", "amount": 1 },
+      { "id": "onion", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "maamouls",
+    "name": "Maamouls",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "dates", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -778,11 +3069,12 @@
     "name": "Maguro Sushi",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "tuna", "amount": 1 },
       { "id": "rice", "amount": 1 },
-      { "id": "seaweed_salad", "amount": 1 }
+      { "id": "seaweed", "amount": 1 },
+      { "id": "ginger", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -795,7 +3087,20 @@
     "ingredients": [
       { "id": "any_fish", "amount": 1 },
       { "id": "rice", "amount": 1 },
-      { "id": "seaweed_salad", "amount": 1 }
+      { "id": "seaweed", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "makrout",
+    "name": "Makrout",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "dates", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "canola", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -804,11 +3109,12 @@
     "name": "Margherita Pizza",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
-      { "id": "wheat", "amount": 1 },
+      { "id": "any_spice", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "cheese", "amount": 1 }
+      { "id": "cheese", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -819,8 +3125,8 @@
     "type": "dessert",
     "stars": 2,
     "ingredients": [
-      { "id": "any_fruit", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 }
+      { "id": "dreamlight_fruit", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -831,9 +3137,9 @@
     "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "pork", "amount": 1 },
-      { "id": "wheat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "any_meat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -842,11 +3148,12 @@
     "name": "Meaty Taco",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
-      { "id": "pork", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
       { "id": "corn", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -855,11 +3162,68 @@
     "name": "Mediterranean Salad",
     "categoryId": "meals",
     "type": "appetizer",
+    "stars": 5,
+    "ingredients": [
+      { "id": "cucumber", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "olives", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "melon_boba_tea",
+    "name": "Melon Boba Tea",
+    "categoryId": "meals",
+    "type": "dessert",
     "stars": 3,
     "ingredients": [
-      { "id": "lettuce", "amount": 1 },
-      { "id": "olives", "amount": 1 },
-      { "id": "flyleaf_feta", "amount": 1 }
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "melon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "meringue_pie",
+    "name": "Meringue Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "lemon", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "mermaid_cupcake",
+    "name": "Mermaid Cupcake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "scallop", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "merryweathers_gingersnaps",
+    "name": "Merryweather's Gingersnaps",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "ginger", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "agave", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -868,11 +3232,116 @@
     "name": "Milky Way Stew",
     "categoryId": "meals",
     "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "cosmic_figs", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "rainbow_trout", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "minnie_cupcake",
+    "name": "Minnie Cupcake",
+    "categoryId": "meals",
+    "type": "dessert",
     "stars": 5,
     "ingredients": [
-      { "id": "poultry", "amount": 1 },
+      { "id": "apple", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "minnies_gingerbread_cookies",
+    "name": "Minnie's Gingerbread Cookies",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "ginger", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "mint_boba_tea",
+    "name": "Mint Boba Tea",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
       { "id": "milk", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "mint", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "mint_candy",
+    "name": "Mint Candy",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "mint", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "mint_chocolate",
+    "name": "Mint Chocolate",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "mint", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "mint_sorbet",
+    "name": "Mint Sorbet",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "mint", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "mocha",
+    "name": "Mocha",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "coffee_bean", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "mooncake",
+    "name": "Mooncake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "beans", "amount": 1 },
+      { "id": "canola", "amount": 1 },
+      { "id": "agave", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -881,11 +3350,13 @@
     "name": "Moqueca de Pirarucu",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 5,
     "ingredients": [
-      { "id": "piranha", "amount": 1 },
+      { "id": "pirarucu", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "onion", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "coconut", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -894,11 +3365,12 @@
     "name": "Mushroom Pizza",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
+      { "id": "mushroom", "amount": 1 },
       { "id": "wheat", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "button_mushroom", "amount": 1 }
+      { "id": "cheese", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -907,11 +3379,13 @@
     "name": "Mushu's Congee",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 5,
     "ingredients": [
       { "id": "rice", "amount": 1 },
-      { "id": "any_meat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "egg", "amount": 1 },
+      { "id": "ginger", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "mushroom", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -920,11 +3394,24 @@
     "name": "Mussel Risotto",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
-      { "id": "scallop", "amount": 1 },
+      { "id": "mussel", "amount": 1 },
       { "id": "rice", "amount": 1 },
-      { "id": "garlic", "amount": 1 }
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "my_hero_cookie",
+    "name": "My Hero Cookie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 },
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -933,21 +3420,90 @@
     "name": "Nachos",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
       { "id": "corn", "amount": 1 },
-      { "id": "cheese", "amount": 1 }
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "oatmeal",
+    "id": "nestling_crepe",
+    "name": "Nestling Crepe",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "pin_cushion_peach", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "shovel_bird_eggs", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "nutmeg_cake",
+    "name": "Nutmeg Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "nutmeg", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "nutmeg_cookies",
+    "name": "Nutmeg Cookies",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "nutmeg", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "nuts_and_bolts",
+    "name": "Nuts & Bolts",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "robot_fish", "amount": 1 },
+      { "id": "almond", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "open_source_oatmeal",
     "name": "Oatmeal",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 1,
+    "stars": 3,
     "ingredients": [
-      { "id": "oats", "amount": 1 }
+      { "id": "wheat", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "okra_soup",
+    "name": "Okra Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "okra", "amount": 1 },
+      { "id": "milk", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -957,8 +3513,20 @@
     "categoryId": "meals",
     "type": "appetizer",
     "stars": 1,
+    "ingredients": [{ "id": "olives", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "olympian_tapenade",
+    "name": "Olympian Tapenade",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
     "ingredients": [
-      { "id": "olives", "amount": 1 }
+      { "id": "olives", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -966,12 +3534,49 @@
     "id": "omelet",
     "name": "Omelet",
     "categoryId": "meals",
-    "type": "entrée",
-    "stars": 2,
+    "type": "breakfast",
+    "stars": 3,
     "ingredients": [
       { "id": "egg", "amount": 1 },
-      { "id": "milk", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "onion_puffs",
+    "name": "Onion Puffs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "onion", "amount": 1 },
+      { "id": "egg", "amount": 1 },
       { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "oolong_tea",
+    "name": "Ooolong Tea",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "oolong_leaves", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "oyster_platter",
+    "name": "Oyster Platter",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "oyster", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -982,9 +3587,10 @@
     "type": "entrée",
     "stars": 4,
     "ingredients": [
-      { "id": "any_fish", "amount": 1 },
+      { "id": "anglerfish", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "zucchini", "amount": 1 },
+      { "id": "potato", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -995,9 +3601,9 @@
     "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "any_fish", "amount": 1 },
+      { "id": "bass", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "any_vegetable_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1010,7 +3616,7 @@
     "ingredients": [
       { "id": "tilapia", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "any_vegetable_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1034,8 +3640,50 @@
     "stars": 3,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
-      { "id": "tomato", "amount": 1 },
-      { "id": "oregano", "amount": 1 }
+      { "id": "butter", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pasteis_de_nata",
+    "name": "Pastéis de Nata",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pastry_cream_and_fruits",
+    "name": "Pastry Cream and Fruits",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "any_fruit_2", "amount": 1 },
+      { "id": "any_fruit_3", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pawpsicle",
+    "name": "Pawpsicle",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1043,11 +3691,51 @@
     "id": "peanut_butter_sandwich",
     "name": "Peanut Butter Sandwich",
     "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "peanut", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "peanut_butter_waffles",
+    "name": "Peanut Butter Waffles",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "peanut", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pear_upside_down_cake",
+    "name": "Pear Upside-Down Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "pin_cushion_peach", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "peppermint_tea",
+    "name": "Peppermint Tea",
+    "categoryId": "meals",
     "type": "appetizer",
     "stars": 2,
     "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "peanut", "amount": 1 }
+      { "id": "mint", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1056,11 +3744,50 @@
     "name": "Persimmon Chia Pancakes",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "persimmon", "amount": 1 },
       { "id": "chia_seeds", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "persimmon_pie",
+    "name": "Persimmon Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "persimmon", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "persimmon_smoothie",
+    "name": "Persimmon Smoothie",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "persimmon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "persimmon_sour_fondue",
+    "name": "Persimmon Sour Fondue",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "persimmon", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "sour_berry", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1072,8 +3799,34 @@
     "stars": 3,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
-      { "id": "basil", "amount": 1 },
-      { "id": "garlic", "amount": 1 }
+      { "id": "butter", "amount": 1 },
+      { "id": "basil", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pickled_herring",
+    "name": "Pickled Herring",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "herring", "amount": 1 },
+      { "id": "lemon", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pineapple_soft_serve",
+    "name": "Pineapple Soft Serve",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "pineapple", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1082,11 +3835,25 @@
     "name": "Piquant Piranha Soup",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
       { "id": "piranha", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "bamboo", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pixie_ice_cream_dome_cake",
+    "name": "Pixie Ice Cream Dome Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "agave", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1097,10 +3864,11 @@
     "type": "entrée",
     "stars": 5,
     "ingredients": [
-      { "id": "wheat", "amount": 1 },
+      { "id": "elysian_grain", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "flyleaf_feta", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
+      { "id": "cheese", "amount": 1 },
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1111,10 +3879,19 @@
     "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "wheat", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "cheese", "amount": 1 }
+      { "id": "cheese", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
     ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "plain_snow_cones",
+    "name": "Plain Snow Cones",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 1,
+    "ingredients": [{ "id": "slush_ice", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -1122,11 +3899,80 @@
     "name": "Poached Basil-Butter Sturgeon",
     "categoryId": "meals",
     "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "white_sturgeon", "amount": 1 },
+      { "id": "basil", "amount": 1 },
+      { "id": "lemon", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "poohs_birthday_cake",
+    "name": "Pooh's Birthday Cake",
+    "categoryId": "meals",
+    "type": "dessert",
     "stars": 5,
     "ingredients": [
-      { "id": "sturgeon", "amount": 1 },
-      { "id": "basil", "amount": 1 },
-      { "id": "butter", "amount": 1 }
+      { "id": "honey", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "popcorn",
+    "name": "Popcorn",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "corn", "amount": 1 },
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "potato_leek_soup",
+    "name": "Potato Leek Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 5,
+    "ingredients": [
+      { "id": "potato", "amount": 1 },
+      { "id": "leek", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "potato_puffs",
+    "name": "Potato Puffs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "potato", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pottage",
+    "name": "Pottage",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "potato", "amount": 1 },
+      { "id": "any_spice", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1134,12 +3980,28 @@
     "id": "poutine",
     "name": "Poutine",
     "categoryId": "meals",
-    "type": "entrée",
-    "stars": 3,
+    "type": "appetizer",
+    "stars": 4,
     "ingredients": [
       { "id": "potato", "amount": 1 },
       { "id": "cheese", "amount": 1 },
-      { "id": "any_meat", "amount": 1 }
+      { "id": "canola", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "princess_aurora_raspberry_cupcake",
+    "name": "Princess Aurora Raspberry Cupcake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "raspberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "egg", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1148,10 +4010,39 @@
     "name": "Pulled Pork",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
       { "id": "pork", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "onion", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "oregano", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pumpkin_puffs",
+    "name": "Pumpkin Puffs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "pumpkin", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "pumpkin_soup",
+    "name": "Pumpkin Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "pumpkin", "amount": 1 },
+      { "id": "ginger", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1160,12 +4051,22 @@
     "name": "Pupusas Revueltas",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "corn", "amount": 1 },
-      { "id": "cheese", "amount": 1 },
-      { "id": "pork", "amount": 1 }
+      { "id": "pork", "amount": 1 },
+      { "id": "beans", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "puree",
+    "name": "Purée",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "potato", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -1175,9 +4076,23 @@
     "type": "entrée",
     "stars": 4,
     "ingredients": [
-      { "id": "carrot", "amount": 1 },
-      { "id": "lettuce", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "flute_root", "amount": 1 },
+      { "id": "turnip", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "radicchio_slaw",
+    "name": "Radicchio Slaw",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "radicchio", "amount": 1 },
+      { "id": "cabbage", "amount": 1 },
+      { "id": "canola", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1185,11 +4100,12 @@
     "id": "radicchio_stuffed_porcini",
     "name": "Radicchio-Stuffed Porcini",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 3,
     "ingredients": [
       { "id": "radicchio", "amount": 1 },
-      { "id": "porcini_mushrooms", "amount": 1 }
+      { "id": "porcini", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1200,10 +4116,11 @@
     "type": "entrée",
     "stars": 5,
     "ingredients": [
-      { "id": "any_fish", "amount": 1 },
+      { "id": "prism_shrimp", "amount": 1 },
+      { "id": "rainbow_trout", "amount": 1 },
+      { "id": "any_seafood", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "garlic", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1215,8 +4132,8 @@
     "stars": 3,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
-      { "id": "any_meat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "egg", "amount": 1 },
+      { "id": "any_meat", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1225,11 +4142,38 @@
     "name": "Ranch Salad",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 3,
+    "stars": 5,
     "ingredients": [
       { "id": "lettuce", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "corn", "amount": 1 }
+      { "id": "cucumber", "amount": 1 },
+      { "id": "bell_pepper", "amount": 1 },
+      { "id": "onion", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "raspberry_boba_tea",
+    "name": "Raspberry Boba Tea",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "raspberry", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "raspberry_jam_sandwich",
+    "name": "Raspberry Jam Sandwich",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "raspberry", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1238,7 +4182,7 @@
     "name": "Ratatouille",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 5,
     "ingredients": [
       { "id": "tomato", "amount": 1 },
       { "id": "eggplant", "amount": 1 },
@@ -1249,15 +4193,84 @@
     "source": "Cook at any stove"
   },
   {
+    "id": "red_currant_linzer_cookies",
+    "name": "Red Currant Linzer Cookies",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "red_currant", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "red_currant_valley_cakes",
+    "name": "Red Currant Valley Cakes",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "red_currant", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "red_fruit_sorbet",
+    "name": "Red Fruit Sorbet",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "raspberry", "amount": 1 },
+      { "id": "gooseberry", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "red_velvet",
+    "name": "Red Velvet",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "cocoa_bean", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "vanilla", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
     "id": "rhapsody_roll",
     "name": "Rhapsody Roll",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 5,
+    "stars": 3,
+    "ingredients": [
+      { "id": "flute_root", "amount": 1 },
+      { "id": "rice", "amount": 1 },
+      { "id": "seaweed", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "rice_pudding",
+    "name": "Rice Pudding",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
     "ingredients": [
       { "id": "rice", "amount": 1 },
-      { "id": "any_fish", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1266,10 +4279,31 @@
     "name": "Roast",
     "categoryId": "meals",
     "type": "entrée",
+    "stars": 1,
+    "ingredients": [{ "id": "any_meat", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "roasted_almonds",
+    "name": "Roasted Almonds",
+    "categoryId": "meals",
+    "type": "appetizer",
     "stars": 2,
     "ingredients": [
-      { "id": "any_meat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "almond", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "roasted_asparagus",
+    "name": "Roasted Asparagus",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "asparagus", "amount": 1 },
+      { "id": "canola", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1280,9 +4314,9 @@
     "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "barley", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "any_vegetable_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1293,8 +4327,8 @@
     "type": "appetizer",
     "stars": 2,
     "ingredients": [
-      { "id": "brussels_sprout", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "brussels_sprouts", "amount": 1 },
+      { "id": "canola", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1306,7 +4340,44 @@
     "stars": 2,
     "ingredients": [
       { "id": "green_beans", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "roasted_marshmallows",
+    "name": "Roasted Marshmallows",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "pink_marshmallow", "amount": 1 },
+      { "id": "blue_marshmallow", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "root_beer",
+    "name": "Root Beer",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "ginger", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "vanilla", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "rosehip_honey_tea",
+    "name": "Rosehip Honey Tea",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "rosehip", "amount": 1 },
+      { "id": "honey", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1317,11 +4388,46 @@
     "type": "entrée",
     "stars": 5,
     "ingredients": [
-      { "id": "pork", "amount": 1 },
-      { "id": "lettuce", "amount": 1 },
+      { "id": "venison", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
+      { "id": "lettuce", "amount": 1 }
     ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "royal_ice_tea",
+    "name": "Royal Ice Tea",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "majestea", "amount": 1 },
+      { "id": "slush_ice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "royal_latte",
+    "name": "Royal Latte",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "majestea", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "royal_tea",
+    "name": "Royal Tea",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "majestea", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -1329,11 +4435,11 @@
     "name": "Ruby Masoor Dal",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
-      { "id": "ruby_lentils", "amount": 1 },
-      { "id": "any_spice", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "chickpeas", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1346,7 +4452,7 @@
     "ingredients": [
       { "id": "salmon", "amount": 1 },
       { "id": "rice", "amount": 1 },
-      { "id": "seaweed_salad", "amount": 1 }
+      { "id": "seaweed", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1354,7 +4460,7 @@
     "id": "sake_sushi",
     "name": "Sake Sushi",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 2,
     "ingredients": [
       { "id": "salmon", "amount": 1 },
@@ -1363,14 +4469,24 @@
     "source": "Cook at any stove"
   },
   {
+    "id": "salad",
+    "name": "Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "lettuce", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
     "id": "salt_baked_sea_wolf",
     "name": "Salt-Baked Sea Wolf",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
-      { "id": "walleye", "amount": 1 },
-      { "id": "salt_crystal", "amount": 1 }
+      { "id": "sea_wolf", "amount": 1 },
+      { "id": "salt_crystal", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1450,11 +4566,24 @@
     "id": "sand_stew",
     "name": "Sand Stew",
     "categoryId": "meals",
-    "type": "entrée",
+    "type": "appetizer",
     "stars": 3,
     "ingredients": [
-      { "id": "any_meat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 },
+      { "id": "sand_worm", "amount": 1 },
+      { "id": "dune_hopper", "amount": 1 },
+      { "id": "sand_fish", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sand_worm_carpaccio_plate",
+    "name": "Sand Worm Carpaccio Plate",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "sand_worm", "amount": 1 },
+      { "id": "melon", "amount": 1 },
       { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
@@ -1468,7 +4597,31 @@
     "ingredients": [
       { "id": "pork", "amount": 1 },
       { "id": "cabbage", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sauteed_mushrooms",
+    "name": "Sautéed Mushrooms",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "mushroom", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sauteed_porcini",
+    "name": "Sautéed Porcini",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "porcini", "amount": 1 },
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1480,7 +4633,21 @@
     "stars": 2,
     "ingredients": [
       { "id": "any_fish", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "scarlet_bouquet_salad",
+    "name": "Scarlet Bouquet Salad",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "scarlet_rose", "amount": 1 },
+      { "id": "lettuce", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_vegetable_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1488,7 +4655,7 @@
     "id": "scarlet_kale_and_cheese_pinwheels",
     "name": "Scarlet Kale and Cheese Pinwheels",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 3,
     "ingredients": [
       { "id": "scarlet_kale", "amount": 1 },
@@ -1502,11 +4669,12 @@
     "name": "Schnitzel",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
-      { "id": "pork", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "egg", "amount": 1 }
+      { "id": "canola", "amount": 1 },
+      { "id": "lemon", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1515,10 +4683,11 @@
     "name": "Scottish Porridge",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 2,
+    "stars": 3,
     "ingredients": [
-      { "id": "oats", "amount": 1 },
-      { "id": "milk", "amount": 1 }
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1526,10 +4695,11 @@
     "id": "scrambled_egg",
     "name": "Scrambled Egg",
     "categoryId": "meals",
-    "type": "entrée",
-    "stars": 1,
+    "type": "appetizer",
+    "stars": 2,
     "ingredients": [
-      { "id": "egg", "amount": 1 }
+      { "id": "egg", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1538,12 +4708,22 @@
     "name": "Sea Grape Chia Pancakes",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "sea_grapes", "amount": 1 },
       { "id": "chia_seeds", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 }
     ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "seafood_appetizer",
+    "name": "Seafood Appetizer",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "any_seafood", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -1551,11 +4731,13 @@
     "name": "Seafood Boil",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 5,
     "ingredients": [
       { "id": "any_seafood", "amount": 1 },
+      { "id": "any_seafood_2", "amount": 1 },
       { "id": "corn", "amount": 1 },
-      { "id": "potato", "amount": 1 }
+      { "id": "potato", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1564,11 +4746,11 @@
     "name": "Seafood Pasta",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
       { "id": "any_seafood", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "garlic", "amount": 1 }
+      { "id": "milk", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1577,11 +4759,23 @@
     "name": "Seafood Pie",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
       { "id": "any_seafood", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "seafood_platter",
+    "name": "Seafood Platter",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "any_seafood", "amount": 1 },
+      { "id": "any_seafood_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1594,7 +4788,7 @@
     "ingredients": [
       { "id": "any_seafood", "amount": 1 },
       { "id": "lettuce", "amount": 1 },
-      { "id": "tomato", "amount": 1 }
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1607,7 +4801,7 @@
     "ingredients": [
       { "id": "any_seafood", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "any_vegetable_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1620,7 +4814,7 @@
     "ingredients": [
       { "id": "rainbow_trout", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "onion", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1629,9 +4823,24 @@
     "name": "Seaweed Salad",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 1,
+    "stars": 3,
     "ingredients": [
-      { "id": "sea_grapes", "amount": 1 }
+      { "id": "seaweed", "amount": 1 },
+      { "id": "lettuce", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sesame_balls",
+    "name": "Sesame Balls",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "lotus_seeds", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "canola", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1639,12 +4848,36 @@
     "id": "sesame_seed_bagel",
     "name": "Sesame Seed Bagel",
     "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 2,
+    "type": "entrée",
+    "stars": 3,
     "ingredients": [
+      { "id": "lotus_seeds", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "sesame_balls", "amount": 1 }
+      { "id": "any_grain", "amount": 1 }
     ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "shad_ceviche",
+    "name": "Shad Ceviche",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "shad", "amount": 1 },
+      { "id": "lime", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "shake",
+    "name": "Shake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 1,
+    "ingredients": [{ "id": "milk", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -1652,11 +4885,12 @@
     "name": "Shawarma",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
-      { "id": "poultry", "amount": 1 },
-      { "id": "any_spice", "amount": 1 },
-      { "id": "lettuce", "amount": 1 }
+      { "id": "any_meat", "amount": 1 },
+      { "id": "rice", "amount": 1 },
+      { "id": "cinnamon", "amount": 1 },
+      { "id": "garlic", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1665,11 +4899,12 @@
     "name": "Shish Taouk",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "poultry", "amount": 1 },
+      { "id": "rice", "amount": 1 },
       { "id": "garlic", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "lemon", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1681,8 +4916,21 @@
     "stars": 4,
     "ingredients": [
       { "id": "shovel_bird_eggs", "amount": 1 },
-      { "id": "butter", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "wheat", "amount": 1 },
+      { "id": "pork", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "simple_chia_pudding",
+    "name": "Simple Chia Pudding",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "chia_seeds", "amount": 1 },
+      { "id": "milk", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1691,10 +4939,24 @@
     "name": "Simple Fried Perch",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 2,
+    "stars": 3,
     "ingredients": [
       { "id": "perch", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "butter", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "smoked_fish_charcuterie_spread",
+    "name": "Smoked Fish Charcuterie Spread",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_fish", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "olives", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1703,11 +4965,37 @@
     "name": "Smoked Peanuts and Anglerfish",
     "categoryId": "meals",
     "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "anglerfish", "amount": 1 },
+      { "id": "peanut", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "smores",
+    "name": "S'mores",
+    "categoryId": "meals",
+    "type": "dessert",
     "stars": 4,
     "ingredients": [
-      { "id": "any_fish", "amount": 1 },
-      { "id": "peanut", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "pink_marshmallow", "amount": 1 },
+      { "id": "blue_marshmallow", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "snow_whites_gooseberry_pie",
+    "name": "Snow White's Gooseberry Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "gooseberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1718,8 +5006,9 @@
     "type": "appetizer",
     "stars": 3,
     "ingredients": [
+      { "id": "flyleaf_feta", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "flyleaf_feta", "amount": 1 }
+      { "id": "salt_crystal", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1731,8 +5020,76 @@
     "stars": 4,
     "ingredients": [
       { "id": "sole", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
       { "id": "butter", "amount": 1 },
       { "id": "lemon", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "souffle",
+    "name": "Soufflé",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cheese", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sour_berry_dessert",
+    "name": "Sour Berry Dessert",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "sour_berry", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sour_berry_pie",
+    "name": "Sour Berry Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "sour_berry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sour_snow_cones",
+    "name": "Sour Snow Cones",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "sour_berry", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spaceship_earth_cupcake",
+    "name": "Spaceship Earth Cupcake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "coconut", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "egg", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1754,11 +5111,26 @@
     "name": "Spanakopita",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 3,
+    "stars": 5,
     "ingredients": [
       { "id": "spinach", "amount": 1 },
-      { "id": "cheese", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "flyleaf_feta", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "onion", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sparkling_ambrosia",
+    "name": "Sparkling Ambrosia",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "ambrosia", "amount": 1 },
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "agave", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1770,8 +5142,60 @@
     "stars": 3,
     "ingredients": [
       { "id": "bream", "amount": 1 },
-      { "id": "any_spice", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spicy_macarons",
+    "name": "Spicy Macarons",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "almond", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spicy_scorpion_skewer",
+    "name": "Spicy Scorpion Skewer",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "scorpion", "amount": 1 },
+      { "id": "paprika", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spicy_yogurt",
+    "name": "Spicy Yogurt",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spiky_berry_pie",
+    "name": "Spiky Berry Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "cactoberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1780,11 +5204,92 @@
     "name": "Spiral Strawberry Chia Pancakes",
     "categoryId": "meals",
     "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "chia_seeds", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spiral_strawberry_pie",
+    "name": "Spiral Strawberry Pie",
+    "categoryId": "meals",
+    "type": "dessert",
     "stars": 3,
     "ingredients": [
-      { "id": "spiral_strawberries", "amount": 1 },
-      { "id": "chia_seeds", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spiral_strawberry_smoothie",
+    "name": "Spiral Strawberry Smoothie",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "spiral_strawberry", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spiral_strawberry_sour_fondue",
+    "name": "Spiral Strawberry Sour Fondue",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "spiral_strawberry", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "sour_berry", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spring_chocolate",
+    "name": "Spring Chocolate",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "spring_v-egg-etable", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spring_egg_bowl",
+    "name": "Spring Egg Bowl",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "egg-cellent_fruit", "amount": 1 },
+      { "id": "wild_spring_egg", "amount": 1 },
+      { "id": "spring_v-egg-etable", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "cocoa_bean", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "spring_mimosa_eggs",
+    "name": "Spring Mimosa Eggs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "egg-cellent_fruit", "amount": 1 },
+      { "id": "wild_spring_egg", "amount": 1 },
+      { "id": "spring_v-egg-etable", "amount": 1 },
+      { "id": "basil", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1792,11 +5297,12 @@
     "id": "sprout_stuffed_porcini",
     "name": "Sprout-Stuffed Porcini",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "porcini_mushrooms", "amount": 1 },
-      { "id": "brussels_sprout", "amount": 1 }
+      { "id": "sprout", "amount": 1 },
+      { "id": "porcini", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1804,11 +5310,12 @@
     "id": "squash_stuffed_porcini",
     "name": "Squash-Stuffed Porcini",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "porcini_mushrooms", "amount": 1 },
-      { "id": "ring_squash", "amount": 1 }
+      { "id": "any_squash", "amount": 1 },
+      { "id": "porcini", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1816,11 +5323,9 @@
     "id": "squid_sashimi",
     "name": "Squid Sashimi",
     "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 2,
-    "ingredients": [
-      { "id": "trumpet_snail", "amount": 1 }
-    ],
+    "type": "entrée",
+    "stars": 1,
+    "ingredients": [{ "id": "squid", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -1832,7 +5337,8 @@
     "ingredients": [
       { "id": "any_fish", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "butter", "amount": 1 },
+      { "id": "egg", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1841,10 +5347,11 @@
     "name": "Steamed Fugu",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 5,
+    "stars": 3,
     "ingredients": [
       { "id": "fugu", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "ginger", "amount": 1 },
+      { "id": "garlic", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1852,11 +5359,91 @@
     "id": "steamed_mussels",
     "name": "Steamed Mussels",
     "categoryId": "meals",
-    "type": "entrée",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "mussel", "amount": 1 },
+      { "id": "garlic", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "stellar_milkshake",
+    "name": "Stellar Milkshake",
+    "categoryId": "meals",
+    "type": "dessert",
     "stars": 3,
     "ingredients": [
-      { "id": "scallop", "amount": 1 },
-      { "id": "garlic", "amount": 1 }
+      { "id": "cosmic_figs", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "slush_ice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "stitch_cupcake",
+    "name": "Stitch Cupcake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "blueberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "strawberry_pie",
+    "name": "Strawberry Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "strawberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "strawberry_rhubarb_pie",
+    "name": "Strawberry Rhubarb Pie",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "strawberry", "amount": 1 },
+      { "id": "rhubarb", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "strawberry_shortcake",
+    "name": "Strawberry Shortcake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "strawberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "stuffed_dates",
+    "name": "Stuffed Dates",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "dates", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1865,11 +5452,66 @@
     "name": "Stuffed Ring Squash",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "ring_squash", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "rice", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sugar_free_banana_muffin",
+    "name": "Sugar-Free Banana Muffin",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "banana", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sugar_free_blueberry_muffin",
+    "name": "Sugar-Free Blueberry Muffin",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "blueberry", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sugar_free_fruit_explosion_muffin",
+    "name": "Sugar-Free Fruit Explosion Muffin",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 5,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "agave", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "any_fruit_2", "amount": 1 },
+      { "id": "any_fruit_3", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sugar_free_fruit_muffin",
+    "name": "Sugar-Free Fruit Muffin",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "any_fruit", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "agave", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1877,7 +5519,7 @@
     "id": "sushi",
     "name": "Sushi",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 2,
     "ingredients": [
       { "id": "any_fish", "amount": 1 },
@@ -1890,11 +5532,24 @@
     "name": "Sweet & Sour Kingfish Steak",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
       { "id": "kingfish", "amount": 1 },
-      { "id": "any_fruit", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "pineapple", "amount": 1 },
+      { "id": "oregano", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sweet_acorn_porridge",
+    "name": "Sweet Acorn Porridge",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "majestic_acorn", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "agave", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1905,9 +5560,59 @@
     "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "any_meat", "amount": 1 },
-      { "id": "any_fruit", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "poultry", "amount": 1 },
+      { "id": "pineapple", "amount": 1 },
+      { "id": "canola", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sweet_herring",
+    "name": "Sweet Herring",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 2,
+    "ingredients": [
+      { "id": "herring", "amount": 1 },
+      { "id": "onion", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sweet_popcorn",
+    "name": "Sweet Popcorn",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "corn", "amount": 1 },
+      { "id": "canola", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "butter", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sweet_slush",
+    "name": "Sweet Slush",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "sweet_tofu",
+    "name": "Sweet Tofu",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "soya", "amount": 1 },
+      { "id": "any_sweet", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1916,10 +5621,38 @@
     "name": "Sweet Udon",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 }
+      { "id": "agave", "amount": 1 },
+      { "id": "any_seafood", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "taiyaki",
+    "name": "Taiyaki",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 2,
+    "ingredients": [
+      { "id": "beans", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "takoyaki_stick",
+    "name": "Takoyaki Stick",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "octopus", "amount": 1 },
+      { "id": "seaweed", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "egg", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1940,11 +5673,13 @@
     "name": "Tandoori Chicken",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 5,
     "ingredients": [
       { "id": "poultry", "amount": 1 },
-      { "id": "any_spice", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "cumin", "amount": 1 },
+      { "id": "paprika", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "plain_yogurt", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1953,10 +5688,12 @@
     "name": "Tasty Salad",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
       { "id": "lettuce", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "cucumber", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1965,8 +5702,23 @@
     "name": "Tasty Veggies",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 1,
+    "stars": 2,
     "ingredients": [
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "tea_sandwiches",
+    "name": "Tea Sandwiches",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "tomato", "amount": 1 },
+      { "id": "cucumber", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
@@ -1976,11 +5728,12 @@
     "name": "Tekka Maki",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "tuna", "amount": 1 },
       { "id": "rice", "amount": 1 },
-      { "id": "seaweed_salad", "amount": 1 }
+      { "id": "seaweed", "amount": 1 },
+      { "id": "soya", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -1989,11 +5742,37 @@
     "name": "Teriyaki Salmon",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
       { "id": "salmon", "amount": 1 },
+      { "id": "soya", "amount": 1 },
+      { "id": "rice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "thousand_needles",
+    "name": "Thousand Needles",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "cactoberry", "amount": 1 },
+      { "id": "scorpion", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "tigger_tails",
+    "name": "Tigger Tails",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "wild_spring_egg", "amount": 1 },
       { "id": "sugarcane", "amount": 1 },
-      { "id": "soy_sauce", "amount": 1 }
+      { "id": "cocoa_bean", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2001,7 +5780,7 @@
     "id": "toasted_picnic_sandwich",
     "name": "Toasted Picnic Sandwich",
     "categoryId": "meals",
-    "type": "appetizer",
+    "type": "entrée",
     "stars": 3,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
@@ -2016,9 +5795,29 @@
     "categoryId": "meals",
     "type": "entrée",
     "stars": 1,
+    "ingredients": [{ "id": "soya", "amount": 1 }],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "tomato_basil_soup",
+    "name": "Tomato Basil Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
     "ingredients": [
-      { "id": "soya", "amount": 1 }
+      { "id": "tomato", "amount": 1 },
+      { "id": "basil", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "tomato_soup",
+    "name": "Tomato Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 1,
+    "ingredients": [{ "id": "tomato", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -2026,11 +5825,26 @@
     "name": "Tourtière",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
-      { "id": "pork", "amount": 1 },
+      { "id": "any_meat", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "butter", "amount": 1 },
+      { "id": "potato", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "tropical_pop",
+    "name": "Tropical Pop",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "coconut", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2039,11 +5853,13 @@
     "name": "Tuna Burger",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 5,
     "ingredients": [
       { "id": "tuna", "amount": 1 },
-      { "id": "lettuce", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "wheat", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "lemon", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2051,11 +5867,9 @@
     "id": "tuna_sashimi",
     "name": "Tuna Sashimi",
     "categoryId": "meals",
-    "type": "appetizer",
-    "stars": 2,
-    "ingredients": [
-      { "id": "tuna", "amount": 1 }
-    ],
+    "type": "entrée",
+    "stars": 1,
+    "ingredients": [{ "id": "tuna", "amount": 1 }],
     "source": "Cook at any stove"
   },
   {
@@ -2063,9 +5877,12 @@
     "name": "Turkey Leg",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
-      { "id": "poultry", "amount": 1 }
+      { "id": "poultry", "amount": 1 },
+      { "id": "cumin", "amount": 1 },
+      { "id": "paprika", "amount": 1 },
+      { "id": "agave", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2074,10 +5891,106 @@
     "name": "Turnip Tartiflette",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "turnip", "amount": 1 },
-      { "id": "flyleaf_feta", "amount": 1 },
+      { "id": "pork", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "tzatziki",
+    "name": "Tzatziki",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "cucumber", "amount": 1 },
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "garlic", "amount": 1 },
+      { "id": "mint", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "underworld_cake",
+    "name": "Underworld Cake",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "blue_marshmallow", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "agave", "amount": 1 },
+      { "id": "plain_yogurt", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "vanilla_ice_cream",
+    "name": "Vanilla Ice Cream",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "slush_ice", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "vanilla", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "vanilla_macarons",
+    "name": "Vanilla Macarons",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "vanilla", "amount": 1 },
+      { "id": "almond", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "vanilla_yogurt",
+    "name": "Vanilla Yogurt",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 3,
+    "ingredients": [
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "vanilla", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "vegetable_soup",
+    "name": "Vegetable Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_vegetable_2", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "vegetarian_dumplets",
+    "name": "Vegetarian Dumplings",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "soya", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
       { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
@@ -2087,11 +6000,13 @@
     "name": "Vegetarian Pizza",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 5,
     "ingredients": [
-      { "id": "wheat", "amount": 1 },
       { "id": "tomato", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "cheese", "amount": 1 },
+      { "id": "wheat", "amount": 1 },
+      { "id": "any_vegetable", "amount": 1 },
+      { "id": "any_vegetable_2", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2102,9 +6017,9 @@
     "type": "entrée",
     "stars": 3,
     "ingredients": [
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
+      { "id": "potato", "amount": 1 },
+      { "id": "carrot", "amount": 1 },
+      { "id": "onion", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2113,9 +6028,11 @@
     "name": "Vegetarian Taco",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 2,
+    "stars": 4,
     "ingredients": [
       { "id": "corn", "amount": 1 },
+      { "id": "chili_pepper", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
@@ -2125,10 +6042,12 @@
     "name": "Vegetarian Turnip Tartiflette",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
       { "id": "turnip", "amount": 1 },
-      { "id": "flyleaf_feta", "amount": 1 }
+      { "id": "soya", "amount": 1 },
+      { "id": "cheese", "amount": 1 },
+      { "id": "milk", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2137,11 +6056,12 @@
     "name": "Veggie Casserole",
     "categoryId": "meals",
     "type": "entrée",
-    "stars": 3,
+    "stars": 4,
     "ingredients": [
+      { "id": "cheese", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "cheese", "amount": 1 }
+      { "id": "any_vegetable_2", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2166,7 +6086,7 @@
     "stars": 3,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 },
+      { "id": "butter", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
@@ -2176,10 +6096,11 @@
     "name": "Veggie Skewers",
     "categoryId": "meals",
     "type": "appetizer",
-    "stars": 2,
+    "stars": 3,
     "ingredients": [
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
+      { "id": "mushroom", "amount": 1 },
+      { "id": "zucchini", "amount": 1 },
+      { "id": "bell_pepper", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2190,9 +6111,24 @@
     "type": "dessert",
     "stars": 4,
     "ingredients": [
-      { "id": "pincushion_peach", "amount": 1 },
+      { "id": "pin_cushion_peach", "amount": 1 },
+      { "id": "plain_yogurt", "amount": 1 },
+      { "id": "pearly_barley", "amount": 1 },
+      { "id": "agave", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "waffles",
+    "name": "Waffles",
+    "categoryId": "meals",
+    "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
       { "id": "milk", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
+      { "id": "egg", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2204,161 +6140,21 @@
     "stars": 4,
     "ingredients": [
       { "id": "walleye", "amount": 1 },
-      { "id": "lemon", "amount": 1 },
+      { "id": "basil", "amount": 1 },
+      { "id": "oregano", "amount": 1 },
       { "id": "any_vegetable", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
   {
-    "id": "wheat_porridge",
-    "name": "Wheat Porridge",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 1,
-    "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "milk", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "wheat_porridge_with_fruit",
-    "name": "Wheat Porridge with Fruit",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 2,
-    "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "milk", "amount": 1 },
-      { "id": "any_fruit", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "wonton_soup",
-    "name": "Wonton Soup",
-    "categoryId": "meals",
-    "type": "entrée",
-    "stars": 3,
-    "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "pork", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "yakisoba",
-    "name": "Yakisoba",
-    "categoryId": "meals",
-    "type": "entrée",
-    "stars": 3,
-    "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "any_vegetable", "amount": 1 },
-      { "id": "any_spice", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "taiyaki",
-    "name": "Taiyaki",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 3,
-    "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "milk", "amount": 1 },
-      { "id": "any_fruit", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "tigger_tails",
-    "name": "Tigger Tails",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 2,
-    "ingredients": [
-      { "id": "sugarcane", "amount": 1 },
-      { "id": "any_fruit", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "tropical_pop",
-    "name": "Tropical Pop",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 2,
-    "ingredients": [
-      { "id": "pineapple", "amount": 1 },
-      { "id": "slush_ice", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "underworld_cake",
-    "name": "Underworld Cake",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 5,
-    "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 },
-      { "id": "dark_chocolate_coffee_beans", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "vanilla_ice_cream",
-    "name": "Vanilla Ice Cream",
+    "id": "warm_milk_and_honey",
+    "name": "Warm Milk & Honey",
     "categoryId": "meals",
     "type": "dessert",
     "stars": 2,
     "ingredients": [
       { "id": "milk", "amount": 1 },
-      { "id": "slush_ice", "amount": 1 },
-      { "id": "vanilla", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "vanilla_macarons",
-    "name": "Vanilla Macarons",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 3,
-    "ingredients": [
-      { "id": "sugarcane", "amount": 1 },
-      { "id": "vanilla", "amount": 1 },
-      { "id": "wheat", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "vanilla_yogurt",
-    "name": "Vanilla Yogurt",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 2,
-    "ingredients": [
-      { "id": "plain_yogurt", "amount": 1 },
-      { "id": "vanilla", "amount": 1 }
-    ],
-    "source": "Cook at any stove"
-  },
-  {
-    "id": "waffles",
-    "name": "Waffles",
-    "categoryId": "meals",
-    "type": "dessert",
-    "stars": 3,
-    "ingredients": [
-      { "id": "wheat", "amount": 1 },
-      { "id": "milk", "amount": 1 },
-      { "id": "egg", "amount": 1 }
+      { "id": "honey", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2370,9 +6166,35 @@
     "stars": 5,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
+      { "id": "butter", "amount": 1 },
+      { "id": "egg", "amount": 1 },
       { "id": "sugarcane", "amount": 1 },
-      { "id": "milk", "amount": 1 },
       { "id": "vanilla", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "wheat_porridge",
+    "name": "Wheat Porridge",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 2,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "milk", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "wheat_porridge_with_fruit",
+    "name": "Wheat Porridge with Fruit",
+    "categoryId": "meals",
+    "type": "entrée",
+    "stars": 3,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "milk", "amount": 1 },
+      { "id": "any_fruit", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2381,11 +6203,11 @@
     "name": "Whimsical Pie",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 4,
+    "stars": 3,
     "ingredients": [
-      { "id": "any_fruit", "amount": 1 },
+      { "id": "here_and_there_fish", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "majestea", "amount": 1 }
+      { "id": "butter", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2394,11 +6216,39 @@
     "name": "Wonderland Cookies",
     "categoryId": "meals",
     "type": "dessert",
+    "stars": 4,
+    "ingredients": [
+      { "id": "butter", "amount": 1 },
+      { "id": "vanilla", "amount": 1 },
+      { "id": "sugarcane", "amount": 1 },
+      { "id": "wheat", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "wonton_soup",
+    "name": "Wonton Soup",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 4,
+    "ingredients": [
+      { "id": "wheat", "amount": 1 },
+      { "id": "onion", "amount": 1 },
+      { "id": "shrimp", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "yakisoba",
+    "name": "Yakisoba",
+    "categoryId": "meals",
+    "type": "entrée",
     "stars": 3,
     "ingredients": [
       { "id": "wheat", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 },
-      { "id": "vanilla", "amount": 1 }
+      { "id": "cabbage", "amount": 1 },
+      { "id": "any_spice", "amount": 1 }
     ],
     "source": "Cook at any stove"
   },
@@ -2407,12 +6257,25 @@
     "name": "Yule Log",
     "categoryId": "meals",
     "type": "dessert",
-    "stars": 5,
+    "stars": 4,
     "ingredients": [
+      { "id": "cocoa_bean", "amount": 1 },
       { "id": "wheat", "amount": 1 },
-      { "id": "milk", "amount": 1 },
-      { "id": "sugarcane", "amount": 1 },
-      { "id": "dark_chocolate_coffee_beans", "amount": 1 }
+      { "id": "vanilla", "amount": 1 },
+      { "id": "cherry", "amount": 1 }
+    ],
+    "source": "Cook at any stove"
+  },
+  {
+    "id": "zucchini_puffs",
+    "name": "Zucchini Puffs",
+    "categoryId": "meals",
+    "type": "appetizer",
+    "stars": 3,
+    "ingredients": [
+      { "id": "zucchini", "amount": 1 },
+      { "id": "egg", "amount": 1 },
+      { "id": "cheese", "amount": 1 }
     ],
     "source": "Cook at any stove"
   }
