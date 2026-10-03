@@ -110,7 +110,7 @@ document.getElementById("resetApp").addEventListener("click", () => {
 const panels = document.querySelectorAll(".panel");
 const navButtons = document.querySelectorAll(".nav button");
 
-// Sound elements (now guaranteed to exist)
+// Sound elements
 const soundBell = document.getElementById("soundBell");
 const soundClick = document.getElementById("soundClick");
 const soundDing = document.getElementById("soundDing");
@@ -125,7 +125,7 @@ function playSound(audioEl) {
   } catch {}
 }
 
-// Default panel: Characters
+// Default panel visible
 document.getElementById("panel-characters").classList.remove("hidden");
 
 navButtons.forEach(btn => {
@@ -620,6 +620,100 @@ const modalSave = document.getElementById("modalSave");
 
 let modalCurrentId = null;
 
-function openIngredientModal(id) {
+function openIngredient
+   function openIngredientModal(id) {
   const item = findItemById(id);
-  const inv = appState.
+  const inv = appState.inventory[id] || { owned: false, storedAt: "" };
+
+  modalCurrentId = id;
+
+  modalName.textContent = item?.name || id;
+  const sourceText = item?.source || item?.location || "Source: Unknown";
+  modalSource.textContent = `Source: ${sourceText.replace(/^Source:\s*/, "")}`;
+  modalCategory.textContent = item?.categoryId ? `Category: ${item.categoryId}` : "";
+
+  modalOwned.checked = !!inv.owned;
+  modalStoredAt.value = inv.storedAt || "";
+
+  modal.classList.remove("hidden");
+}
+
+function closeIngredientModal() {
+  modal.classList.add("hidden");
+  modalCurrentId = null;
+}
+
+modalClose.addEventListener("click", closeIngredientModal);
+
+modalSave.addEventListener("click", () => {
+  if (!modalCurrentId) return;
+
+  if (!appState.inventory[modalCurrentId]) {
+    appState.inventory[modalCurrentId] = { owned: false, storedAt: "" };
+  }
+
+  appState.inventory[modalCurrentId].owned = modalOwned.checked;
+  appState.inventory[modalCurrentId].storedAt = modalStoredAt.value;
+
+  saveState();
+  renderItemsPanel();
+  renderInventoryPanel();
+  closeIngredientModal();
+});
+
+modal.addEventListener("click", (e) => {
+  if (e.target === modal) {
+    closeIngredientModal();
+  }
+});
+
+
+/* ============================================================
+   RESTAURANT TIMER (NEXT HOUR)
+   ============================================================ */
+
+function updateGuestTimer() {
+  const textEl = document.getElementById("guestTimerText");
+  if (!textEl) return;
+
+  const now = new Date();
+  const nextHour = new Date(now);
+  nextHour.setMinutes(0, 0, 0);
+
+  if (now >= nextHour) {
+    nextHour.setHours(nextHour.getHours() + 1);
+  }
+
+  const diffMs = nextHour - now;
+  const totalSeconds = Math.floor(diffMs / 1000);
+
+  if (totalSeconds <= 0) {
+    textEl.textContent = "New restaurant guests arriving now!";
+    playSound(soundBell);
+    setTimeout(updateGuestTimer, 1000);
+    return;
+  }
+
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+
+  const mm = String(minutes).padStart(2, "0");
+  const ss = String(seconds).padStart(2, "0");
+
+  textEl.textContent = `Next restaurant guests in ${mm}:${ss}`;
+  setTimeout(updateGuestTimer, 1000);
+}
+
+function startGuestTimer() {
+  updateGuestTimer();
+}
+
+
+/* ============================================================
+   INIT
+   ============================================================ */
+
+loadState();
+loadData();
+
+}); 
