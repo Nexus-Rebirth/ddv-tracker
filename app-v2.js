@@ -4,7 +4,8 @@
 
 const appState = {
   characters: {},
-  inventory: {}
+  inventory: {},
+  jobs: {}
 };
 
 
@@ -101,11 +102,29 @@ document.getElementById("resetApp").addEventListener("click", () => {
 
 
 /* ============================================================
-   PANEL SWITCHING
+   PANEL SWITCHING + SOUNDS
    ============================================================ */
 
 const panels = document.querySelectorAll(".panel");
 const navButtons = document.querySelectorAll(".nav button");
+
+// Sound elements
+const soundBell = document.getElementById("soundBell");
+const soundClick = document.getElementById("soundClick");
+const soundDing = document.getElementById("soundDing");
+const soundFavourite = document.getElementById("soundFavourite");
+const soundPop = document.getElementById("soundPop");
+
+function playSound(audioEl) {
+  if (!audioEl) return;
+  try {
+    audioEl.currentTime = 0;
+    audioEl.play().catch(() => {});
+  } catch {}
+}
+
+// Default panel: Characters
+document.getElementById("panel-characters").classList.remove("hidden");
 
 navButtons.forEach(btn => {
   btn.addEventListener("click", () => {
@@ -113,6 +132,8 @@ navButtons.forEach(btn => {
 
     panels.forEach(p => p.classList.add("hidden"));
     document.getElementById(`panel-${target}`).classList.remove("hidden");
+
+    playSound(soundClick);
   });
 });
 
@@ -167,6 +188,7 @@ async function loadData() {
 
   initializeStateDefaults();
   renderAllPanels();
+  startGuestTimer();
 }
 
 
@@ -175,9 +197,14 @@ async function loadData() {
    ============================================================ */
 
 function initializeStateDefaults() {
+  if (!appState.jobs) appState.jobs = {};
+
   charactersData.forEach(char => {
     if (!appState.characters[char.id]) {
       appState.characters[char.id] = { level: 0, favorite: false };
+    }
+    if (!appState.jobs[char.id]) {
+      appState.jobs[char.id] = "None";
     }
   });
 
@@ -260,11 +287,34 @@ function renderCharactersPanel() {
     return order.indexOf(A.level) - order.indexOf(B.level);
   });
 
+  const jobOptions = [
+    "None",
+    "Foraging",
+    "Snippet Catching",
+    "Mining",
+    "Gardening",
+    "Time Bending",
+    "Digging",
+    "Fishing"
+  ];
+
   sorted.forEach(char => {
     const state = appState.characters[char.id];
+    const job = appState.jobs[char.id] || "None";
 
     const card = document.createElement("div");
     card.className = "card";
+
+    const jobSelectHtml = `
+      <label>
+        Assigned Job:
+        <select class="job-select" data-id="${char.id}">
+          ${jobOptions.map(j => `
+            <option value="${j}">${j}</option>
+          `).join("")}
+        </select>
+      </label>
+    `;
 
     card.innerHTML = `
       <h3>${char.name}</h3>
@@ -273,9 +323,13 @@ function renderCharactersPanel() {
       <button class="fav-btn ${state.favorite ? "active" : ""}" data-id="${char.id}">
         ★ Favourite
       </button>
+      ${jobSelectHtml}
     `;
 
     container.appendChild(card);
+
+    const selectEl = card.querySelector(".job-select");
+    selectEl.value = job;
   });
 
   document.querySelectorAll(".lvl-btn").forEach(btn => {
@@ -283,8 +337,13 @@ function renderCharactersPanel() {
       const id = btn.dataset.id;
       if (appState.characters[id].level < 10) {
         appState.characters[id].level++;
+        const newLevel = appState.characters[id].level;
         saveState();
         renderCharactersPanel();
+
+        if (newLevel === 10) {
+          playSound(soundDing);
+        }
       }
     });
   });
@@ -301,9 +360,24 @@ function renderCharactersPanel() {
         return;
       }
 
+      const wasFavourite = appState.characters[id].favorite;
       appState.characters[id].favorite = !appState.characters[id].favorite;
       saveState();
       renderCharactersPanel();
+
+      if (!wasFavourite && appState.characters[id].favorite) {
+        playSound(soundFavourite);
+      } else if (wasFavourite && !appState.characters[id].favorite) {
+        playSound(soundPop);
+      }
+    });
+  });
+
+  document.querySelectorAll(".job-select").forEach(select => {
+    select.addEventListener("change", () => {
+      const id = select.dataset.id;
+      appState.jobs[id] = select.value;
+      saveState();
     });
   });
 }
@@ -592,8 +666,48 @@ modal.addEventListener("click", (e) => {
 
 
 /* ============================================================
+   RESTAURANT TIMER (NEXT HOUR)
+   ============================================================ */
+
+function updateGuestTimer() {
+  const textEl = document.getElementById("guestTimerText");
+  if (!textEl) return;
+
+  const now = new Date();
+  const nextHour = new Date(now);
+  nextHour.setMinutes(0, 0, 0);
+  if (now >= nextHour) {
+    nextHour.setHours(nextHour.getHours() + 1);
+  }
+
+  const diffMs = nextHour - now;
+  const totalSeconds = Math.floor(diffMs / 1000);
+
+  if (totalSeconds <= 0) {
+    textEl.textContent = "New restaurant guests arriving now!";
+    playSound(soundBell);
+    setTimeout(updateGuestTimer, 1000);
+    return;
+  }
+
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
+
+  const mm = String(minutes).padStart(2, "0");
+  const ss = String(seconds).padStart(2, "0");
+
+  textEl.textContent = `Next restaurant guests in ${mm}:${ss}`;
+  setTimeout(updateGuestTimer, 1000);
+}
+
+function startGuestTimer() {
+  updateGuestTimer();
+}
+
+
+/* ============================================================
    INIT
    ============================================================ */
 
 loadState();
-loadData();
+loadData
