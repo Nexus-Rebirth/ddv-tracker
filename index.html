@@ -12,6 +12,11 @@
     <h1>DDV Gift/Item Tracker</h1>
   </header>
 
+  <!-- Restaurant Timer Bar -->
+  <div id="guestTimerBar">
+    <span id="guestTimerText">Loading timer...</span>
+  </div>
+
   <!-- Navigation -->
   <nav class="nav">
     <button data-panel="characters">Characters</button>
@@ -108,6 +113,13 @@
     </div>
   </div>
 
-  <script src="app-v2.js?v=5.1"></script>
+  <!-- Sound Effects -->
+  <audio id="soundBell" src="data/sounds/bell.mp3" preload="auto"></audio>
+  <audio id="soundClick" src="data/sounds/click.mp3" preload="auto"></audio>
+  <audio id="soundDing" src="data/sounds/ding.mp3" preload="auto"></audio>
+  <audio id="soundFavourite" src="data/sounds/favourite.mp3" preload="auto"></audio>
+  <audio id="soundPop" src="data/sounds/pop.mp3" preload="auto"></audio>
+
+  <script src="app-v2.js?v=5.2"></script>
 </body>
 </html>
