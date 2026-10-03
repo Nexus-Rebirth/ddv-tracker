@@ -620,8 +620,7 @@ const modalSave = document.getElementById("modalSave");
 
 let modalCurrentId = null;
 
-function openIngredient
-   function openIngredientModal(id) {
+function openIngredientModal(id) {
   const item = findItemById(id);
   const inv = appState.inventory[id] || { owned: false, storedAt: "" };
 
@@ -666,7 +665,6 @@ modal.addEventListener("click", (e) => {
     closeIngredientModal();
   }
 });
-
 
 /* ============================================================
    RESTAURANT TIMER (NEXT HOUR)
