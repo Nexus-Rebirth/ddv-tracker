@@ -1,1138 +1,1986 @@
 [
   {
-    "id": "agave",
-    "name": "Agave",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Grow from Agave Seeds"
-  },
-  {
-    "id": "almonds",
-    "name": "Almonds",
-    "categoryId": "ingredients",
-    "subType": "nut",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Harvest from Almond Trees"
-  },
-  {
-    "id": "ambrosia",
-    "name": "Ambrosia",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Foraged from magical nodes"
-  },
-  {
-    "id": "apple",
-    "name": "Apple",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Forest of Valor",
-    "source": "Harvest from Apple Trees"
-  },
-  {
     "id": "asparagus",
     "name": "Asparagus",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Frosted Heights",
-    "source": "Grow from Asparagus Seeds"
-  },
-  {
-    "id": "bamboo",
-    "name": "Bamboo",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Bamboo Stalks"
-  },
-  {
-    "id": "banana",
-    "name": "Banana",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Dazzle Beach",
-    "source": "Harvest from Banana Trees"
-  },
-  {
-    "id": "barley",
-    "name": "Barley",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Goofy's Stall – Forest of Valor",
-    "source": "Grow from Barley Seeds"
-  },
-  {
-    "id": "basil",
-    "name": "Basil",
-    "categoryId": "ingredients",
-    "subType": "herb",
-    "location": "Peaceful Meadow",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "beans",
-    "name": "Beans",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Bean Seeds"
-  },
-  {
-    "id": "beetroot",
-    "name": "Beetroot",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forgotten Lands",
-    "source": "Grow from Beetroot Seeds"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 135,
+    "waterRequired": 2,
+    "maxYield": 3,
+    "locations": [
+      "Frosted Heights"
+    ],
+    "sources": [
+      "Asparagus Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "bell_pepper",
     "name": "Bell Pepper",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forest of Valor",
-    "source": "Grow from Bell Pepper Seeds"
-  },
-  {
-    "id": "black_pepper",
-    "name": "Black Pepper",
-    "categoryId": "ingredients",
-    "subType": "spice",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "blueberry",
-    "name": "Blueberry",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Forest of Valor",
-    "source": "Harvest from Blueberry Bushes"
-  },
-  {
-    "id": "bonsai_star_fruit",
-    "name": "Bonsai Star Fruit",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Harvest from Bonsai Star Fruit Trees"
-  },
-  {
-    "id": "broccoli",
-    "name": "Broccoli",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Grow from Broccoli Seeds"
-  },
-  {
-    "id": "brussels_sprout",
-    "name": "Brussels Sprout",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Brussels Sprout Seeds"
-  },
-  {
-    "id": "butter",
-    "name": "Butter",
-    "categoryId": "ingredients",
-    "subType": "dairy",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "button_mushroom",
-    "name": "Button Mushroom",
-    "categoryId": "ingredients",
-    "subType": "mushroom",
-    "location": "Glade of Trust",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "cabbage",
-    "name": "Cabbage",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forgotten Lands",
-    "source": "Grow from Cabbage Seeds"
-  },
-  {
-    "id": "cactoberries",
-    "name": "Cactoberries",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Harvest from Cactoberry Plants"
-  },
-  {
-    "id": "canola",
-    "name": "Canola",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forest of Valor",
-    "source": "Grow from Canola Seeds"
-  },
-  {
-    "id": "cape_gooseberry",
-    "name": "Cape Gooseberry",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Cape Gooseberry Bushes"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 15,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Forest of Valor"
+    ],
+    "sources": [
+      "Bell Pepper Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "carrot",
     "name": "Carrot",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Peaceful Meadow",
-    "source": "Grow from Carrot Seeds"
-  },
-  {
-    "id": "cauliflower",
-    "name": "Cauliflower",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Frosted Heights",
-    "source": "Grow from Cauliflower Seeds"
-  },
-  {
-    "id": "celery",
-    "name": "Celery",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Celery Seeds"
-  },
-  {
-    "id": "cheese",
-    "name": "Cheese",
-    "categoryId": "ingredients",
-    "subType": "dairy",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "cherry",
-    "name": "Cherry",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Sunlit Plateau",
-    "source": "Harvest from Cherry Trees"
-  },
-  {
-    "id": "chia_seeds",
-    "name": "Chia Seeds",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Grow from Chia Seed Bags"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 15,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Peaceful Meadow"
+    ],
+    "sources": [
+      "Carrot Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "chili_pepper",
     "name": "Chili Pepper",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Sunlit Plateau",
-    "source": "Grow from Chili Pepper Seeds"
-  },
-  {
-    "id": "chrysanthemum_tea_leaves",
-    "name": "Chrysanthemum Tea Leaves",
-    "categoryId": "ingredients",
-    "subType": "tea_leaf",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Tea Shrubs"
-  },
-  {
-    "id": "cinnamon",
-    "name": "Cinnamon",
-    "categoryId": "ingredients",
-    "subType": "spice",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Harvest from Cinnamon Trees"
-  },
-  {
-    "id": "clam",
-    "name": "Clam",
-    "categoryId": "ingredients",
-    "subType": "seafood",
-    "location": "Dazzle Beach",
-    "source": "Collected along the shoreline"
-  },
-  {
-    "id": "cocoa_bean",
-    "name": "Cocoa Bean",
-    "categoryId": "ingredients",
-    "subType": "sweetener",
-    "location": "Sunlit Plateau",
-    "source": "Harvest from Cocoa Trees"
-  },
-  {
-    "id": "coconut",
-    "name": "Coconut",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Dazzle Beach",
-    "source": "Harvest from Coconut Trees"
-  },
-  {
-    "id": "coffee_bean",
-    "name": "Coffee Bean",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Harvest from Coffee Plants"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 45,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Sunlit Plateau"
+    ],
+    "sources": [
+      "Chili Pepper Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "corn",
     "name": "Corn",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Dazzle Beach",
-    "source": "Grow from Corn Seeds"
-  },
-  {
-    "id": "cosmic_figs",
-    "name": "Cosmic Figs",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Foraged from cosmic nodes"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 12,
+    "waterRequired": 1,
+    "maxYield": 2,
+    "locations": [
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Corn Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "cucumber",
     "name": "Cucumber",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Frosted Heights",
-    "source": "Grow from Cucumber Seeds"
-  },
-  {
-    "id": "cumin",
-    "name": "Cumin",
-    "categoryId": "ingredients",
-    "subType": "spice",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "dark_chocolate_coffee_beans",
-    "name": "Dark Chocolate Coffee Beans",
-    "categoryId": "ingredients",
-    "subType": "event",
-    "location": "Plaza",
-    "source": "Holiday Event Exclusive"
-  },
-  {
-    "id": "dates",
-    "name": "Dates",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Harvest from Date Palms"
-  },
-  {
-    "id": "dill",
-    "name": "Dill",
-    "categoryId": "ingredients",
-    "subType": "herb",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "dreamango",
-    "name": "Dreamango",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Harvest from Dreamango Trees"
-  },
-  {
-    "id": "dreamlight_fruit",
-    "name": "Dreamlight Fruit",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Plaza",
-    "source": "Quest Reward"
-  },
-  {
-    "id": "egg",
-    "name": "Egg",
-    "categoryId": "ingredients",
-    "subType": "dairy",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 75,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Frosted Heights"
+    ],
+    "sources": [
+      "Cucumber Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "eggplant",
     "name": "Eggplant",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Frosted Heights",
-    "source": "Grow from Eggplant Seeds"
-  },
-  {
-    "id": "egg-cellent_fruit",
-    "name": "Egg-cellent Fruit",
-    "categoryId": "ingredients",
-    "subType": "dairy",
-    "location": "Eggstravaganza Event",
-    "source": "Harvest from Egg Bushes"
-  },
-  {
-    "id": "elysian_grain",
-    "name": "Elysian Grain",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Elysian Grain Seeds"
-  },
-  {
-    "id": "faerie_rye",
-    "name": "Faerie Rye",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Grow from Faerie Rye Seeds"
-  },
-  {
-    "id": "fairy_kamut",
-    "name": "Fairy Kamut",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Grow from Fairy Kamut Seeds"
-  },
-  {
-    "id": "fairy_sprinkles",
-    "name": "Fairy Sprinkles",
-    "categoryId": "ingredients",
-    "subType": "event",
-    "location": "Plaza",
-    "source": "Holiday Event Exclusive"
-  },
-  {
-    "id": "festive_cocoa_bean",
-    "name": "Festive Cocoa Bean",
-    "categoryId": "ingredients",
-    "subType": "event",
-    "location": "Sunlit Plateau",
-    "source": "Holiday Event Exclusive"
-  },
-  {
-    "id": "flute_root",
-    "name": "Flute Root",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Flute Root Plants"
-  },
-  {
-    "id": "flyleaf_feta",
-    "name": "Flyleaf Feta",
-    "categoryId": "ingredients",
-    "subType": "dairy",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Purchase from Flyleaf Market"
-  },
-  {
-    "id": "garlic",
-    "name": "Garlic",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forest of Valor",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "ginger",
-    "name": "Ginger",
-    "categoryId": "ingredients",
-    "subType": "spice",
-    "location": "Forgotten Lands",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "golden_apple",
-    "name": "Golden Apple",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Harvest from Golden Apple Trees"
-  },
-  {
-    "id": "golden_pattypan",
-    "name": "Golden Pattypan",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Grow from Golden Pattypan Seeds"
-  },
-  {
-    "id": "gooseberry",
-    "name": "Gooseberry",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Frozen Heights",
-    "source": "Harvest from Gooseberry Bushes"
-  },
-  {
-    "id": "grapes",
-    "name": "Grapes",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Dazzle Beach",
-    "source": "Harvest from Grape Vines"
-  },
-  {
-    "id": "green_beans",
-    "name": "Green Beans",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Green Bean Seeds"
-  },
-  {
-    "id": "honeydew_melon",
-    "name": "Honeydew Melon",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Grow from Honeydew Melon Seeds"
-  },
-  {
-    "id": "jasmine_tea_leaves",
-    "name": "Jasmine Tea Leaves",
-    "categoryId": "ingredients",
-    "subType": "tea_leaf",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Tea Shrubs"
-  },
-  {
-    "id": "juniper_berry",
-    "name": "Juniper Berry",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Harvest from Juniper Bushes"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 180,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Frosted Heights"
+    ],
+    "sources": [
+      "Eggplant Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "leek",
     "name": "Leek",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forest of Valor",
-    "source": "Grow from Leek Seeds"
-  },
-  {
-    "id": "lemon",
-    "name": "Lemon",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Forest of Valor",
-    "source": "Harvest from Lemon Trees"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 120,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Forgotten Lands"
+    ],
+    "sources": [
+      "Leek Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "lettuce",
     "name": "Lettuce",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Peaceful Meadow",
-    "source": "Grow from Lettuce Seeds"
-  },
-  {
-    "id": "lightning_spice",
-    "name": "Lightning Spice",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Foraged from charged spice nodes"
-  },
-  {
-    "id": "lollipop_fruit",
-    "name": "Lollipop Fruit",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Harvest from Lollipop Fruit Trees"
-  },
-  {
-    "id": "majestea",
-    "name": "Majestea",
-    "categoryId": "ingredients",
-    "subType": "magical",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Majestea Flowers"
-  },
-  {
-    "id": "melon",
-    "name": "Melon",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Sunlit Plateau",
-    "source": "Grow from Melon Seeds"
-  },
-  {
-    "id": "milk",
-    "name": "Milk",
-    "categoryId": "ingredients",
-    "subType": "dairy",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "mint",
-    "name": "Mint",
-    "categoryId": "ingredients",
-    "subType": "herb",
-    "location": "Frosted Heights",
-    "source": "Foraged from the ground"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 3,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Peaceful Meadow"
+    ],
+    "sources": [
+      "Lettuce Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "mushroom",
     "name": "Mushroom",
-    "categoryId": "ingredients",
-    "subType": "mushroom",
-    "location": "Glade of Trust",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "nestling_pear",
-    "name": "Nestling Pear",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Nestling Pear Trees"
-  },
-  {
-    "id": "nutmeg",
-    "name": "Nutmeg",
-    "categoryId": "ingredients",
-    "subType": "spice",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "oats",
-    "name": "Oats",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Oat Seeds"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "maxYield": 10,
+    "locations": [
+      "Glade of Trust"
+    ],
+    "sources": [
+      "Foraging"
+    ]
   },
   {
     "id": "okra",
     "name": "Okra",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Glade of Trust",
-    "source": "Grow from Okra Seeds"
-  },
-  {
-    "id": "olives",
-    "name": "Olives",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Harvest from Olive Trees"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 120,
+    "waterRequired": 1,
+    "maxYield": 3,
+    "locations": [
+      "Glade of Trust"
+    ],
+    "sources": [
+      "Okra Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "onion",
     "name": "Onion",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forest of Valor",
-    "source": "Grow from Onion Seeds"
-  },
-  {
-    "id": "oolong_tea_leaves",
-    "name": "Oolong Tea Leaves",
-    "categoryId": "ingredients",
-    "subType": "tea_leaf",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Tea Shrubs"
-  },
-  {
-    "id": "oregano",
-    "name": "Oregano",
-    "categoryId": "ingredients",
-    "subType": "herb",
-    "location": "Peaceful Meadow",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "oyster",
-    "name": "Oyster",
-    "categoryId": "ingredients",
-    "subType": "seafood",
-    "location": "Dazzle Beach",
-    "source": "Collected along the shoreline"
-  },
-  {
-    "id": "paprika",
-    "name": "Paprika",
-    "categoryId": "ingredients",
-    "subType": "spice",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "parsnip",
-    "name": "Parsnip",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forest of Valor",
-    "source": "Grow from Parsnip Seeds"
-  },
-  {
-    "id": "peanut",
-    "name": "Peanut",
-    "categoryId": "ingredients",
-    "subType": "nut",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "pearly_barley",
-    "name": "Pearly Barley",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Pearly Barley Seeds"
-  },
-  {
-    "id": "persimmon",
-    "name": "Persimmon",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Harvest from Persimmon Trees"
-  },
-  {
-    "id": "pincushion_peach",
-    "name": "Pincushion Peach",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Pincushion Peach Trees"
-  },
-  {
-    "id": "pineapple",
-    "name": "Pineapple",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Dazzle Beach",
-    "source": "Grow from Pineapple Seeds"
-  },
-  {
-    "id": "plain_yogurt",
-    "name": "Plain Yogurt",
-    "categoryId": "ingredients",
-    "subType": "dairy",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "porcini_mushrooms",
-    "name": "Porcini Mushrooms",
-    "categoryId": "ingredients",
-    "subType": "mushroom",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "pork",
-    "name": "Pork",
-    "categoryId": "ingredients",
-    "subType": "meat",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Purchased from Flyleaf Market"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 75,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Forest of Valor"
+    ],
+    "sources": [
+      "Onion Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "potato",
     "name": "Potato",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forgotten Lands",
-    "source": "Grow from Potato Seeds"
-  },
-  {
-    "id": "poultry",
-    "name": "Poultry",
-    "categoryId": "ingredients",
-    "subType": "meat",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "lebud_pods",
-    "name": "Pufflebud Pods",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Pufflebud Plants"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 35,
+    "waterRequired": 3,
+    "maxYield": 1,
+    "locations": [
+      "Forgotten Lands"
+    ],
+    "sources": [
+      "Potato Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "pumpkin",
     "name": "Pumpkin",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forgotten Lands",
-    "source": "Grow from Pumpkin Seeds"
-  },
-  {
-    "id": "radicchio",
-    "name": "Radicchio",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Radicchio Seeds"
-  },
-  {
-    "id": "radish",
-    "name": "Radish",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Sunlit Plateau",
-    "source": "Grow from Radish Seeds"
-  },
-  {
-    "id": "raspberry",
-    "name": "Raspberry",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Peaceful Meadow",
-    "source": "Harvest from Raspberry Bushes"
-  },
-  {
-    "id": "red_currants",
-    "name": "Red Currants",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Forgotten Lands",
-    "source": "Harvest from Red Currant Bushes"
-  },
-  {
-    "id": "rhubarb",
-    "name": "Rhubarb",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Frosted Heights",
-    "source": "Grow from Rhubarb Seeds"
-  },
-  {
-    "id": "rice",
-    "name": "Rice",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Glade of Trust",
-    "source": "Grow from Rice Seeds"
-  },
-  {
-    "id": "ring_squash",
-    "name": "Ring Squash",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Grow from Ring Squash Seeds"
-  },
-  {
-    "id": "ruby_lentils",
-    "name": "Ruby Lentils",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Ruby Lentil Seeds"
-  },
-    {
-    "id": "salt_crystal",
-    "name": "Salt Crystal",
-    "categoryId": "ingredients",
-    "subType": "spice",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Foraged from mineral nodes"
-  },
-  {
-    "id": "scallop",
-    "name": "Scallop",
-    "categoryId": "ingredients",
-    "subType": "seafood",
-    "location": "Dazzle Beach",
-    "source": "Collected along the shoreline"
-  },
-  {
-    "id": "scarlet_kale",
-    "name": "Scarlet Kale",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Grow from Scarlet Kale Seeds"
-  },
-  {
-    "id": "sea_grapes",
-    "name": "Sea Grapes",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Harvest from Sea Grape Vines"
-  },
-  {
-    "id": "shovel_bird_eggs",
-    "name": "Shovel Bird Eggs",
-    "categoryId": "ingredients",
-    "subType": "critters",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Dropped by Shovel Birds"
-  },
-  {
-    "id": "slush_ice",
-    "name": "Slush Ice",
-    "categoryId": "ingredients",
-    "subType": "cooking_ingredient",
-    "location": "Chez Remy",
-    "source": "Purchase from Chez Remy's Pantry"
-  },
-  {
-    "id": "sour_berries",
-    "name": "Sour Berries",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Harvest from Sour Berry Bushes"
-  },
-  {
-    "id": "soya",
-    "name": "Soya",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Sunlit Plateau",
-    "source": "Grow from Soya Seeds"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 240,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Forgotten Lands"
+    ],
+    "sources": [
+      "Pumpkin Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "spinach",
     "name": "Spinach",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Glade of Trust",
-    "source": "Grow from Spinach Seeds"
-  },
-  {
-    "id": "spiral_strawberries",
-    "name": "Spiral Strawberries",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Harvest from Spiral Strawberry Plants"
-  },
-  {
-    "id": "spring_v-egg-etable",
-    "name": "Spring V-Egg-etable",
-    "categoryId": "ingredients",
-    "subType": "dairy",
-    "location": "Eggstravaganza Event",
-    "source": "Grow from V-Egg-etable Seeds"
-  },
-  {
-    "id": "strawberry",
-    "name": "Strawberry",
-    "categoryId": "ingredients",
-    "subType": "fruit",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Strawberry Seeds"
-  },
-  {
-    "id": "sugarcane",
-    "name": "Sugarcane",
-    "categoryId": "ingredients",
-    "subType": "sweetener",
-    "location": "Dazzle Beach",
-    "source": "Grow from Sugarcane Seeds"
-  },
-  {
-    "id": "sweet_chestnut",
-    "name": "Sweet Chestnut",
-    "categoryId": "ingredients",
-    "subType": "nut",
-    "location": "Eternity Isle – Glittering Dunes",
-    "source": "Harvest from Chestnut Trees"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 60,
+    "waterRequired": 2,
+    "maxYield": 3,
+    "locations": [
+      "Glade of Trust"
+    ],
+    "sources": [
+      "Spinach Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "tomato",
     "name": "Tomato",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Dazzle Beach",
-    "source": "Grow from Tomato Seeds"
-  },
-  {
-    "id": "tree_resin",
-    "name": "Tree Resin",
-    "categoryId": "ingredients",
-    "subType": "special_crop",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Harvest from Resin Trees"
-  },
-  {
-    "id": "truffle",
-    "name": "Truffle",
-    "categoryId": "ingredients",
-    "subType": "mushroom",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Foraged from the ground"
-  },
-  {
-    "id": "trumpet_snail",
-    "name": "Trumpet Snail",
-    "categoryId": "ingredients",
-    "subType": "seafood",
-    "location": "Eternity Isle – Shores of Eternity",
-    "source": "Collected along the shoreline"
-  },
-  {
-    "id": "turnip",
-    "name": "Turnip",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Forest of Valor",
-    "source": "Grow from Turnip Seeds"
-  },
-  {
-    "id": "vanilla",
-    "name": "Vanilla",
-    "categoryId": "ingredients",
-    "subType": "spice",
-    "location": "Sunlit Plateau",
-    "source": "Foraged from Vanilla Plants"
-  },
-  {
-    "id": "venison",
-    "name": "Venison",
-    "categoryId": "ingredients",
-    "subType": "meat",
-    "location": "Eternity Isle – Wild Tangle",
-    "source": "Dropped by critters"
-  },
-  {
-    "id": "wheat",
-    "name": "Wheat",
-    "categoryId": "ingredients",
-    "subType": "grain",
-    "location": "Peaceful Meadow",
-    "source": "Grow from Wheat Seeds"
-  },
-  {
-    "id": "yam",
-    "name": "Yam",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Sunlit Plateau",
-    "source": "Grow from Yam Seeds"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 25,
+    "waterRequired": 2,
+    "maxYield": 3,
+    "locations": [
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Tomato Seed",
+      "Goofy's Stall"
+    ]
   },
   {
     "id": "zucchini",
     "name": "Zucchini",
-    "categoryId": "ingredients",
-    "subType": "vegetable",
-    "location": "Eternity Isle – Ancient's Landing",
-    "source": "Grow from Zucchini Seeds"
-  },
-    {
-    "id": "any_fish",
-    "name": "Any Fish",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any fish ingredient"
-  },
-  {
-    "id": "any_seafood",
-    "name": "Any Seafood",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any seafood ingredient"
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 40,
+    "waterRequired": 2,
+    "maxYield": 2,
+    "locations": [
+      "Sunlit Plateau"
+    ],
+    "sources": [
+      "Zucchini Seed",
+      "Goofy's Stall"
+    ]
   },
   {
-    "id": "any_meat",
-    "name": "Any Meat",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any meat ingredient"
+    "id": "apple",
+    "name": "Apple",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 20,
+    "maxYield": 3,
+    "locations": [
+      "Forgotten Lands",
+      "Plaza"
+    ],
+    "sources": [
+      "Apple Tree",
+      "Goofy's Stall"
+    ]
   },
   {
-    "id": "any_vegetable",
-    "name": "Any Vegetable",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any vegetable ingredient"
+    "id": "banana",
+    "name": "Banana",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 23,
+    "maxYield": 3,
+    "locations": [
+      "Peaceful Meadow",
+      "Dazzle Beach",
+      "Moana Realm"
+    ],
+    "sources": [
+      "Banana Tree",
+      "Goofy's Stall"
+    ]
   },
   {
-    "id": "any_fruit",
-    "name": "Any Fruit",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any fruit ingredient"
+    "id": "blueberry",
+    "name": "Blueberry",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 23,
+    "maxYield": 3,
+    "locations": [
+      "Forest of Valor",
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Blueberry Bush",
+      "Goofy's Stall"
+    ]
   },
   {
-    "id": "any_grain",
-    "name": "Any Grain",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any grain ingredient"
+    "id": "cherry",
+    "name": "Cherry",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 33,
+    "maxYield": 3,
+    "locations": [
+      "Frosted Heights",
+      "Sunlit Plateau"
+    ],
+    "sources": [
+      "Cherry Tree",
+      "Goofy's Stall"
+    ]
   },
   {
-    "id": "any_spice",
-    "name": "Any Spice",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any spice ingredient"
+    "id": "coconut",
+    "name": "Coconut",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 23,
+    "maxYield": 3,
+    "locations": [
+      "Dazzle Beach",
+      "Moana Realm"
+    ],
+    "sources": [
+      "Coconut Tree"
+    ],
+    "requirements": [
+      "After Burying the Eel"
+    ]
   },
   {
-    "id": "any_sweet",
-    "name": "Any Sweet",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any sweetener ingredient"
+    "id": "coffee_bean",
+    "name": "Coffee Bean",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 40,
+    "maxYield": 3,
+    "locations": [
+      "Glade of Trust"
+    ],
+    "sources": [
+      "Coffee Bush"
+    ],
+    "requirements": [
+      "After Very Sleepy Stitch"
+    ]
   },
   {
-    "id": "any_dairy",
-    "name": "Any Dairy",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Chez Remy",
-    "source": "Any dairy ingredient"
+    "id": "dreamlight_fruit",
+    "name": "Dreamlight Fruit",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 1440,
+    "maxYield": 3,
+    "locations": [
+      "Sunlit Plateau",
+      "Glade of Trust",
+      "Frosted Heights",
+      "Forgotten Lands"
+    ],
+    "sources": [
+      "Dreamlight Tree"
+    ],
+    "requirements": [
+      "After Seed of Memories",
+      "After The Dreamlight Grove"
+    ]
   },
   {
-    "id": "any_mushroom",
-    "name": "Any Mushroom",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any mushroom ingredient"
+    "id": "gooseberry",
+    "name": "Gooseberry",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 40,
+    "maxYield": 3,
+    "locations": [
+      "Frosted Heights",
+      "Forgotten Lands"
+    ],
+    "sources": [
+      "Gooseberry Bush",
+      "Goofy's Stall"
+    ]
   },
   {
-    "id": "any_herb",
-    "name": "Any Herb",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any herb ingredient"
+    "id": "lemon",
+    "name": "Lemon",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 27,
+    "maxYield": 3,
+    "locations": [
+      "Forest of Valor",
+      "Glade of Trust"
+    ],
+    "sources": [
+      "Lemon Tree",
+      "Goofy's Stall"
+    ]
   },
   {
-    "id": "any_tea_leaves",
-    "name": "Any Tea Leaves",
-    "categoryId": "ingredients",
-    "subType": "generic",
-    "location": "Any biome",
-    "source": "Any tea leaf ingredient"
+    "id": "raspberry",
+    "name": "Raspberry",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 17,
+    "maxYield": 3,
+    "locations": [
+      "Plaza",
+      "Peaceful Meadow"
+    ],
+    "sources": [
+      "Raspberry Bush",
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "rice",
+    "name": "Rice",
+    "categoryId": "ingredient",
+    "cookingCategory": "Grains",
+    "growTimeMinutes": 50,
+    "waterRequired": 2,
+    "maxYield": 2,
+    "locations": [
+      "Glade of Trust"
+    ],
+    "sources": [
+      "Rice Seed",
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "wheat",
+    "name": "Wheat",
+    "categoryId": "ingredient",
+    "cookingCategory": "Grains",
+    "growTimeMinutes": 1,
+    "waterRequired": 1,
+    "maxYield": 2,
+    "locations": [
+      "Peaceful Meadow"
+    ],
+    "sources": [
+      "Wheat Seed",
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "butter",
+    "name": "Butter",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "sources": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "requirements": [
+      "After A Restaurant Makeover"
+    ]
+  },
+  {
+    "id": "canola",
+    "name": "Canola",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "growTimeMinutes": 35,
+    "waterRequired": 3,
+    "maxYield": 1,
+    "locations": [
+      "Forest of Valor"
+    ],
+    "sources": [
+      "Canola Seed",
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "cheese",
+    "name": "Cheese",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "sources": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "requirements": [
+      "After A Restaurant Makeover"
+    ]
+  },
+  {
+    "id": "egg",
+    "name": "Egg",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "sources": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "requirements": [
+      "After A Restaurant Makeover"
+    ]
+  },
+  {
+    "id": "milk",
+    "name": "Milk",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "sources": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "requirements": [
+      "After A Restaurant Makeover"
+    ]
+  },
+  {
+    "id": "peanut",
+    "name": "Peanut",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "sources": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "requirements": [
+      "After Remy's Recipe Book"
+    ]
+  },
+  {
+    "id": "soya",
+    "name": "Soya",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "growTimeMinutes": 90,
+    "waterRequired": 2,
+    "maxYield": 3,
+    "locations": [
+      "Sunlit Plateau"
+    ],
+    "sources": [
+      "Soya Seed",
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "basil",
+    "name": "Basil",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Peaceful Meadow"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "chrysanthemum_tea_leaves",
+    "name": "Chrysanthemum Tea Leaves",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "locations": [
+      "Mulan's Tea Stall"
+    ],
+    "sources": [
+      "Mulan's Tea Stall"
+    ]
+  },
+  {
+    "id": "garlic",
+    "name": "Garlic",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Forest of Valor",
+      "Frozen Realm",
+      "The Grove",
+      "The Lagoon",
+      "Everafter"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "ginger",
+    "name": "Ginger",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Forgotten Lands"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "mint",
+    "name": "Mint",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Frosted Heights"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "oolong_tea_leaves",
+    "name": "Oolong Tea Leaves",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "locations": [
+      "Mulan's Tea Stall"
+    ],
+    "sources": [
+      "Mulan's Tea Stall"
+    ]
+  },
+  {
+    "id": "oregano",
+    "name": "Oregano",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Plaza"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "cocoa_bean",
+    "name": "Cocoa Bean",
+    "categoryId": "ingredient",
+    "cookingCategory": "Sweets",
+    "growTimeMinutes": 30,
+    "maxYield": 3,
+    "locations": [
+      "Sunlit Plateau",
+      "Glade of Trust"
+    ],
+    "sources": [
+      "Cacao Tree",
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "sugarcane",
+    "name": "Sugarcane",
+    "categoryId": "ingredient",
+    "cookingCategory": "Sweets",
+    "growTimeMinutes": 7,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Sugarcane Seed",
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "vanilla",
+    "name": "Vanilla",
+    "categoryId": "ingredient",
+    "cookingCategory": "Sweets",
+    "maxYield": 10,
+    "locations": [
+      "The Lion King Realm",
+      "Sunlit Plateau",
+      "Mythopia"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "slush_ice",
+    "name": "Slush Ice",
+    "categoryId": "ingredient",
+    "cookingCategory": "Ice",
+    "locations": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "sources": [
+      "Chez Remy",
+      "Tiana's Palace"
+    ],
+    "requirements": [
+      "After The Unknown Flavor"
+    ]
+  },
+  {
+    "id": "clam",
+    "name": "Clam",
+    "categoryId": "ingredient",
+    "cookingCategory": "Seafood",
+    "maxYield": 5,
+    "locations": [
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "oyster",
+    "name": "Oyster",
+    "categoryId": "ingredient",
+    "cookingCategory": "Seafood",
+    "maxYield": 4,
+    "locations": [
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "scallop",
+    "name": "Scallop",
+    "categoryId": "ingredient",
+    "cookingCategory": "Seafood",
+    "maxYield": 4,
+    "locations": [
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "bamboo",
+    "name": "Bamboo",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "maxYield": 10,
+    "locations": [
+      "Wild Tangle"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "beans",
+    "name": "Beans",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 60,
+    "waterRequired": 1,
+    "maxYield": 3,
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Bean Seed"
+    ]
+  },
+  {
+    "id": "broccoli",
+    "name": "Broccoli",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 40,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Broccoli Seed"
+    ]
+  },
+  {
+    "id": "cabbage",
+    "name": "Cabbage",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 60,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Wild Tangle"
+    ],
+    "sources": [
+      "Cabbage Seed"
+    ]
+  },
+  {
+    "id": "celery",
+    "name": "Celery",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 10,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Ancient's Landing"
+    ],
+    "sources": [
+      "Celery Seed"
+    ]
+  },
+  {
+    "id": "flute_root",
+    "name": "Flute Root",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 75,
+    "waterRequired": 2,
+    "maxYield": 2,
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Flute Root Seed"
+    ]
+  },
+  {
+    "id": "ruby_lentils",
+    "name": "Ruby Lentils",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 120,
+    "waterRequired": 1,
+    "maxYield": 3,
+    "locations": [
+      "Wild Tangle"
+    ],
+    "sources": [
+      "Ruby Lentil Seed"
+    ]
+  },
+  {
+    "id": "turnip",
+    "name": "Turnip",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 240,
+    "waterRequired": 1,
+    "maxYield": 2,
+    "locations": [
+      "Wild Tangle"
+    ],
+    "sources": [
+      "Turnip Seed"
+    ]
+  },
+  {
+    "id": "yam",
+    "name": "Yam",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 240,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Ancient's Landing"
+    ],
+    "sources": [
+      "Yam Seed"
+    ]
+  },
+  {
+    "id": "almonds",
+    "name": "Almonds",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 50,
+    "maxYield": 2,
+    "locations": [
+      "Wild Tangle"
+    ],
+    "sources": [
+      "Almond Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "cactoberries",
+    "name": "Cactoberries",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 45,
+    "maxYield": 2,
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Cactoberry Bush",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "cosmic_figs",
+    "name": "Cosmic Figs",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 25,
+    "waterRequired": 2,
+    "maxYield": 2,
+    "locations": [
+      "Ancient's Landing"
+    ],
+    "sources": [
+      "Cosmic Fig Seed"
+    ]
+  },
+  {
+    "id": "dates",
+    "name": "Dates",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 55,
+    "maxYield": 3,
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Date Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "dreamango",
+    "name": "Dreamango",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 60,
+    "maxYield": 2,
+    "locations": [
+      "Wild Tangle"
+    ],
+    "sources": [
+      "Dreamango Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "grapes",
+    "name": "Grapes",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 20,
+    "waterRequired": 1,
+    "maxYield": 3,
+    "locations": [
+      "Ancient's Landing"
+    ],
+    "sources": [
+      "Grape Seed"
+    ]
+  },
+  {
+    "id": "melon",
+    "name": "Melon",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 30,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Melon Seed"
+    ]
+  },
+  {
+    "id": "nestling_pear",
+    "name": "Nestling Pear",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 35,
+    "maxYield": 2,
+    "locations": [
+      "Ancient's Landing"
+    ],
+    "sources": [
+      "Nestling Pear Bush",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "pineapple",
+    "name": "Pineapple",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 180,
+    "waterRequired": 3,
+    "maxYield": 1,
+    "locations": [
+      "Wild Tangle"
+    ],
+    "sources": [
+      "Pineapple Seed"
+    ]
+  },
+  {
+    "id": "strawberry",
+    "name": "Strawberry",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 30,
+    "maxYield": 2,
+    "locations": [
+      "Ancient's Landing"
+    ],
+    "sources": [
+      "Strawberry Bush",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "pork",
+    "name": "Pork",
+    "categoryId": "ingredient",
+    "cookingCategory": "Protein",
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Gaston's Stall"
+    ]
+  },
+  {
+    "id": "poultry",
+    "name": "Poultry",
+    "categoryId": "ingredient",
+    "cookingCategory": "Protein",
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Gaston's Stall"
+    ]
+  },
+  {
+    "id": "venison",
+    "name": "Venison",
+    "categoryId": "ingredient",
+    "cookingCategory": "Protein",
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Gaston's Stall"
+    ]
+  },
+  {
+    "id": "agave",
+    "name": "Agave",
+    "categoryId": "ingredient",
+    "cookingCategory": "Sweets",
+    "maxYield": 5,
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "cinnamon",
+    "name": "Cinnamon",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 20,
+    "locations": [
+      "Wild Tangle",
+      "The Bind"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "cumin",
+    "name": "Cumin",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Ancient's Landing"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "majestea",
+    "name": "Majestea",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Ancient's Landing"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "paprika",
+    "name": "Paprika",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Glittering Dunes"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "brussels_sprout",
+    "name": "Brussels Sprout",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "maxYield": 4,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Brussels Sprout Bush",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "cauliflower",
+    "name": "Cauliflower",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 10,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Cauliflower Seed"
+    ]
+  },
+  {
+    "id": "green_beans",
+    "name": "Green Beans",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 240,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Green Bean Seed"
+    ]
+  },
+  {
+    "id": "porcini_mushrooms",
+    "name": "Porcini Mushrooms",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "maxYield": 10,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "radicchio",
+    "name": "Radicchio",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 60,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Radicchio Seed"
+    ]
+  },
+  {
+    "id": "radish",
+    "name": "Radish",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 115,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Radish Seed"
+    ]
+  },
+  {
+    "id": "ring_squash",
+    "name": "Ring Squash",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 30,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Ring Squash Seed"
+    ]
+  },
+  {
+    "id": "cape_gooseberry",
+    "name": "Cape Gooseberry",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "maxYield": 5,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "golden_apple",
+    "name": "Golden Apple",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "honeydew_melon",
+    "name": "Honeydew Melon",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 45,
+    "waterRequired": 3,
+    "maxYield": 1,
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Honeydew Seed"
+    ]
+  },
+  {
+    "id": "persimmon",
+    "name": "Persimmon",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 25,
+    "maxYield": 4,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Persimmon Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "rhubarb",
+    "name": "Rhubarb",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 180,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Rhubarb Seed"
+    ]
+  },
+  {
+    "id": "sea_grapes",
+    "name": "Sea Grapes",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "maxYield": 1,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Fishing"
+    ]
+  },
+  {
+    "id": "sour_berries",
+    "name": "Sour Berries",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 30,
+    "maxYield": 3,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Sour Berry Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "spiral_strawberries",
+    "name": "Spiral Strawberries",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "maxYield": 3,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Spiral Strawberry Bush",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "barley",
+    "name": "Barley",
+    "categoryId": "ingredient",
+    "cookingCategory": "Grains",
+    "growTimeMinutes": 15,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Barley Seed"
+    ]
+  },
+  {
+    "id": "elysian_grain",
+    "name": "Elysian Grain",
+    "categoryId": "ingredient",
+    "cookingCategory": "Grains",
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "faerie_rye",
+    "name": "Faerie Rye",
+    "categoryId": "ingredient",
+    "cookingCategory": "Grains",
+    "growTimeMinutes": 8,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Faerie Rye Seed"
+    ]
+  },
+  {
+    "id": "oats",
+    "name": "Oats",
+    "categoryId": "ingredient",
+    "cookingCategory": "Grains",
+    "growTimeMinutes": 120,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Oat Seed"
+    ]
+  },
+  {
+    "id": "chia_seeds",
+    "name": "Chia Seeds",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Chia Seed"
+    ]
+  },
+  {
+    "id": "flyleaf_feta",
+    "name": "Flyleaf Feta",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "olives",
+    "name": "Olives",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "maxYield": 4,
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Olive Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "plain_yogurt",
+    "name": "Plain Yogurt",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "shovel_bird_eggs",
+    "name": "Shovel Bird Eggs",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "ambrosia",
+    "name": "Ambrosia",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Goofy's Stall"
+    ]
+  },
+  {
+    "id": "black_pepper",
+    "name": "Black Pepper",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "growTimeMinutes": 90,
+    "waterRequired": 2,
+    "maxYield": 1,
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Black Pepper Seed"
+    ]
+  },
+  {
+    "id": "lightning_spice",
+    "name": "Lightning Spice",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 10,
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "nutmeg",
+    "name": "Nutmeg",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "growTimeMinutes": 35,
+    "maxYield": 3,
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Nutmeg Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "salt_crystal",
+    "name": "Salt Crystal",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 1,
+    "locations": [
+      "Everafter"
+    ],
+    "sources": [
+      "Fishing"
+    ]
+  },
+  {
+    "id": "mussel",
+    "name": "Mussel",
+    "categoryId": "ingredient",
+    "cookingCategory": "Seafood",
+    "maxYield": 7,
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "trumpet_snail",
+    "name": "Trumpet Snail",
+    "categoryId": "ingredient",
+    "cookingCategory": "Seafood",
+    "maxYield": 5,
+    "locations": [
+      "The Bind"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "beetroot",
+    "name": "Beetroot",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 5,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Wishblossom Mountains"
+    ],
+    "sources": [
+      "Beetroot Seeds"
+    ]
+  },
+  {
+    "id": "scarlet_kale",
+    "name": "Scarlet Kale",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 10,
+    "waterRequired": 1,
+    "maxYield": 2,
+    "locations": [
+      "Wishblossom Mountains"
+    ],
+    "sources": [
+      "Scarlet Kale Seeds"
+    ]
+  },
+  {
+    "id": "bonsai_star_fruit",
+    "name": "Bonsai Star Fruit",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 35,
+    "maxYield": 2,
+    "locations": [
+      "Pixie Acres"
+    ],
+    "sources": [
+      "Bonsai Star Fruit Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "dark_chocolate_coffee_beans",
+    "name": "Dark Chocolate Coffee Beans",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 30,
+    "waterRequired": 2,
+    "locations": [
+      "Wishblossom Mountains"
+    ],
+    "sources": [
+      "Dark Chocolate Coffee Bean Seeds"
+    ]
+  },
+  {
+    "id": "lollipop_fruit",
+    "name": "Lollipop Fruit",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 40,
+    "waterRequired": 2,
+    "locations": [
+      "Wishblossom Mountains"
+    ],
+    "sources": [
+      "Lollipop Fruit Seeds"
+    ]
+  },
+  {
+    "id": "pincushion_peach",
+    "name": "Pincushion Peach",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 30,
+    "maxYield": 2,
+    "locations": [
+      "Glamour Gulch"
+    ],
+    "sources": [
+      "Pincushion Peach Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "red_currants",
+    "name": "Red Currants",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 25,
+    "maxYield": 2,
+    "locations": [
+      "Wishing Alps"
+    ],
+    "sources": [
+      "Red Currant Bush",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "fairy_kamut",
+    "name": "Fairy Kamut",
+    "categoryId": "ingredient",
+    "cookingCategory": "Grains",
+    "growTimeMinutes": 50,
+    "waterRequired": 3,
+    "locations": [
+      "Wishblossom Mountains"
+    ],
+    "sources": [
+      "Fairy Kamut Seeds"
+    ]
+  },
+  {
+    "id": "pearly_barley",
+    "name": "Pearly Barley",
+    "categoryId": "ingredient",
+    "cookingCategory": "Grains",
+    "growTimeMinutes": 20,
+    "waterRequired": 2,
+    "locations": [
+      "Wishblossom Mountains"
+    ],
+    "sources": [
+      "Pearly Barley Seeds"
+    ]
+  },
+  {
+    "id": "button_mushroom",
+    "name": "Button Mushroom",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 1,
+    "locations": [
+      "Glamour Gulch"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "dill",
+    "name": "Dill",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 1,
+    "locations": [
+      "Wishing Alps"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "fairy_sprinkles",
+    "name": "Fairy Sprinkles",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "maxYield": 1,
+    "locations": [
+      "Pixie Acres"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "golden_pattypan",
+    "name": "Golden Pattypan",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 20,
+    "waterRequired": 2,
+    "maxYield": 2,
+    "locations": [
+      "Drowsybloom Acre"
+    ],
+    "sources": [
+      "Golden Pattypan Seed"
+    ]
+  },
+  {
+    "id": "parsnip",
+    "name": "Parsnip",
+    "categoryId": "ingredient",
+    "cookingCategory": "Vegetables",
+    "growTimeMinutes": 5,
+    "waterRequired": 1,
+    "maxYield": 1,
+    "locations": [
+      "Drowsybloom Acre"
+    ],
+    "sources": [
+      "Parsnip Seed"
+    ]
+  },
+  {
+    "id": "juniper_berry",
+    "name": "Juniper Berry",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 25,
+    "maxYield": 4,
+    "locations": [
+      "Honeyglow Woods"
+    ],
+    "sources": [
+      "Juniper Berry Bush",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "pufflebud_pods",
+    "name": "Pufflebud Pods",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 40,
+    "waterRequired": 2,
+    "maxYield": 3,
+    "locations": [
+      "Drowsybloom Acre"
+    ],
+    "sources": [
+      "Pufflebud Pods Seed"
+    ]
+  },
+  {
+    "id": "sweet_chestnut",
+    "name": "Sweet Chestnut",
+    "categoryId": "ingredient",
+    "cookingCategory": "Fruit",
+    "growTimeMinutes": 30,
+    "maxYield": 3,
+    "locations": [
+      "Honeyglow Woods"
+    ],
+    "sources": [
+      "Sweet Chestnut Tree",
+      "Foraging"
+    ]
+  },
+  {
+    "id": "tree_resin",
+    "name": "Tree Resin",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "maxYield": 1,
+    "locations": [
+      "Honeyglow Woods"
+    ],
+    "sources": [
+      "Digging",
+      "Removing Small and Large Amber Brushwoods"
+    ]
+  },
+  {
+    "id": "truffle",
+    "name": "Truffle",
+    "categoryId": "ingredient",
+    "cookingCategory": "Sweets",
+    "maxYield": 1,
+    "locations": [
+      "Honeyglow Woods"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "festive_cocoa_bean",
+    "name": "Festive Cocoa Bean",
+    "categoryId": "ingredient",
+    "cookingCategory": "Sweets",
+    "locations": [
+      "The Winter Floating Festival event island"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "egg_cellent_fruit",
+    "name": "Egg-cellent Fruit",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "maxYield": 3,
+    "locations": [
+      "Dreamlight Valley"
+    ],
+    "sources": [
+      "Egg-cellent Fruit Bush"
+    ]
+  },
+  {
+    "id": "fishy_green_egg",
+    "name": "Fishy Green Egg",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Fishing in purple pools on Dazzle Beach"
+    ]
+  },
+  {
+    "id": "purple_spring_egg",
+    "name": "Purple Spring Egg",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "Moana Realm",
+      "Toy Story Realm",
+      "The Lion King Realm",
+      "Beauty and the Beast Realm",
+      "Mulan Realm"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "spring_v_egg_etable",
+    "name": "Spring V-EGG-etable",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "waterRequired": 2,
+    "maxYield": 1,
+    "sources": [
+      "V-EGG-etable Seed"
+    ]
+  },
+  {
+    "id": "wild_spring_egg",
+    "name": "Wild Spring Egg",
+    "categoryId": "ingredient",
+    "cookingCategory": "Dairy and Oil",
+    "locations": [
+      "Dreamlight Valley"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "blue_marshmallow",
+    "name": "Blue Marshmallow",
+    "categoryId": "ingredient",
+    "cookingCategory": "Sweets",
+    "locations": [
+      "Plaza",
+      "Peaceful Meadow",
+      "Dazzle Beach"
+    ],
+    "sources": [
+      "Foraging"
+    ]
+  },
+  {
+    "id": "pink_marshmallow",
+    "name": "Pink Marshmallow",
+    "categoryId": "ingredient",
+    "cookingCategory": "Sweets",
+    "maxYield": 4,
+    "locations": [
+      "Plaza"
+    ],
+    "sources": [
+      "Pink Marshmallow Bush"
+    ]
+  },
+  {
+    "id": "jasmine_tea_leaves",
+    "name": "Jasmine Tea Leaves",
+    "categoryId": "ingredient",
+    "cookingCategory": "Spices",
+    "locations": [
+      "Mulan's Tea Stall"
+    ],
+    "sources": [
+      "Mulan's Tea Stall"
+    ]
   }
 ]

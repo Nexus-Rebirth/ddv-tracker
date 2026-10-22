@@ -1,0 +1,133 @@
+[
+  {
+    "id": "stone",
+    "name": "Stone",
+    "categoryId": "mining",
+    "locations": ["All Biomes"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "coal_ore",
+    "name": "Coal Ore",
+    "categoryId": "mining",
+    "locations": ["All Biomes"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "iron_ore",
+    "name": "Iron Ore",
+    "categoryId": "mining",
+    "locations": [
+      "Forest of Valor",
+      "Glade of Trust",
+      "Sunlit Plateau",
+      "Frosted Heights",
+      "Forgotten Lands",
+      "Vitalys Mine",
+      "The Bind",
+      "Everafter"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "gold_nugget",
+    "name": "Gold Nugget",
+    "categoryId": "mining",
+    "locations": [
+      "Frosted Heights",
+      "Sunlit Plateau",
+      "Forgotten Lands",
+      "Vitalys Mine",
+      "Mythopia"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "crystal",
+    "name": "Crystal",
+    "categoryId": "mining",
+    "locations": ["Forgotten Lands"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "copper",
+    "name": "Copper",
+    "categoryId": "mining",
+    "locations": [
+      "Ancient's Landing",
+      "Glittering Dunes",
+      "Wild Tangle"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "quartz",
+    "name": "Quartz",
+    "categoryId": "mining",
+    "locations": ["Ancient's Landing"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "tin",
+    "name": "Tin",
+    "categoryId": "mining",
+    "locations": ["Glittering Dunes"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "zinc",
+    "name": "Zinc",
+    "categoryId": "mining",
+    "locations": ["Wild Tangle"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "petrified_wood",
+    "name": "Petrified Wood",
+    "categoryId": "mining",
+    "locations": [
+      "The Bind",
+      "Everafter"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "marble",
+    "name": "Marble",
+    "categoryId": "mining",
+    "locations": ["Mythopia"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "antique_clothes_iron",
+    "name": "Antique Clothes Iron",
+    "categoryId": "mining",
+    "locations": ["Glamour Gulch"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "grassy_ore",
+    "name": "Grassy Ore",
+    "categoryId": "mining",
+    "locations": ["Pixie Acres"],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "pixie_dust",
+    "name": "Pixie Dust",
+    "categoryId": "mining",
+    "locations": [
+      "Wishing Alps",
+      "Glamour Gulch",
+      "Pixie Acres"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "silver_ore",
+    "name": "Silver Ore",
+    "categoryId": "mining",
+    "locations": ["Wishing Alps"],
+    "sources": ["Mining"]
+  }
+]

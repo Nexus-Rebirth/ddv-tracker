@@ -3,455 +3,993 @@
     "id": "acorn_snail",
     "name": "Acorn Snail",
     "categoryId": "fishing",
-    "subType": "snail",
-    "location": "Eternity Isle – Wild Tangle"
+    "type": "Dairy and Oil",
+    "iconCategory": "dairy_and_oil",
+    "ripples": ["White"],
+    "locations": ["Honeyglow Woods"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
-    "id": "angler_fish",
-    "name": "Angler Fish",
+    "id": "anglerfish",
+    "name": "Anglerfish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Frosted Heights – Gold ripple"
-  },
-  {
-    "id": "balloon_fish",
-    "name": "Balloon Fish",
-    "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Ancient's Landing"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Forgotten Lands"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "bass",
     "name": "Bass",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Peaceful Meadow – White ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["None", "White"],
+    "locations": [
+      "Peaceful Meadow",
+      "Forest of Valor",
+      "Sunlit Plateau",
+      "Frosted Heights",
+      "The Oasis",
+      "Wild Tangle"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "bream",
     "name": "Bream",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Glade of Trust – Blue ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue"],
+    "locations": ["Peaceful Meadow"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "brilliant_blue_starfish",
     "name": "Brilliant Blue Starfish",
     "categoryId": "fishing",
-    "subType": "starfish",
-    "location": "Eternity Isle – Shores of Eternity"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Gold"],
+    "locations": ["The Oasis"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "carp",
     "name": "Carp",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Forest of Valor – Blue ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue", "White"],
+    "locations": [
+      "Forest of Valor",
+      "Sunlit Plateau"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "catfish",
     "name": "Catfish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Peaceful Meadow – Gold ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Peaceful Meadow"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "cod",
     "name": "Cod",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Dazzle Beach – White ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["None", "White"],
+    "locations": [
+      "Dazzle Beach",
+      "Forgotten Lands",
+      "Glade of Trust",
+      "The Docks",
+      "The Overlook",
+      "Everafter",
+      "Glamour Gulch"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "crab",
     "name": "Crab",
     "categoryId": "fishing",
-    "subType": "crab",
-    "location": "Frosted Heights – Gold ripple"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Blue", "White"],
+    "locations": [
+      "Frosted Heights",
+      "Wishing Alps"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
-    "id": "dune_bopper",
-    "name": "Dune Bopper",
+    "id": "dunebopper",
+    "name": "Dunebopper",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Glittering Dunes"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue"],
+    "locations": ["The Oasis"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "electric_eel",
     "name": "Electric Eel",
     "categoryId": "fishing",
-    "subType": "eel",
-    "location": "Eternity Isle – Ancient's Landing"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": [
+      "The Grasslands",
+      "The Promenade"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "flying_fish",
     "name": "Flying Fish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Wild Tangle"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["None", "White"],
+    "locations": ["Mythopia"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "fugu",
     "name": "Fugu",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Dazzle Beach – Gold ripple (rain only)"
-  },
-  {
-    "id": "goose_feathers",
-    "name": "Goose Feathers",
-    "categoryId": "fishing",
-    "subType": "junk",
-    "location": "Eternity Isle – Ancient's Landing"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Dazzle Beach"],
+    "requirements": [
+      "Weather: Rain"
+    ],
+    "sources": ["Fishing"]
   },
   {
     "id": "here_and_there_fish",
     "name": "Here and There Fish",
     "categoryId": "fishing",
-    "subType": "special",
-    "location": "Any biome – Nighttime only"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["None", "White"],
+    "locations": [
+      "Peaceful Meadow",
+      "Dazzle Beach",
+      "Glade of Trust",
+      "Forest of Valor",
+      "Sunlit Plateau",
+      "Frosted Heights",
+      "Forgotten Lands"
+    ],
+    "requirements": [
+      "Time: 06:00 - 10:00/18:00 - 22:00",
+      "Post Here and There and Back Again"
+    ],
+    "sources": ["Fishing"]
   },
   {
     "id": "herring",
     "name": "Herring",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Dazzle Beach – White ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White"],
+    "locations": [
+      "Dazzle Beach",
+      "Glade of Trust"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "hippocampus",
     "name": "Hippocampus",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Wild Tangle"
-  },
-  {
-    "id": "honey_coral",
-    "name": "Honey Coral",
-    "categoryId": "fishing",
-    "subType": "coral",
-    "location": "Eternity Isle – Shores of Eternity"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["White", "Blue"],
+    "locations": ["Mythopia"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "jellied_fish",
     "name": "Jellied Fish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Glittering Dunes"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Glamour Gulch"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
-    "id": "king_fish",
-    "name": "King Fish",
+    "id": "kingfish",
+    "name": "Kingfish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Ancient's Landing"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue"],
+    "locations": ["Dazzle Beach"],
+    "requirements": [
+      "Time: 18:00 - 05:00"
+    ],
+    "sources": ["Fishing"]
   },
   {
     "id": "koi",
     "name": "Koi",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Forest of Valor – Gold ripple"
-  },
-  {
-    "id": "lamprey",
-    "name": "Lamprey",
-    "categoryId": "fishing",
-    "subType": "eel",
-    "location": "Eternity Isle – Wild Tangle"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["None"],
+    "locations": ["The Bind"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "lancetfish",
     "name": "Lancetfish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Shores of Eternity"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue", "White"],
+    "locations": ["Forgotten Lands"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "lamprey",
+    "name": "Lamprey",
+    "categoryId": "fishing",
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Everafter"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "lobster",
     "name": "Lobster",
     "categoryId": "fishing",
-    "subType": "crab",
-    "location": "Glade of Trust – Gold ripple"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Gold"],
+    "locations": ["Glade of Trust"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "measuring_tape_snail",
-    "name": "Measuring Tape Snail",
+    "name": "Measuring-Tape Snail",
     "categoryId": "fishing",
-    "subType": "snail",
-    "location": "Eternity Isle – Ancient's Landing"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White"],
+    "locations": ["Glamour Gulch"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "mountain_whitefish",
     "name": "Mountain Whitefish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Frosted Heights – Blue ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White", "None"],
+    "locations": ["Wishing Alps"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "mussel",
     "name": "Mussel",
     "categoryId": "fishing",
-    "subType": "seafood",
-    "location": "Dazzle Beach – Blue ripple"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["None"],
+    "locations": ["Mythopia"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "octopus",
     "name": "Octopus",
     "categoryId": "fishing",
-    "subType": "seafood",
-    "location": "Forgotten Lands – Gold ripple"
-  },
-  {
-    "id": "old_braided_rope",
-    "name": "Old Braided Rope",
-    "categoryId": "fishing",
-    "subType": "junk",
-    "location": "Eternity Isle – Glittering Dunes"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Blue", "White"],
+    "locations": [
+      "The Docks",
+      "The Overlook"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "perch",
     "name": "Perch",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Forest of Valor – White ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue", "White"],
+    "locations": [
+      "Forest of Valor",
+      "Sunlit Plateau",
+      "The Grove",
+      "The Lagoon"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "pike",
     "name": "Pike",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Forest of Valor – Gold ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": [
+      "Forest of Valor"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "piranha",
     "name": "Piranha",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Wild Tangle"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": [
+      "The Lagoon"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "pirarucu",
     "name": "Pirarucu",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Ancient's Landing"
-  },
-  {
-    "id": "plastic_scrap",
-    "name": "Plastic Scrap",
-    "categoryId": "fishing",
-    "subType": "junk",
-    "location": "Dazzle Beach – No ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue"],
+    "locations": [
+      "The Grasslands",
+      "The Promenade",
+      "The Grove",
+      "The Lagoon"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "plush_fish",
     "name": "Plush Fish",
     "categoryId": "fishing",
-    "subType": "junk",
-    "location": "Eternity Isle – Wild Tangle"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": [
+      "Honeyglow Woods"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "pretty_pink_starfish",
     "name": "Pretty Pink Starfish",
     "categoryId": "fishing",
-    "subType": "starfish",
-    "location": "Eternity Isle – Shores of Eternity"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Gold"],
+    "locations": [
+      "The Oasis"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "prisma_shrimp",
     "name": "Prisma Shrimp",
     "categoryId": "fishing",
-    "subType": "shrimp",
-    "location": "Eternity Isle – Glittering Dunes"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Gold"],
+    "locations": [
+      "The Grove"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "rainbow_trout",
     "name": "Rainbow Trout",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Peaceful Meadow – Blue ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White"],
+    "locations": [
+      "Peaceful Meadow",
+      "Forest of Valor",
+      "Everafter"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "red_alpine_bass",
     "name": "Red Alpine Bass",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Frosted Heights – Gold ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": [
+      "Wishing Alps"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "robot_fish",
     "name": "Robot Fish",
     "categoryId": "fishing",
-    "subType": "special",
-    "location": "Eternity Isle – Ancient's Landing"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": [
+      "The Docks",
+      "The Overlook"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "salmon",
     "name": "Salmon",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Sunlit Plateau – Blue ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White", "Blue"],
+    "locations": [
+      "Frosted Heights",
+      "Sunlit Plateau",
+      "The Grasslands",
+      "The Promenade"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "sand_fish",
     "name": "Sand Fish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Glittering Dunes"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["None", "White"],
+    "locations": [
+      "The Plains",
+      "The Wastes",
+      "The Borderlands"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "sand_worm",
     "name": "Sand Worm",
     "categoryId": "fishing",
-    "subType": "worm",
-    "location": "Eternity Isle – Glittering Dunes"
+    "type": "Dairy and Oil",
+    "iconCategory": "dairy_and_oil",
+    "ripples": ["Gold"],
+    "locations": [
+      "The Plains",
+      "The Wastes",
+      "The Borderlands"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "satin_finned_betta",
-    "name": "Satin Finned Betta",
+    "name": "Satin-Finned Betta",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Wild Tangle"
-  },
-  {
-    "id": "scales",
-    "name": "Scales",
-    "categoryId": "fishing",
-    "subType": "junk",
-    "location": "Eternity Isle – Shores of Eternity"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue"],
+    "locations": [
+      "Glamour Gulch"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "scorpion",
     "name": "Scorpion",
     "categoryId": "fishing",
-    "subType": "critter",
-    "location": "Eternity Isle – Glittering Dunes"
+    "type": "Dairy and Oil",
+    "iconCategory": "dairy_and_oil",
+    "ripples": ["Blue", "Pink"],
+    "locations": [
+      "The Plains",
+      "The Wastes",
+      "The Borderlands"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "sea_snail",
     "name": "Sea Snail",
     "categoryId": "fishing",
-    "subType": "snail",
-    "location": "Dazzle Beach – White ripple"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Blue", "White"],
+    "locations": [
+      "The Docks",
+      "The Overlook"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "sea_wolf",
     "name": "Sea Wolf",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Shores of Eternity"
-  },
-  {
-    "id": "seaweed",
-    "name": "Seaweed",
-    "categoryId": "fishing",
-    "subType": "material",
-    "location": "Any biome – No ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White", "Blue"],
+    "locations": [
+      "The Bind"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "shad",
     "name": "Shad",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Forest of Valor – White ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White"],
+    "locations": [
+      "The Docks",
+      "The Overlook"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "shrimp",
     "name": "Shrimp",
     "categoryId": "fishing",
-    "subType": "shrimp",
-    "location": "Dazzle Beach – Blue ripple"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Blue", "White"],
+    "locations": [
+      "Dazzle Beach"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "skeleton_fish",
     "name": "Skeleton Fish",
     "categoryId": "fishing",
-    "subType": "special",
-    "location": "Eternity Isle – Ancient's Landing"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White", "Blue", "Pink"],
+    "locations": [
+      "The Plains",
+      "The Wastes",
+      "The Borderlands"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "sole",
     "name": "Sole",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Forgotten Lands – Blue ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White", "Blue"],
+    "locations": [
+      "Forgotten Lands",
+      "The Docks",
+      "The Overlook"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "sorcerer_hat_hermit_crab",
     "name": "Sorcerer Hat Hermit Crab",
     "categoryId": "fishing",
-    "subType": "crab",
-    "location": "Eternity Isle – Shores of Eternity"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Gold"],
+    "locations": [
+      "The Bind"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "squid",
     "name": "Squid",
     "categoryId": "fishing",
-    "subType": "seafood",
-    "location": "Glade of Trust – Blue ripple"
+    "type": "Seafood",
+    "iconCategory": "seafood",
+    "ripples": ["Blue", "White"],
+    "locations": [
+      "Glade of Trust",
+      "Forgotten Lands",
+      "Mythopia"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
-    "id": "stygian_mud_skipper",
-    "name": "Stygian Mud Skipper",
+    "id": "stygian_mudskipper",
+    "name": "Stygian Mudskipper",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Wild Tangle"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": [
+      "Mythopia"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "sweet_jelly",
     "name": "Sweet Jelly",
     "categoryId": "fishing",
-    "subType": "special",
-    "location": "Eternity Isle – Glittering Dunes"
+    "type": "Sweets",
+    "iconCategory": "sweets",
+    "ripples": ["Blue"],
+    "locations": ["Honeyglow Woods"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "swordfish",
     "name": "Swordfish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Dazzle Beach – Gold ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Dazzle Beach"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "tigger_fish",
     "name": "Tigger Fish",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Eternity Isle – Ancient's Landing"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Pixie Acres"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "tilapia",
     "name": "Tilapia",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Sunlit Plateau – Gold ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Blue", "White"],
+    "locations": [
+      "Sunlit Plateau",
+      "Frosted Heights",
+      "Pixie Acres"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "tuna",
     "name": "Tuna",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Dazzle Beach – Blue ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["White", "Blue"],
+    "locations": [
+      "Forgotten Lands",
+      "Glade of Trust",
+      "The Bind",
+      "Wishing Alps"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "walleye",
     "name": "Walleye",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Sunlit Plateau – Gold ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Sunlit Plateau"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "white_sturgeon",
     "name": "White Sturgeon",
     "categoryId": "fishing",
-    "subType": "fish",
-    "location": "Frosted Heights – Gold ripple"
+    "type": "Fish",
+    "iconCategory": "fish",
+    "ripples": ["Gold"],
+    "locations": ["Frosted Heights"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "festive_anglerfish",
+    "name": "Festive Anglerfish",
+    "categoryId": "fishing",
+    "type": "Limited Time Event",
+    "iconCategory": "event",
+    "ripples": ["Red", "Green"],
+    "locations": ["Forgotten Lands"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "festive_bass",
+    "name": "Festive Bass",
+    "categoryId": "fishing",
+    "type": "Limited Time Event",
+    "iconCategory": "event",
+    "ripples": ["Red", "Green"],
+    "locations": ["Peaceful Meadow"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "festive_fugu",
+    "name": "Festive Fugu",
+    "categoryId": "fishing",
+    "type": "Limited Time Event",
+    "iconCategory": "event",
+    "ripples": ["Red", "Green"],
+    "locations": ["Dazzle Beach"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "festive_salmon",
+    "name": "Festive Salmon",
+    "categoryId": "fishing",
+    "type": "Limited Time Event",
+    "iconCategory": "event",
+    "ripples": ["Red", "Green"],
+    "locations": ["Sunlit Plateau"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "festive_squid",
+    "name": "Festive Squid",
+    "categoryId": "fishing",
+    "type": "Limited Time Event",
+    "iconCategory": "event",
+    "ripples": ["Red", "Green"],
+    "locations": ["Glade of Trust"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "fishy_green_egg",
+    "name": "Fishy Green Egg",
+    "categoryId": "fishing",
+    "type": "Limited Time Event",
+    "iconCategory": "event",
+    "ripples": ["Purple"],
+    "locations": ["Dazzle Beach"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "honey_coral",
+    "name": "Honey Coral",
+    "categoryId": "fishing",
+    "type": "Sweets",
+    "iconCategory": "sweets",
+    "ripples": ["White"],
+    "locations": ["Pixie Acres"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "salt_crystal",
+    "name": "Salt Crystal",
+    "categoryId": "fishing",
+    "type": "Spices & Herbs",
+    "iconCategory": "spice",
+    "ripples": ["None"],
+    "locations": ["Everafter"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "sea_grapes",
+    "name": "Sea Grapes",
+    "categoryId": "fishing",
+    "type": "Fruit",
+    "iconCategory": "fruit",
+    "ripples": ["None"],
+    "locations": ["The Bind"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "seaweed",
+    "name": "Seaweed",
+    "categoryId": "fishing",
+    "type": "Vegetables",
+    "iconCategory": "vegetable",
+    "ripples": ["None"],
+    "locations": ["Everywhere"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "balloon_fish",
+    "name": "Balloon Fish",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None", "White"],
+    "locations": ["Pixie Acres"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "bones",
+    "name": "Bones",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": [
+      "The Plains",
+      "The Wastes",
+      "The Borderlands"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "driftwood",
+    "name": "Driftwood",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": ["Honeyglow Woods"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "goose_feathers",
+    "name": "Goose Feathers",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": ["Pixie Acres"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "old_braided_rope",
+    "name": "Old Braided Rope",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": ["Wishing Alps"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "plastic_scrap",
+    "name": "Plastic Scrap",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": [
+      "The Docks",
+      "The Overlook"
+    ],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "red_algae",
+    "name": "Red Algae",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": ["Any"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "scales",
+    "name": "Scales",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": ["The Oasis"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "sea_monster_tooth",
+    "name": "Sea Monster Tooth",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["Blue"],
+    "locations": ["Everafter"],
+    "requirements": [],
+    "sources": ["Fishing"]
+  },
+  {
+    "id": "posidonia",
+    "name": "Posidonia",
+    "categoryId": "fishing",
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": ["Mythopia"],
+    "requirements": [],
+    "sources": ["Fishing"]
   },
   {
     "id": "wire_coat_hanger",
     "name": "Wire Coat Hanger",
     "categoryId": "fishing",
-    "subType": "junk",
-    "location": "Eternity Isle – Shores of Eternity"
+    "type": "Crafting Materials",
+    "iconCategory": "crafting_material",
+    "ripples": ["None"],
+    "locations": ["Glamour Gulch"],
+    "requirements": [],
+    "sources": ["Fishing"]
   }
 ]

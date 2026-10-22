@@ -1,392 +1,506 @@
 [
   {
-    "id": "alexandrite",
-    "name": "Alexandrite",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Ancient's Landing"
-  },
-  {
-    "id": "alexandrite_shiny",
-    "name": "Shiny Alexandrite",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Ancient's Landing"
-  },
-
-  {
     "id": "amethyst",
     "name": "Amethyst",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Forgotten Lands"
+    "locations": [
+      "Frosted Heights",
+      "Forgotten Lands"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "amethyst_shiny",
+    "id": "shiny_amethyst",
     "name": "Shiny Amethyst",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Forgotten Lands"
+    "locations": [
+      "Frosted Heights",
+      "Forgotten Lands"
+    ],
+    "sources": ["Mining"]
   },
-
   {
     "id": "aquamarine",
     "name": "Aquamarine",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Dazzle Beach, Forest of Valor"
+    "locations": [
+      "Dazzle Beach",
+      "Forest of Valor"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "aquamarine_shiny",
+    "id": "shiny_aquamarine",
     "name": "Shiny Aquamarine",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Dazzle Beach, Forest of Valor"
+    "locations": [
+      "Dazzle Beach",
+      "Forest of Valor"
+    ],
+    "sources": ["Mining"]
   },
-
-  {
-    "id": "blue_zircon",
-    "name": "Blue Zircon",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Glittering Dunes"
-  },
-  {
-    "id": "blue_zircon_shiny",
-    "name": "Shiny Blue Zircon",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Glittering Dunes"
-  },
-
-  {
-    "id": "bumblestone",
-    "name": "Bumblestone",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Wild Tangle"
-  },
-  {
-    "id": "bumblestone_shiny",
-    "name": "Shiny Bumblestone",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Wild Tangle"
-  },
-
   {
     "id": "citrine",
     "name": "Citrine",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Sunlit Plateau, Glade of Trust"
+    "locations": [
+      "Glade of Trust",
+      "Sunlit Plateau"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "citrine_shiny",
+    "id": "shiny_citrine",
     "name": "Shiny Citrine",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Sunlit Plateau, Glade of Trust"
+    "locations": [
+      "Glade of Trust",
+      "Sunlit Plateau"
+    ],
+    "sources": ["Mining"]
   },
-
   {
     "id": "diamond",
     "name": "Diamond",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Forgotten Lands"
+    "locations": [
+      "Forgotten Lands"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "diamond_shiny",
+    "id": "shiny_diamond",
     "name": "Shiny Diamond",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Forgotten Lands"
+    "locations": [
+      "Forgotten Lands"
+    ],
+    "sources": ["Mining"]
   },
-
   {
     "id": "emerald",
     "name": "Emerald",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Forest of Valor, Glade of Trust"
+    "locations": [
+      "Forest of Valor",
+      "Glade of Trust"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "emerald_shiny",
+    "id": "shiny_emerald",
     "name": "Shiny Emerald",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Forest of Valor, Glade of Trust"
+    "locations": [
+      "Forest of Valor",
+      "Glade of Trust"
+    ],
+    "sources": ["Mining"]
   },
-
-  {
-    "id": "evergem",
-    "name": "Evergem",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Ancient's Landing"
-  },
-  {
-    "id": "evergem_shiny",
-    "name": "Shiny Evergem",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Ancient's Landing"
-  },
-
   {
     "id": "garnet",
     "name": "Garnet",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Plaza, Peaceful Meadow"
+    "locations": [
+      "Plaza",
+      "Peaceful Meadow",
+      "The Plains",
+      "The Wastes"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "garnet_shiny",
+    "id": "shiny_garnet",
     "name": "Shiny Garnet",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Plaza, Peaceful Meadow"
+    "locations": [
+      "Plaza",
+      "Peaceful Meadow",
+      "The Plains",
+      "The Wastes"
+    ],
+    "sources": ["Mining"]
   },
-
-  {
-    "id": "honey_agate",
-    "name": "Honey Agate",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Glittering Dunes"
-  },
-  {
-    "id": "honey_agate_shiny",
-    "name": "Shiny Honey Agate",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Glittering Dunes"
-  },
-
-  {
-    "id": "honeycomb_stone",
-    "name": "Honeycomb Stone",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Wild Tangle"
-  },
-  {
-    "id": "honeycomb_stone_shiny",
-    "name": "Shiny Honeycomb Stone",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Wild Tangle"
-  },
-
-  {
-    "id": "jade",
-    "name": "Jade",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Ancient's Landing"
-  },
-  {
-    "id": "jade_shiny",
-    "name": "Shiny Jade",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Ancient's Landing"
-  },
-
-  {
-    "id": "jasper",
-    "name": "Jasper",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Sunlit Plateau"
-  },
-  {
-    "id": "jasper_shiny",
-    "name": "Shiny Jasper",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Sunlit Plateau"
-  },
-
-  {
-    "id": "magma",
-    "name": "Magma",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Glittering Dunes"
-  },
-  {
-    "id": "magma_shiny",
-    "name": "Shiny Magma",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Glittering Dunes"
-  },
-
   {
     "id": "onyx",
     "name": "Onyx",
     "categoryId": "gems",
-    "subType": "special",
-    "location": "Mining nodes in all biomes"
+    "locations": [
+      "Everywhere"
+    ],
+    "sources": ["Mining"]
   },
-
-  {
-    "id": "opal",
-    "name": "Opal",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Shores of Eternity"
-  },
-  {
-    "id": "opal_shiny",
-    "name": "Shiny Opal",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Shores of Eternity"
-  },
-
   {
     "id": "peridot",
     "name": "Peridot",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Dazzle Beach, Peaceful Meadow"
+    "locations": [
+      "Peaceful Meadow",
+      "Dazzle Beach",
+      "The Grasslands",
+      "The Promenade"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "peridot_shiny",
+    "id": "shiny_peridot",
     "name": "Shiny Peridot",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Dazzle Beach, Peaceful Meadow"
+    "locations": [
+      "Peaceful Meadow",
+      "Dazzle Beach",
+      "The Grasslands",
+      "The Promenade"
+    ],
+    "sources": ["Mining"]
   },
-
-  {
-    "id": "pure_ice",
-    "name": "Pure Ice",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Frosted Heights"
-  },
-  {
-    "id": "pure_ice_shiny",
-    "name": "Shiny Pure Ice",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Frosted Heights"
-  },
-
-  {
-    "id": "pyrite",
-    "name": "Pyrite",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Glittering Dunes"
-  },
-  {
-    "id": "pyrite_shiny",
-    "name": "Shiny Pyrite",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Glittering Dunes"
-  },
-
   {
     "id": "ruby",
     "name": "Ruby",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Forgotten Lands"
+    "locations": [
+      "Vitalys Mine",
+      "Mythopia"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "ruby_shiny",
+    "id": "shiny_ruby",
     "name": "Shiny Ruby",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Forgotten Lands"
+    "locations": [
+      "Vitalys Mine",
+      "Mythopia"
+    ],
+    "sources": ["Mining"]
   },
-
   {
     "id": "sapphire",
     "name": "Sapphire",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Dazzle Beach"
+    "locations": [
+      "Vitalys Mine"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "sapphire_shiny",
+    "id": "shiny_sapphire",
     "name": "Shiny Sapphire",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Dazzle Beach"
+    "locations": [
+      "Vitalys Mine"
+    ],
+    "sources": ["Mining"]
   },
-
-  {
-    "id": "spinel",
-    "name": "Spinel",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Wild Tangle"
-  },
-  {
-    "id": "spinel_shiny",
-    "name": "Shiny Spinel",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Wild Tangle"
-  },
-
-  {
-    "id": "star_sapphire",
-    "name": "Star Sapphire",
-    "categoryId": "gems",
-    "subType": "gem",
-    "location": "Eternity Isle – Shores of Eternity"
-  },
-  {
-    "id": "star_sapphire_shiny",
-    "name": "Shiny Star Sapphire",
-    "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Eternity Isle – Shores of Eternity"
-  },
-
   {
     "id": "topaz",
     "name": "Topaz",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Plaza"
+    "locations": [
+      "Plaza",
+      "The Docks",
+      "The Courtyard",
+      "The Bind"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "topaz_shiny",
+    "id": "shiny_topaz",
     "name": "Shiny Topaz",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Plaza"
+    "locations": [
+      "Plaza",
+      "The Docks",
+      "The Courtyard",
+      "The Bind"
+    ],
+    "sources": ["Mining"]
   },
-
   {
     "id": "tourmaline",
     "name": "Tourmaline",
     "categoryId": "gems",
-    "subType": "gem",
-    "location": "Sunlit Plateau, Frosted Heights"
+    "locations": [
+      "Sunlit Plateau",
+      "Frosted Heights"
+    ],
+    "sources": ["Mining"]
   },
   {
-    "id": "tourmaline_shiny",
+    "id": "shiny_tourmaline",
     "name": "Shiny Tourmaline",
     "categoryId": "gems",
-    "subType": "gem_shiny",
-    "location": "Sunlit Plateau, Frosted Heights"
+    "locations": [
+      "Sunlit Plateau",
+      "Frosted Heights"
+    ],
+    "sources": ["Mining"]
   },
-
   {
     "id": "vitalys_crystal",
     "name": "Vitalys Crystal",
     "categoryId": "gems",
-    "subType": "special",
-    "location": "Sunlit Plateau - Vitalys Mine"
+    "locations": [
+      "Vitalys Mine"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "alexandrite",
+    "name": "Alexandrite",
+    "categoryId": "gems",
+    "locations": [
+      "The Wastes",
+      "The Oasis"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_alexandrite",
+    "name": "Shiny Alexandrite",
+    "categoryId": "gems",
+    "locations": [
+      "The Wastes",
+      "The Oasis"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "blue_zircon",
+    "name": "Blue Zircon",
+    "categoryId": "gems",
+    "locations": [
+      "The Lagoon"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_blue_zircon",
+    "name": "Shiny Blue Zircon",
+    "categoryId": "gems",
+    "locations": [
+      "The Lagoon"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "bumblestone",
+    "name": "Bumblestone",
+    "categoryId": "gems",
+    "locations": [
+      "The Borderlands"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_bumblestone",
+    "name": "Shiny Bumblestone",
+    "categoryId": "gems",
+    "locations": [
+      "The Borderlands"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "evergem",
+    "name": "Evergem",
+    "categoryId": "gems",
+    "locations": [
+      "The Ruins"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_evergem",
+    "name": "Shiny Evergem",
+    "categoryId": "gems",
+    "locations": [
+      "The Ruins"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "jade",
+    "name": "Jade",
+    "categoryId": "gems",
+    "locations": [
+      "The Courtyard",
+      "The Overlook"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_jade",
+    "name": "Shiny Jade",
+    "categoryId": "gems",
+    "locations": [
+      "The Courtyard",
+      "The Overlook"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "spinel",
+    "name": "Spinel",
+    "categoryId": "gems",
+    "locations": [
+      "The Promenade",
+      "The Grove"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_spinel",
+    "name": "Shiny Spinel",
+    "categoryId": "gems",
+    "locations": [
+      "The Promenade",
+      "The Grove"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "opal",
+    "name": "Opal",
+    "categoryId": "gems",
+    "locations": [
+      "The Bind"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_opal",
+    "name": "Shiny Opal",
+    "categoryId": "gems",
+    "locations": [
+      "The Bind"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "pure_ice",
+    "name": "Pure Ice",
+    "categoryId": "gems",
+    "locations": [
+      "Everafter"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_pure_ice",
+    "name": "Shiny Pure Ice",
+    "categoryId": "gems",
+    "locations": [
+      "Everafter"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "star_sapphire",
+    "name": "Star Sapphire",
+    "categoryId": "gems",
+    "locations": [
+      "Everafter"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_star_sapphire",
+    "name": "Shiny Star Sapphire",
+    "categoryId": "gems",
+    "locations": [
+      "Everafter"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "magma",
+    "name": "Magma",
+    "categoryId": "gems",
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_magma",
+    "name": "Shiny Magma",
+    "categoryId": "gems",
+    "locations": [
+      "Mythopia"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "honeycomb_stone",
+    "name": "Honeycomb Stone",
+    "categoryId": "gems",
+    "locations": [
+      "Pixie Acres"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_honeycomb_stone",
+    "name": "Shiny Honeycomb Stone",
+    "categoryId": "gems",
+    "locations": [
+      "Pixie Acres"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "jasper",
+    "name": "Jasper",
+    "categoryId": "gems",
+    "locations": [
+      "Glamour Gulch"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_jasper",
+    "name": "Shiny Jasper",
+    "categoryId": "gems",
+    "locations": [
+      "Glamour Gulch"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "pyrite",
+    "name": "Pyrite",
+    "categoryId": "gems",
+    "locations": [
+      "Wishing Alps"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_pyrite",
+    "name": "Shiny Pyrite",
+    "categoryId": "gems",
+    "locations": [
+      "Wishing Alps"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "honey_agate",
+    "name": "Honey Agate",
+    "categoryId": "gems",
+    "locations": [
+      "Honeyglow Woods"
+    ],
+    "sources": ["Mining"]
+  },
+  {
+    "id": "shiny_honey_agate",
+    "name": "Shiny Honey Agate",
+    "categoryId": "gems",
+    "locations": [
+      "Honeyglow Woods"
+    ],
+    "sources": ["Mining"]
   }
 ]
