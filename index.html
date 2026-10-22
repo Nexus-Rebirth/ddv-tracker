@@ -1,125 +1,295 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>DDV Gift/Item Tracker</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <title>DDV Gift & Item Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-<body>
-  <header class="app-header">
-    <h1>DDV Gift/Item Tracker</h1>
-  </header>
+  <body>
+    <header class="app-header">
+      <h1>DDV Gift & Item Tracker</h1>
+    </header>
 
-  <!-- Restaurant Timer Bar -->
-  <div id="guestTimerBar">
-    <span id="guestTimerText">Loading timer...</span>
-  </div>
-
-  <!-- Navigation -->
-  <nav class="nav">
-    <button data-panel="characters">Characters</button>
-    <button data-panel="items">Items</button>
-    <button data-panel="inventory">Inventory</button>
-    <button data-panel="settings">Settings</button>
-  </nav>
-
-  <main>
-
-    <!-- Characters Panel -->
-    <section id="panel-characters" class="panel hidden">
-      <h2>Characters</h2>
-      <p class="panel-desc">Track relationship levels and favourites.</p>
-      <div id="charactersList" class="grid"></div>
-    </section>
-
-    <!-- Items Panel -->
-    <section id="panel-items" class="panel hidden">
-      <h2>Items</h2>
-      <p class="panel-desc">Browse items by category or search globally.</p>
-
-      <select id="categorySelect"></select>
-
-      <input type="text" id="itemSearch" placeholder="Search all items & meals...">
-
-      <div id="itemsList" class="grid"></div>
-    </section>
-
-    <!-- Meals Panel (internal only) -->
-    <section id="panel-meals" class="panel hidden">
-      <h2>Meals</h2>
-      <div id="mealsList" class="grid"></div>
-    </section>
-
-    <!-- Inventory Panel -->
-    <section id="panel-inventory" class="panel hidden">
-      <h2>Inventory</h2>
-      <p class="panel-desc">Manage your owned items and storage locations.</p>
-      <div id="inventoryList" class="grid"></div>
-    </section>
-
-    <!-- Settings Panel -->
-    <section id="panel-settings" class="panel hidden">
-      <h2>Settings</h2>
-      <p class="panel-desc">Manage app data and contact the developer.</p>
-
-      <div class="settings-group">
-        <button id="exportState">Export App State</button>
-        <button id="importState">Import App State</button>
-        <input type="file" id="importFile" class="hidden" />
-      </div>
-
-      <div class="settings-group">
-        <button id="shareApp">Share This App</button>
-      </div>
-
-      <div class="settings-group">
-        <a href="mailto:nexusrebirthdev@gmail.com" class="contact-btn">
-          Contact Developer
-        </a>
-      </div>
-
-      <div class="settings-group">
-        <button id="resetApp" class="danger">Reset All Data</button>
-      </div>
-    </section>
-
-  </main>
-
-  <footer class="app-footer">
-    <p>All data stored locally on your device.</p>
-  </footer>
-
-  <!-- Ingredient Modal -->
-  <div id="ingredientModal" class="modal hidden">
-    <div class="modal-content">
-      <button id="modalClose" class="modal-close">✖</button>
-      <h3 id="modalName"></h3>
-      <p id="modalSource"></p>
-      <p id="modalCategory"></p>
-
-      <label>
-        <input type="checkbox" id="modalOwned">
-        Owned
-      </label>
-
-      <label>
-        Stored at:
-        <input type="text" id="modalStoredAt" placeholder="e.g. Chest in Plaza">
-      </label>
-
-      <button id="modalSave">Save</button>
+    <!-- Restaurant Timer Bar -->
+    <div id="guestTimerBar">
+      <span id="guestTimerText">Loading timer...</span>
     </div>
-  </div>
 
-  <!-- Sound Effects -->
-  <audio id="soundBell" src="data/sounds/bell.mp3" preload="auto"></audio>
-  <audio id="soundClick" src="data/sounds/click.mp3" preload="auto"></audio>
-  <audio id="soundDing" src="data/sounds/ding.mp3" preload="auto"></audio>
-  <audio id="soundFavourite" src="data/sounds/favourite.mp3" preload="auto"></audio>
-  <audio id="soundPop" src="data/sounds/pop.mp3" preload="auto"></audio>
+    <!-- NAVIGATION -->
 
-  <script src="app-v2.js?v=5.3"></script>
-</body>
+    <nav class="nav">
+      <button data-panel="characters">Characters</button>
+
+      <button data-panel="items">Items</button>
+
+      <button data-panel="inventory">Inventory</button>
+
+      <button data-panel="settings">Settings</button>
+    </nav>
+
+    <!-- TIMER DRAWER -->
+    <aside id="timersDrawer" class="drawer collapsed">
+      <button id="toggleTimersDrawer" class="drawer-tab">
+        <img src="data/assets/hourglass.svg" alt="Timers" class="drawer-icon" />
+        <span id="timersTabLabel"> Timers </span>
+      </button>
+
+      <div class="drawer-content">
+        <div class="queue-header">
+          <h3>Active Timers</h3>
+          <button id="clearTimers">
+            <img
+              class="icon-btn"
+              src="data/assets/clear.svg"
+              alt="Clear Timers"
+              title="Clear list"
+            />
+          </button>
+        </div>
+        <div id="timersList">
+          <div class="empty-state">No active timers</div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- PREP DRAWER -->
+
+    <aside id="prepDrawer" class="drawer collapsed prep-drawer">
+      <button id="togglePrepDrawer" class="drawer-tab">
+        <img
+          src="data/assets/clipboard-list.svg"
+          alt="Prep List"
+          class="drawer-icon"
+        />
+        <span id="prepTabLabel"> Prep Queue </span>
+      </button>
+
+      <div class="drawer-content">
+        <button id="toggleFavourites" class="section-toggle">
+          ▶ Favourites
+        </button>
+        <div id="drawerFavourites">
+          <div class="empty-state">No favourites selected</div>
+        </div>
+        <hr />
+
+        <div class="queue-header">
+          <h3>Crafting Queue</h3>
+          <button id="clearPrepQueue" title="Clear list">
+            <img
+              class="icon-btn"
+              src="data/assets/clear.svg"
+              alt="Clear Queue"
+            />
+          </button>
+        </div>
+
+        <div id="drawerCraftingQueue">
+          <div class="empty-state">No items queued</div>
+        </div>
+        <hr />
+        <h3>Queue Summary</h3>
+        <div id="drawerQueueSummary">
+          <div class="empty-state">No items queued</div>
+        </div>
+        <hr />
+        <h3>Required Materials</h3>
+        <div id="drawerRequiredItems">
+          <div class="empty-state">No required materials</div>
+        </div>
+      </div>
+    </aside>
+
+    <!-- GATHERING DRAWER -->
+    <aside id="gatheringDrawer" class="drawer collapsed">
+      <button id="toggleGatheringDrawer" class="drawer-tab">
+        <img
+          src="data/assets/gathering.svg"
+          alt="Gather List"
+          class="drawer-icon"
+        />
+
+        <span id="gatheringTabLabel"> Gathering List </span>
+      </button>
+
+      <div class="drawer-content">
+        <div class="queue-header">
+          <h3>Gathering List</h3>
+
+          <button id="clearGatheringQueue" title="Clear list">
+            <img
+              class="icon-btn"
+              src="data/assets/clear.svg"
+              alt="Clear Queue"
+            />
+          </button>
+        </div>
+
+        <div id="drawerGatheringQueue">
+          <div class="empty-state">No items listed</div>
+        </div>
+
+        <hr />
+
+        <h3>List Summary</h3>
+
+        <div id="drawerGatheringSummary">
+          <div class="empty-state">No items listed</div>
+        </div>
+      </div>
+    </aside>
+
+    <main>
+      <!-- CHARACTERS -->
+
+      <section id="panel-characters" class="panel hidden">
+        <h2>Characters</h2>
+
+        <p class="panel-desc">Track friendship levels and favourites.</p>
+
+        <div id="charactersList" class="grid"></div>
+      </section>
+
+      <!-- ITEMS -->
+
+      <section id="panel-items" class="panel hidden">
+        <h2>Items</h2>
+
+        <p class="panel-desc">
+          Browse items, recipes, materials and collection progress.
+        </p>
+
+        <div class="filters-container">
+          <select id="categorySelect"></select>
+
+          <div class="search-container">
+            <input type="text" id="itemSearch" placeholder="Search..." />
+            <img
+              id="clearSearch"
+              class="icon-btn hidden"
+              src="data/assets/delete.svg"
+              alt="Clear Search"
+              title="Clear search"
+            />
+          </div>
+
+          <select id="statusFilter">
+            <option value="all">All Status</option>
+
+            <option value="owned">Owned</option>
+
+            <option value="not-owned">Not Owned</option>
+
+            <option value="collected">Collected</option>
+
+            <option value="not-collected">Not Collected</option>
+
+            <option value="craftable">Craftable</option>
+
+            <option value="not-craftable">Not Craftable</option>
+          </select>
+
+          <select id="locationFilter">
+            <option value="all">All Locations</option>
+          </select>
+        </div>
+
+        <div id="itemsList" class="grid"></div>
+      </section>
+
+      <!-- LEGACY MEALS PANEL -->
+
+      <section id="panel-meals" class="panel hidden">
+        <h2>Meals</h2>
+
+        <div id="mealsList" class="grid"></div>
+      </section>
+
+      <!-- INVENTORY -->
+
+      <section id="panel-inventory" class="panel hidden">
+        <h2>Inventory</h2>
+
+        <p class="panel-desc">View items currently in storage.</p>
+
+        <div id="inventoryList" class="grid"></div>
+      </section>
+
+      <!-- SETTINGS -->
+
+      <section id="panel-settings" class="panel hidden">
+        <h2>Settings</h2>
+        <p class="panel-desc">Manage app data.</p>
+        <div class="settings-group">
+          <button id="exportState">Export App State</button>
+          <button id="importState">Import App State</button>
+          <input type="file" id="importFile" class="hidden" />
+        </div>
+        <div class="settings-group">
+          <button id="shareApp">Share This App</button>
+        </div>
+        <div class="settings-group">
+          <a href="mailto:nexusrebirthdev@gmail.com" class="contact-btn">
+            Report an issue
+          </a>
+        </div>
+        <div class="settings-group">
+          <button id="resetApp" class="danger">Reset All Data</button>
+        </div>
+      </section>
+    </main>
+
+    <footer class="app-footer">
+      <p>All data stored locally on your device.</p>
+    </footer>
+
+    <!-- INGREDIENT MODAL -->
+    <div id="ingredientModal" class="modal hidden">
+      <div class="modal-content">
+        <button id="modalClose" class="modal-close">✖</button>
+        <h3 id="modalName"></h3>
+        <p id="modalSource"></p>
+        <p id="modalCategory"></p>
+        <label>
+          <input type="checkbox" id="modalOwned" />
+          Owned
+        </label>
+        <label>
+          Stored At
+          <input
+            type="text"
+            id="modalStoredAt"
+            placeholder="e.g. Plaza Chest"
+          />
+        </label>
+        <button id="modalSave">Save</button>
+      </div>
+    </div>
+
+    <!-- LOCATION MODAL -->
+    <div id="timerLocationModal" class="modal hidden">
+      <div class="modal-content">
+        <button id="timerLocationClose" class="modal-close">✖</button>
+        <h3>Select Location</h3>
+        <p id="timerLocationItemName"></p>
+        <select id="timerLocationSelect"></select>
+        <button id="timerLocationConfirm">Start Timer</button>
+      </div>
+    </div>
+
+    <button id="backToTop" class="back-to-top hidden">
+      <img
+        class="icon-btn"
+        src="data/assets/arrowUp.svg"
+        alt="Back To Top"
+        title="Return to top"
+      />
+    </button>
+
+    <!-- Sound Effects -->
+    <audio id="soundBell" src="data/sounds/bell.mp3" preload="auto"></audio>
+    <script src="app-v3.js?v=7"></script>
+  </body>
 </html>

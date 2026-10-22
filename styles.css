@@ -1,4 +1,26 @@
 /* ============================================================
+   COLOUR SCHEME
+   ============================================================ */
+
+:root {
+  --bg: #002f72;
+  --menu: #5411ab;
+  --card: #8b3b80;
+
+  --craftable: #209e0d;
+  --not-craftable: #9e0d20;
+
+  --completed: #d3af37;
+
+  --text: #ffffff;
+  --text-soft: #e8e8e8;
+
+  --border: rgba(255, 255, 255, 0.15);
+
+  --drawer-width: 340px;
+}
+
+/* ============================================================
    GLOBAL
    ============================================================ */
 
@@ -8,46 +30,54 @@
 
 body {
   margin: 0;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #0b0c10;
-  color: #c5c6c7;
   min-height: 100vh;
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    sans-serif;
+  background: var(--bg);
+  color: var(--text);
   display: flex;
   flex-direction: column;
 }
 
-h1, h2, h3 {
-  margin: 0 0 0.5rem;
-  color: #66fcf1;
+.hidden {
+  display: none !important;
+}
+
+h1,
+h2,
+h3 {
+  margin-top: 0;
+  color: var(--text);
 }
 
 p {
-  margin: 0.25rem 0;
+  margin: 0.35rem 0;
 }
 
 hr {
-  border: none;
-  border-top: 1px solid #45a29e;
-  margin: 0.75rem 0;
+  border: 0;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  margin: 1rem 0;
 }
-
 
 /* ============================================================
    HEADER
    ============================================================ */
 
 .app-header {
+  background: var(--menu);
+  padding: 1rem;
   text-align: center;
-  padding: 1.5rem 1rem;
-  background: #1f2833;
-  border-bottom: 2px solid #45a29e;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
 }
 
-.subtitle {
-  color: #c5c6c7;
-  font-size: 0.9rem;
+.app-header h1 {
+  margin: 0;
 }
-
 
 /* ============================================================
    NAVIGATION
@@ -55,47 +85,48 @@ hr {
 
 .nav {
   display: flex;
-  overflow-x: auto;
-  background: #1f2833;
-  border-bottom: 2px solid #45a29e;
+  flex-wrap: wrap;
+  background: transparent;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.15);
+  gap: 5px;
+  padding: 8px;
 }
 
 .nav button {
   flex: 1;
-  padding: 0.75rem;
-  background: #0b0c10;
-  color: #c5c6c7;
   border: none;
-  border-right: 1px solid #45a29e;
+  background: transparent;
+  color: white;
+  padding: 0.65rem;
   cursor: pointer;
   font-weight: 600;
-}
-
-.nav button:last-child {
-  border-right: none;
+  border: 2px solid #0e011fc3;
+  border-radius: 12px;
+  background: var(--menu);
 }
 
 .nav button:hover {
-  background: #45a29e;
-  color: #0b0c10;
+  background: #0e011fc3;
 }
 
-
+.nav button.active {
+  background-color: #0e011fc3;
+}
 /* ============================================================
-   PANELS
+   MAIN
    ============================================================ */
 
 main {
   flex: 1;
-  padding: 1rem;
-  max-width: 1000px;
-  margin: 0 auto;
   width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 1rem;
+  padding-right: 55px;
 }
 
 .panel {
   display: none;
-  animation: fadeIn 0.25s ease-out;
 }
 
 .panel:not(.hidden) {
@@ -103,19 +134,31 @@ main {
 }
 
 .panel-desc {
-  margin-bottom: 1rem;
-  color: #c5c6c7;
-  font-size: 0.9rem;
+  opacity: 0.9;
 }
-
-@keyframes fadeIn {
-  from { opacity: 0; transform: translateY(5px); }
-  to { opacity: 1; transform: translateY(0); }
-}
-
 
 /* ============================================================
-   GRID LAYOUT
+   FILTERS
+   ============================================================ */
+
+.filters-container {
+  display: grid;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+select,
+input[type="text"] {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: var(--card);
+  color: white;
+}
+
+/* ============================================================
+   GRID
    ============================================================ */
 
 .grid {
@@ -123,249 +166,634 @@ main {
   gap: 1rem;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 768px) {
   .grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
   .grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(3, 1fr);
   }
 }
-
 
 /* ============================================================
    CARDS
    ============================================================ */
 
 .card {
-  background: #1f2833;
-  border: 1px solid #45a29e;
-  border-radius: 6px;
+  background: var(--card);
   padding: 1rem;
-  transition: transform 0.15s ease, background 0.15s ease;
+  border-radius: 12px;
+  border: 2px solid transparent;
+  transition: all 0.2s ease;
 }
 
 .card:hover {
-  transform: translateY(-3px);
-  background: #162028;
+  transform: translateY(-2px);
 }
+
+.card.craftable {
+  border-color: var(--craftable);
+}
+
+.card.not-craftable {
+  border-color: var(--not-craftable);
+}
+
+.card.completed {
+  box-shadow: 0 0 0 2px var(--completed);
+}
+
+.card.craftable {
+  border: 2px solid #ffd700;
+  animation: craftableGlow 2s ease-in-out infinite alternate;
+}
+
+@keyframes craftableGlow {
+  from {
+    box-shadow:
+      0 0 5px rgba(255, 215, 0, 0.4),
+      0 0 10px rgba(255, 215, 0, 0.3);
+  }
+
+  to {
+    box-shadow:
+      0 0 15px rgba(255, 215, 0, 0.9),
+      0 0 30px rgba(255, 215, 0, 0.6);
+  }
+}
+
+/* ============================================================
+   CARD HEADER
+   ============================================================ */
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.card-icons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon-btn {
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  transition: transform 0.15s ease;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1);
+}
+
+.icon-completed {
+  filter: drop-shadow(0 0 3px var(--completed));
+}
+
+/* ============================================================
+   RECIPE INGREDIENTS
+   ============================================================ */
 
 .meal-ingredient {
   cursor: pointer;
-  color: #00eaff;
-  font-weight: 600;
-  display: inline-block;
-  padding: 2px 0;
+  display: block;
+  margin-bottom: 0.35rem;
 }
 
 .meal-ingredient:hover {
   text-decoration: underline;
 }
 
+.recipe-item-link {
+  cursor: pointer;
+}
+
+.recipe-item-link:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* ============================================================
+   QUEUE CONTROLS
+   ============================================================ */
+
+.queue-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.queue-count {
+  min-width: 25px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.queue-btn {
+  width: 22px;
+  height: 22px;
+  cursor: pointer;
+}
+
+.prep-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.prep-name {
+  flex: 1;
+  text-align: left;
+}
+
+.prep-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+}
+
+.summary-container {
+  display: flex;
+  gap: 12px;
+}
+
+.queue-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.summary-stat {
+  flex: 1;
+  min-width: 120px;
+  text-align: center;
+  background: rgba(180, 48, 242, 0.683);
+  border-radius: 6px;
+  padding: 8px;
+}
+
+.required-material {
+  cursor: pointer;
+  transition: color 0.15s ease;
+}
+
+.required-material:hover {
+  color: #d3af37;
+  text-decoration: underline;
+}
+/* ============================================================
+   PREP PANEL
+   ============================================================ */
+
+.prep-card {
+  background: var(--card);
+  padding: 1rem;
+  border-radius: 12px;
+  margin-bottom: 1rem;
+}
+
+.section-toggle {
+  width: 100%;
+  text-align: left;
+}
+
+/* ============================================================
+   DRAWERS
+   ============================================================ */
+
+.drawer {
+  position: fixed;
+  right: 0;
+  width: var(--drawer-width);
+  background: var(--menu);
+  border-left: 2px solid rgba(255, 255, 255, 0.15);
+  transition: transform 0.3s ease;
+  z-index: 900;
+}
+
+.drawer.collapsed {
+  transform: translateX(calc(100%));
+}
+
+.drawer-content {
+  padding: 1rem;
+}
+
+.drawer-tab:hover {
+  transform: translateX(-3px);
+}
+
+.drawer-tab {
+  width: 60px;
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+  position: absolute;
+  left: -50px;
+  top: 0;
+  height: 180px;
+  background: var(--menu);
+  color: white;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#timersDrawer {
+  z-index: 900;
+}
+
+.timer-row {
+  display: grid;
+  grid-template-columns: 2fr 2fr 50px 32px;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.timer-name {
+  text-align: left;
+}
+
+.timer-name,
+.timer-location {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.timer-location {
+  text-align: left;
+}
+
+.timer-countdown {
+  text-align: center;
+  min-width: 60px;
+  font-variant-numeric: tabular-nums;
+}
+
+.timer-remove-btn {
+  justify-self: center;
+}
+
+#gatheringDrawer {
+  z-index: 901;
+}
+
+#prepDrawer {
+  z-index: 902;
+}
+
+/* ============================================================
+   TIMERS
+   ============================================================ */
+
+#timersDrawer {
+  top: 545px;
+  height: 340px;
+  width: auto;
+}
+
+.timer-card {
+  background: var(--card);
+  border-radius: 10px;
+  padding: 0;
+  margin-bottom: 0.15rem;
+}
+
+.timer-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.timer-remove-btn {
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+
+#guestTimerBar {
+  text-align: center;
+}
+
+#guestTimerText {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-actions {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.recipe-material-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.recipe-material-content {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.recipe-material-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+/* ============================================================
+   GATHERING
+   ============================================================ */
+
+#gatheringDrawer {
+  top: 355px;
+  height: auto;
+  max-height: calc(100vh - 540px);
+  width: auto;
+  padding: 0 1rem;
+  padding-bottom: 20px;
+}
+
+.gathering-remove-btn {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.required-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gathering-remove-btn {
+  margin-left: auto;
+  margin-right: 16px;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.required-row {
+  display: grid;
+  grid-template-columns:
+    2fr
+    1fr
+    auto
+    auto;
+  gap: 12px;
+  align-items: center;
+}
+
+.gathering-location:empty {
+  display: none;
+}
+
+.gathering-location-header {
+  margin-top: 12px;
+  margin-bottom: 6px;
+  font-weight: 700;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* ============================================================
+   PREP DRAWER
+   ============================================================ */
+
+#prepDrawer {
+  top: 165px;
+  height: auto;
+  max-height: calc(100vh - 160px);
+  width: 500px;
+}
+
+.prep-controls button {
+  background: none;
+  border: none;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.prep-controls .icon-btn {
+  width: 18px;
+  height: 18px;
+}
+
+/* ============================================================
+   EMPTY STATES
+   ============================================================ */
+
+.empty-state {
+  opacity: 0.75;
+  text-align: center;
+  padding: 1rem;
+}
 
 /* ============================================================
    BUTTONS
    ============================================================ */
 
 button {
-  padding: 0.5rem 0.75rem;
-  border-radius: 4px;
+  background: var(--menu);
+  color: white;
   border: none;
-  background: #45a29e;
-  color: #0b0c10;
-  font-weight: 600;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
   cursor: pointer;
-  margin-top: 0.5rem;
 }
 
 button:hover {
-  background: #66fcf1;
+  filter: brightness(1.1);
 }
 
 button.danger {
-  background: #c0392b;
-  color: #fff;
+  background: #8b1d26;
 }
 
-button.danger:hover {
-  background: #e74c3c;
+.back-to-top {
+  position: fixed;
+  top: 115px;
+  bottom: 20px;
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 50%;
+  background: #5411ab;
+  cursor: pointer;
+  z-index: 1000;
+  right: 2px;
 }
 
+.back-to-top:hover {
+  filter: brightness(1.1);
+}
+
+.back-to-top.hidden {
+  display: none;
+}
+
+.search-container {
+  position: relative;
+}
+
+#itemSearch {
+  padding-right: 40px;
+}
+
+#clearSearch {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+}
 
 /* ============================================================
-   INPUTS
-   ============================================================ */
-
-input[type="text"],
-input[type="file"] {
-  width: 100%;
-  padding: 0.5rem;
-  background: #0b0c10;
-  border: 1px solid #45a29e;
-  border-radius: 4px;
-  color: #c5c6c7;
-  margin-top: 0.5rem;
-}
-
-input[type="checkbox"] {
-  transform: scale(1.2);
-  margin-right: 0.5rem;
-}
-
-
-/* ============================================================
-   FAVOURITE BUTTON
-   ============================================================ */
-
-.fav-btn {
-  background: #0b0c10;
-  border: 1px solid #45a29e;
-  color: #c5c6c7;
-  margin-left: 0.5rem;
-}
-
-.fav-btn.active {
-  background: #66fcf1;
-  color: #0b0c10;
-  border-color: #66fcf1;
-}
-
-
-/* ============================================================
-   CATEGORY COUNTS
-   ============================================================ */
-
-.category-counts {
-  margin-bottom: 1rem;
-  padding: 0.75rem;
-  background: #1f2833;
-  border: 1px solid #45a29e;
-  border-radius: 6px;
-}
-
-.category-counts p {
-  margin: 0.25rem 0;
-  font-size: 0.9rem;
-}
-
-
-/* ============================================================
-   SETTINGS PANEL
+   SETTINGS
    ============================================================ */
 
 .settings-group {
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .contact-btn {
   display: inline-block;
-  padding: 0.5rem 0.75rem;
-  background: #45a29e;
-  color: #0b0c10;
-  border-radius: 4px;
   text-decoration: none;
-  font-weight: 600;
+  color: white;
+  background: var(--menu);
+  padding: 0.75rem 1rem;
+  border-radius: 8px;
 }
-
-.contact-btn:hover {
-  background: #66fcf1;
-}
-
 
 /* ============================================================
    FOOTER
    ============================================================ */
 
 .app-footer {
+  background: var(--menu);
   text-align: center;
-  padding: 1rem;
-  background: #1f2833;
-  border-top: 2px solid #45a29e;
-  font-size: 0.85rem;
+  padding: 0.75rem;
 }
 
-/* Modal overlay */
+/* ============================================================
+   MODAL
+   ============================================================ */
+
 .modal {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  background: rgba(0, 0, 0, 0.7);
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
   display: flex;
-  align-items: center;
   justify-content: center;
-  z-index: 9999; /* ensures it sits ABOVE everything */
+  align-items: center;
+  z-index: 9999;
 }
 
-/* Hide modal when needed */
-.modal.hidden {
-  display: none;
-}
-
-/* Modal content box */
 .modal-content {
-  background: #1a1a1a;
-  padding: 20px;
-  border-radius: 10px;
-  width: 320px;
-  max-width: 90%;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+  background: var(--card);
+  width: 360px;
+  max-width: 95vw;
+  padding: 1rem;
+  border-radius: 12px;
   position: relative;
-  color: #fff;
 }
 
-/* Close button */
 .modal-close {
   position: absolute;
-  top: 8px;
-  right: 8px;
-  background: transparent;
-  border: none;
-  color: #fff;
-  font-size: 20px;
+  top: 0.5rem;
+  right: 0.5rem;
+}
+
+.drawer-icon,
+.icon-btn,
+.queue-btn {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
   cursor: pointer;
+  transition: transform 0.15s ease;
 }
 
-/* ============================================================
-   JOB DROPDOWN (CHARACTERS PANEL)
-   ============================================================ */
-
-.job-select {
-  width: 100%;
-  margin-top: 0.75rem;
-  padding: 0.5rem;
-  background: #0b0c10;
-  border: 1px solid #45a29e;
-  border-radius: 4px;
-  color: #c5c6c7;
-  font-size: 0.9rem;
-  cursor: pointer;
+.drawer-icon:hover,
+.icon-btn:hover,
+.queue-btn:hover {
+  transform: scale(1.1);
 }
 
-.job-select:hover {
-  border-color: #66fcf1;
+.icon-green {
+  filter: drop-shadow(0 0 3px #209e0d);
 }
 
-/* ============================================================
-   RESTAURANT TIMER BAR
-   ============================================================ */
-
-#guestTimerBar {
-  width: 100%;
-  background: #1f2833;
-  border-bottom: 2px solid #45a29e;
-  padding: 0.5rem 1rem;
-  text-align: center;
-  font-weight: 600;
-  color: #66fcf1;
-  font-size: 1rem;
+.icon-red {
+  filter: drop-shadow(0 0 3px #9e0d20);
 }
 
-#guestTimerText {
-  display: inline-block;
-  letter-spacing: 0.5px;
+.icon-gold {
+  transform: scale(1.1);
+    filter: invert(80%) sepia(70%) saturate(750%)
+            hue-rotate(5deg)
+    drop-shadow(0 0 8px #ffd700)
+    drop-shadow(0 0 16px #ffd700);
+}
+
+.recipe-material-content .icon-gold {
+  transform: scale(1.15);
+    filter: invert(80%) sepia(70%) saturate(750%)
+            hue-rotate(5deg)
+    drop-shadow(0 0 8px #ffd700)
+    drop-shadow(0 0 16px #ffd700);
+}
+
+.owned-toggle.icon-gold {
+  transform: scale(1.15);
+    filter: invert(80%) sepia(70%) saturate(750%)
+            hue-rotate(5deg)
+    drop-shadow(0 0 8px #ffd700)
+    drop-shadow(0 0 16px #ffd700);
+}
+
+.completion-toggle.icon-gold {
+  transform: scale(1.15);
+    filter: invert(80%) sepia(70%) saturate(750%)
+            hue-rotate(5deg)
+    drop-shadow(0 0 8px #ffd700)
+    drop-shadow(0 0 16px #ffd700);
+}
+
+.fav-btn.active {
+  background: #d3af37;
+}
+
+.fav-btn.active .icon-btn {
+  filter: brightness(0) invert(1);
+}
+
+.favourite-card {
+  border: 3px solid #d3af37;
+  box-shadow: 0 0 12px rgba(211, 175, 55, 0.45);
 }
