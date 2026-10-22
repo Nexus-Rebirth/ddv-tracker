@@ -1,5 +1,10 @@
 [
   {
+  "id": "mining",
+  "name": "Mining",
+  "description": "Coal, ore, stone, crystals, and other materials obtained from mining nodes."
+  },
+  {
     "id": "meals",
     "name": "Meals",
     "description": "Cooked dishes prepared at a cooking station using ingredients."
